@@ -1,8 +1,8 @@
 body {
-  background: linear-gradient(to right, rgb(174, 62, 129), rgb(49, 11, 69));
+  background: linear-gradient(to right, rgb(30, 2, 19), rgb(25, 9, 56));
 }
 h2 {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   color: #fff;
   padding-bottom: 20px;
@@ -15,18 +15,21 @@ h2 {
 .menu-intro {
   color: white;
   padding: 10px;
+  width: 600px;
 }
 .page-nav {
   color: white;
   list-style: none;
   text-align: right;
   padding: 5px 0;
+  width: 100px;
 }
+
 .description {
   padding-top: 20px;
+  text-align: right;
 }
 .portfolio-image {
   width: 50%;
   height: 50%;
-  text-align: right;
 }

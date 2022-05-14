@@ -1,16 +1,32 @@
 body {
-  background: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+  background: linear-gradient(to right, rgb(174, 62, 129), rgb(49, 11, 69));
 }
-.container {
-  padding: 0;
-  margin: 0;
+h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
 }
+
 .logo {
   text-align: left;
-  max-width: 400px;
+  width: 100%;
+}
+.menu-intro {
+  color: white;
+  padding: 10px;
 }
 .page-nav {
   color: white;
   list-style: none;
+  text-align: right;
+  padding: 5px 0;
+}
+.description {
+  padding-top: 20px;
+}
+.portfolio-image {
+  width: 50%;
+  height: 50%;
   text-align: right;
 }

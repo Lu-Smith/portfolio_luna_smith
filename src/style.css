@@ -40,6 +40,12 @@ h2 {
 .link-nav:hover {
   color: #fa0421;
 }
+.social-link {
+  color: rgb(5, 1, 13);
+}
+.social-link:hover {
+  color: #fa0421;
+}
 .description {
   padding: 20px;
   text-align: right;

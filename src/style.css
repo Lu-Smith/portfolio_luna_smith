@@ -17,11 +17,9 @@ h2 {
 .menu-intro {
   color: rgb(5, 1, 13);
   padding: 10px;
-  width: 600px;
 }
 .page-nav,
 .social-nav {
-  color: rgb(5, 1, 13);
   list-style: none;
   text-align: right;
   padding: 5px 0;
@@ -29,20 +27,27 @@ h2 {
 }
 .social-media {
   margin-top: 40px;
+  color: rgb(5, 1, 13);
 }
 .social-nav {
   padding-left: 110px;
   font-size: 30px;
+}
+.link-nav {
+  text-decoration: none;
+  color: rgb(250, 249, 252);
+}
+.link-nav:hover {
+  color: #fa0421;
 }
 .description {
   padding: 20px;
   text-align: right;
 }
 .portfolio-image {
-  width: 50%;
-  border-radius: 5px;
+  width: 30%;
   border: 2px solid black;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .art-gallery {
   margin-top: 30px;

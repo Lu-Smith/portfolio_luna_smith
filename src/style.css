@@ -1,10 +1,10 @@
 body {
-  background: linear-gradient(to right, rgb(30, 2, 19), rgb(25, 9, 56));
+  background: linear-gradient(to right, rgb(248, 245, 247), rgb(44, 44, 45));
 }
 h2 {
   font-size: 30px;
   text-align: center;
-  color: #fff;
+  color: rgb(5, 1, 13);
   padding: 20px 0;
   font-family: "Kalam", cursive;
 }
@@ -15,13 +15,13 @@ h2 {
   padding: 0;
 }
 .menu-intro {
-  color: white;
+  color: rgb(5, 1, 13);
   padding: 10px;
   width: 600px;
 }
 .page-nav,
 .social-nav {
-  color: white;
+  color: rgb(5, 1, 13);
   list-style: none;
   text-align: right;
   padding: 5px 0;
@@ -40,8 +40,9 @@ h2 {
 }
 .portfolio-image {
   width: 50%;
-  height: 50%;
-  padding: 0;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .art-gallery {
   margin-top: 30px;

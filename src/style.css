@@ -58,3 +58,22 @@ h2 {
 .art-gallery {
   margin-top: 30px;
 }
+.contact-form {
+  padding-top: 20px;
+}
+.contact-form-photo {
+  padding-top: 33px;
+}
+.form-photo {
+  border: 2px solid black;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.form {
+  padding-left: 20px;
+}
+.form-note {
+  color: white;
+}
+.submit-button:hover {
+  color: white;
+}

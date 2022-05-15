@@ -10,6 +10,16 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fd9bed839d.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Luna Smith - Portfolio</title>
   </head>
@@ -52,7 +62,90 @@
                 <li class="page-nav">Contact</li>
               </ul>
             </menu>
+            <div class="social-media">
+              <ul>
+                <li class="social-nav">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+                <li class="social-nav"><i class="fa-brands fa-twitter"></i></li>
+                <li class="social-nav">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </li>
+                <li class="social-nav">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </li>
+              </ul>
+            </div>
           </div>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="media/art_gallery_3.jpg"
+                class="d-block w-100"
+                alt="Nott by Luna Smith, art gallery"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="media/art_gallery_1.jpg"
+                class="d-block w-100"
+                alt="Nott by Luna Smith, art gallery"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="media/art_gallery_2.jpg"
+                class="d-block w-100"
+                alt="Nott by Luna Smith, art gallery"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </div>

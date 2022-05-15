@@ -2,34 +2,44 @@ body {
   background: linear-gradient(to right, rgb(30, 2, 19), rgb(25, 9, 56));
 }
 h2 {
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   color: #fff;
-  padding-bottom: 20px;
+  padding: 20px 0;
+  font-family: "Kalam", cursive;
 }
 
 .logo {
   text-align: left;
   width: 100%;
+  padding: 0;
 }
 .menu-intro {
   color: white;
   padding: 10px;
   width: 600px;
 }
-.page-nav {
+.page-nav,
+.social-nav {
   color: white;
   list-style: none;
   text-align: right;
   padding: 5px 0;
   width: 100px;
 }
-
+.social-media {
+  margin-top: 40px;
+}
+.social-nav {
+  padding-left: 110px;
+  font-size: 30px;
+}
 .description {
-  padding-top: 20px;
+  padding: 20px;
   text-align: right;
 }
 .portfolio-image {
   width: 50%;
   height: 50%;
+  padding: 0;
 }

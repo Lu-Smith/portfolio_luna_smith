@@ -95,3 +95,22 @@ h2 {
 .landscapes {
   padding-bottom: 10px;
 }
+.nott {
+  padding: 20px;
+  background: #171e2c;
+  box-shadow: 5px 5px 10px rgba(4, 1, 21, 0.5);
+}
+.link-fineArt {
+  text-decoration: none;
+  padding: 30px;
+  color: black;
+}
+.link-fineArt:hover {
+  text-decoration: none;
+  padding: 30px;
+  color: #04cffa;
+}
+
+.notactive-page {
+  color: white;
+}

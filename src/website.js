@@ -1,3 +1,5 @@
+//contact page
+
 function confimationMessage(event) {
   let confirmation = document.querySelector("#contact-heading");
   confirmation.innerHTML = "Thank you. Your message has been sent 🍃";

@@ -54,29 +54,57 @@
                 />
               </div>
               <div class="col">
-                <form class="form">
+                <form
+                  action="https://formsubmit.co/artistlunasmith@gmail.com"
+                  method="POST"
+                  class="form"
+                >
+                  <input
+                    type="hidden"
+                    name="_subject"
+                    value="New submission for Luna Smith - portfolio"
+                  />
+                  <input
+                    type="hidden"
+                    name="_cc"
+                    value="lunasmithart@gmail.com"
+                  />
+                  <input type="text" name="_honey" style="display: none" />
+                  <input
+                    type="hidden"
+                    name="_autoresponse"
+                    value="Thank you for your message. I will contact you soon."
+                  />
                   <div class="mb-3">
-                    <label for="InputName" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="inputName" />
-                    <label for="InputEmail" class="form-label"
-                      >Email address</label
-                    >
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="user_name"
+                      required
+                    />
+                    <label for="email" class="form-label">Email address</label>
                     <input
                       type="email"
                       class="form-control"
-                      id="InputEmail"
+                      id="email"
+                      name="user_email"
                       aria-describedby="emailHelp"
+                      required
                     />
                     <div id="emailHelp" class="form-text form-note">
                       We'll never share your email with anyone else.
                     </div>
                   </div>
                   <div class="mb-3">
-                    <label for="InputMessage" class="form-label">Message</label>
+                    <label for="message" class="form-label">Message</label>
                     <textarea
                       class="form-control"
-                      id="exampleFormControlTextarea1"
+                      id="message"
+                      name="user_message"
                       rows="4"
+                      required
                     >
                     </textarea>
                   </div>

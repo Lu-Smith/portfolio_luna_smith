@@ -1,116 +1,294 @@
-body {
-  background: linear-gradient(to right, rgb(248, 245, 247), rgb(44, 44, 45));
-}
-h2 {
-  font-size: 30px;
+h1,
+.title-my-projects {
+  font-size: 25px;
+  line-height: 40px;
   text-align: center;
-  color: rgb(5, 1, 13);
-  padding: 20px 0;
+  margin-top: 20px;
+  padding: 20px;
   font-family: "Kalam", cursive;
 }
 
-.logo {
-  text-align: left;
-  width: 100%;
-  padding: 0;
+h2,
+.description-web-developer {
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  padding: 0 20px 20px;
+  font-family: "Roboto Flex", sans-serif;
 }
-.menu-intro {
-  color: rgb(5, 1, 13);
-  padding: 10px;
+
+footer {
+  padding: 20px;
+  text-align: center;
 }
-.page-nav,
-.social-nav {
-  list-style: none;
-  text-align: right;
-  padding: 5px 0;
-  width: 100px;
+
+.title-my-projects {
+  color: #c62873;
 }
-.social-media {
-  margin-top: 40px;
-  color: rgb(5, 1, 13);
+
+.navbar-brand {
+  width: 50%;
 }
-.social-nav {
-  padding-left: 110px;
-  font-size: 30px;
-}
-.link-nav {
-  text-decoration: none;
-  color: rgb(250, 249, 252);
-}
-.link-nav:hover {
-  color: #fa0421;
-}
+
 .social-link {
-  color: rgb(5, 1, 13);
+  color: black;
+  transition: all 200ms ease-in-out;
 }
+
 .social-link:hover {
   color: #fa0421;
 }
-.description {
-  padding: 20px;
-  text-align: right;
+
+.profile-photo-container {
+  text-align: center;
 }
 .portfolio-image {
-  width: 30%;
+  width: 80%;
   border: 2px solid black;
   box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
 }
-.art-gallery {
-  margin-top: 30px;
+
+.gitHub,
+.my-website {
+  text-decoration: none;
+  color: #ec6a13;
+  transition: all 200ms ease-in-out;
 }
-.contact-form {
-  padding-top: 20px;
+
+.gitHub:hover,
+.my-website:hover {
+  color: #aa5d26;
 }
+
+.artist-description {
+  display: none;
+}
+
+.contact-heading {
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  font-family: "Kalam", cursive;
+}
+
+.contact {
+  font-size: 15px;
+  line-height: 25px;
+  padding: 0 20px 20px;
+  font-family: "Roboto Flex", sans-serif;
+}
+
 .contact-form-photo {
-  padding-top: 33px;
+  display: none;
 }
-.form-photo {
-  border: 2px solid black;
-  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
-}
+
 .form {
-  padding-left: 20px;
+  margin-bottom: 60px;
+  padding: 20px;
 }
 .form-note {
-  color: white;
+  color: grey;
 }
 .submit-button:hover {
   color: white;
 }
-.description-web-developer {
-  text-align: center;
+
+.first-projects {
+  list-style: none;
+  padding: 20px 0;
 }
-.certificates {
-  padding-top: 30px;
+
+.link-first-projects {
+  text-decoration: none;
+  color: #c62873;
 }
+
 .digital-art-images {
-  margin-top: 20px;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.weather-emojis {
+  padding: 0 20px;
+  margin-bottom: 100px;
 }
 .weather-background {
   margin-bottom: 20px;
 }
-.description-fine-art {
-  text-align: center;
+
+.art-gallery-fine-art {
+  padding: 5px;
 }
 .landscapes {
   padding-bottom: 10px;
 }
+@media only screen and (min-width: 786px) {
+  .social-nav {
+    font-size: 25px;
+    padding-top: 10px;
+  }
+
+  h1,
+  .title-my-projects .contact-heading {
+    font-size: 30px;
+  }
+
+  h2,
+  .contact,
+  .description-web-developer {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .contact {
+    padding-left: 30px;
+  }
+  .profile-photo-container {
+    padding-top: 30px;
+  }
+
+  .portfolio-image {
+    width: 60%;
+  }
+  .contact-form-photo {
+    display: block;
+    padding: 30px;
+    width: 40%;
+  }
+  .form-photo {
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+  .main-form {
+    width: 60%;
+    padding: 10px 30px 100px 0;
+  }
+
+  footer {
+    margin-top: 80px;
+  }
+
+  .menu-fine-art {
+    width: 100%;
+  }
+
+  .art-gallery-fine-art {
+    padding: 0 100px;
+  }
+
+  .title-fine-art,
+  .description-fine-art {
+    width: 100%;
+  }
+
+  .description-fine-art {
+    padding: 10px 100px 30px 100px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .social-nav {
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  .menu-intro {
+    width: 50%;
+    float: right;
+  }
+  .intro-web-developer {
+    margin-bottom: 100px;
+  }
+
+  h1,
+  .title-my-projects {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 30px;
+    width: 80%;
+  }
+
+  h2 {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  .title-illustrations,
+  .title-illustrations-emoji {
+    width: 100%;
+  }
+
+  .title-illustrations-emoji {
+    padding-top: 40px;
+  }
+
+  .description-web-developer {
+    width: 80%;
+  }
+
+  .profile-photo-container {
+    width: 50%;
+    float: left;
+  }
+
+  .portfolio-image {
+    width: 50%;
+  }
+
+  .artist-description {
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Kalam", cursive;
+    text-align: center;
+    width: 78%;
+    color: grey;
+  }
+
+  .see-the-music {
+    font-size: 30px;
+    color: #635994;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    position: relative;
+    top: 400px;
+  }
+  .certificates {
+    padding-top: 80px;
+  }
+
+  .projects {
+    width: 50%;
+  }
+
+  .menu-illustrations {
+    width: 100%;
+    padding: 0;
+  }
+
+  .menu-fine-art {
+    width: 100%;
+  }
+
+  .art-gallery-fine-art {
+    padding: 0 300px;
+  }
+
+  .title-fine-art,
+  .description-fine-art {
+    width: 100%;
+  }
+
+  .description-fine-art {
+    padding: 10px 300px 30px 300px;
+  }
+}
+
 .nott {
   padding: 20px;
   background: #171e2c;
   box-shadow: 5px 5px 10px rgba(4, 1, 21, 0.5);
-}
-.link-fineArt {
-  text-decoration: none;
-  padding: 30px;
-  color: black;
-}
-.link-fineArt:hover {
-  text-decoration: none;
-  padding: 30px;
-  color: #04cffa;
-}
-
-.notactive-page {
-  color: white;
 }

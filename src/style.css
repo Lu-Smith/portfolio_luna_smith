@@ -124,6 +124,18 @@ footer {
 .landscapes {
   padding-bottom: 10px;
 }
+
+.nott {
+  padding: 20px;
+  background: #171e2c;
+  box-shadow: 5px 5px 10px rgba(4, 1, 21, 0.5);
+}
+
+.nft-art {
+  margin-bottom: 20px;
+  color: white;
+}
+
 @media only screen and (min-width: 786px) {
   .social-nav {
     font-size: 25px;
@@ -196,6 +208,7 @@ footer {
   .menu-intro {
     width: 50%;
     float: right;
+    padding-top: 80px;
   }
   .intro-web-developer {
     margin-bottom: 100px;
@@ -244,6 +257,7 @@ footer {
     text-align: center;
     width: 78%;
     color: grey;
+    padding-top: 20px;
   }
 
   .see-the-music {
@@ -285,10 +299,4 @@ footer {
   .description-fine-art {
     padding: 10px 300px 30px 300px;
   }
-}
-
-.nott {
-  padding: 20px;
-  background: #171e2c;
-  box-shadow: 5px 5px 10px rgba(4, 1, 21, 0.5);
 }

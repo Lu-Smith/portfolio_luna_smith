@@ -131,7 +131,8 @@ footer {
   box-shadow: 5px 5px 10px rgba(4, 1, 21, 0.5);
 }
 
-.nft-art {
+.nft-art-shop,
+.fine-art-shop {
   margin-bottom: 20px;
   color: white;
 }

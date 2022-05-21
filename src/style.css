@@ -136,6 +136,10 @@ footer {
   color: white;
 }
 
+.shadows-poem {
+  padding: 30px 45px 0 45px;
+}
+
 @media only screen and (min-width: 786px) {
   .social-nav {
     font-size: 25px;

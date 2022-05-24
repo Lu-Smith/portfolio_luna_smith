@@ -113,6 +113,7 @@ footer {
 .weather-emojis {
   padding: 0 20px;
   margin-bottom: 100px;
+  width: 80%;
 }
 .weather-background {
   margin-bottom: 20px;
@@ -139,6 +140,13 @@ footer {
 
 .shadows-poem {
   padding: 30px 45px 0 45px;
+}
+
+.mermaids {
+  padding-bottom: 30px;
+}
+.mermaids-hybrid {
+  width: 60%;
 }
 
 @media only screen and (min-width: 786px) {
@@ -202,6 +210,14 @@ footer {
 
   .description-fine-art {
     padding: 10px 100px 30px 100px;
+  }
+
+  .weather-emojis {
+    width: 60%;
+  }
+
+  .weather-background {
+    width: 80%;
   }
 }
 

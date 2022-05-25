@@ -148,6 +148,13 @@ footer {
 .mermaids-hybrid {
   width: 60%;
 }
+.dreamers {
+  padding-bottom: 30px;
+}
+
+.comics {
+  padding-bottom: 50px;
+}
 
 @media only screen and (min-width: 786px) {
   .social-nav {

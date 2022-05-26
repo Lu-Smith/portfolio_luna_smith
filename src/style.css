@@ -159,6 +159,10 @@ footer {
   padding-bottom: 50px;
 }
 
+.video {
+  height: 125px;
+}
+
 @media only screen and (min-width: 786px) {
   .social-nav {
     font-size: 25px;
@@ -228,6 +232,10 @@ footer {
 
   .weather-background {
     width: 80%;
+  }
+
+  .video {
+    height: 250px;
   }
 }
 
@@ -329,5 +337,8 @@ footer {
 
   .description-fine-art {
     padding: 10px 300px 30px 300px;
+  }
+  .video {
+    height: 500px;
   }
 }

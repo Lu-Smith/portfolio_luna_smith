@@ -149,18 +149,22 @@ footer {
   padding-bottom: 30px;
 }
 .mermaids-hybrid {
-  width: 60%;
+  width: 80%;
 }
 .dreamers {
   padding-bottom: 30px;
 }
 
 .comics {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .video {
   height: 125px;
+}
+
+.comics {
+  padding-bottom: 30px;
 }
 
 @media only screen and (min-width: 786px) {
@@ -236,6 +240,10 @@ footer {
 
   .video {
     height: 250px;
+  }
+
+  .comics {
+    padding-bottom: 40px;
   }
 }
 
@@ -340,5 +348,9 @@ footer {
   }
   .video {
     height: 500px;
+  }
+
+  .comics {
+    padding-bottom: 50px;
   }
 }

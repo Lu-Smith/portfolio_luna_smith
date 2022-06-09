@@ -114,12 +114,12 @@ footer {
 
 .digital-art-images {
   padding: 0 20px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .weather-emojis {
   padding: 0 20px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   width: 80%;
 }
 .weather-background {
@@ -159,10 +159,6 @@ footer {
   width: 80%;
 }
 .dreamers {
-  padding-bottom: 30px;
-}
-
-.comics {
   padding-bottom: 10px;
 }
 

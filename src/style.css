@@ -42,10 +42,17 @@ footer {
 .profile-photo-container {
   text-align: center;
 }
+
 .portfolio-image {
-  width: 80%;
   border: 2px solid black;
   box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+
+.portfolio-image-afterclick {
+  border: 2px solid red;
+  box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 90%;
 }
 
 .gitHub,
@@ -194,6 +201,11 @@ footer {
   .portfolio-image {
     width: 60%;
   }
+
+  .portfolio-image-afterclick {
+    border: 2px solid red;
+    width: 70%;
+  }
   .contact-form-photo {
     display: block;
     padding: 30px;
@@ -294,6 +306,11 @@ footer {
 
   .portfolio-image {
     width: 50%;
+  }
+
+  .portfolio-image-afterclick {
+    border: 2px solid red;
+    width: 60%;
   }
 
   .artist-description {

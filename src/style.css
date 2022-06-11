@@ -254,6 +254,9 @@ footer {
     padding-bottom: 40px;
   }
 }
+.digital-art-afterclick {
+  border: 2px solid red;
+}
 
 @media only screen and (min-width: 1000px) {
   .social-nav {

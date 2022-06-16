@@ -90,6 +90,7 @@ myImage.addEventListener(`load`, function () {
 });
 
 let newPortfolio = document.querySelector("#portfolio-image");
+
 newPortfolio.addEventListener("click", function (newPortfolio) {
   newPortfolio.target.classList.toggle(`portfolio-image-afterclick`);
 });

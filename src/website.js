@@ -15,7 +15,7 @@ myImage.addEventListener(`load`, function () {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   let particlesArray = [];
-  const numberOfParticles = 5000;
+  const numberOfParticles = 6000;
 
   let mappedImage = [];
   for (let y = 0; y < canvas.height; y++) {
@@ -44,8 +44,8 @@ myImage.addEventListener(`load`, function () {
       this.x = Math.random() * canvas.width;
       this.y = 0;
       this.speed = 0;
-      this.velocity = Math.random() * 0.3;
-      this.size = Math.random() * 1.5 + 1;
+      this.velocity = Math.random() * 1.8;
+      this.size = Math.random() * 2 + 1;
       this.position1 = Math.floor(this.y);
       this.position2 = Math.floor(this.x);
     }

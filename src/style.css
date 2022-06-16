@@ -31,28 +31,28 @@ footer {
 }
 
 #canvas1 {
-  border: 4px solid black;
+  border: 4px solid red;
   width: 340px;
   height: 443px;
 }
 
 .portfolio-image {
+  border: 4px solid transparent;
+  background-image: url(" ");
+  width: 340px;
+  height: 443px;
+  position: relative;
+  bottom: 450px;
+  left: 25px;
+}
+.portfolio-image-afterclick {
   border: 4px solid black;
   background-image: url("../Media/Luna Smith - portfolio -small.jpg");
   width: 340px;
   height: 443px;
   position: relative;
   bottom: 450px;
-  left: 26px;
-}
-.portfolio-image-afterclick {
-  border: 4px solid red;
-  background-image: url("");
-  width: 340px;
-  height: 443px;
-  position: relative;
-  bottom: 450px;
-  left: 26px;
+  left: 25px;
 }
 
 .profile-photo-container {
@@ -193,14 +193,14 @@ footer {
 
 @media only screen and (min-width: 786px) {
   #canvas1 {
-    border: 4px solid black;
+    border: 4px solid red;
     width: 500px;
     height: 651px;
   }
 
   .portfolio-image {
-    border: 4px solid black;
-    background-image: url("../Media/Luna Smith - portfolio.jpg");
+    border: 4px solid transparent;
+    background-image: url(" ");
     width: 500px;
     height: 651px;
     position: relative;
@@ -208,8 +208,8 @@ footer {
     left: 160px;
   }
   .portfolio-image-afterclick {
-    border: 4px solid red;
-    background-image: url("");
+    border: 4px solid black;
+    background-image: url("../Media/Luna Smith - portfolio.jpg");
     width: 500px;
     height: 651px;
     position: relative;
@@ -298,21 +298,21 @@ footer {
 
 @media only screen and (min-width: 1000px) {
   .portfolio-image {
-    border: 4px solid black;
-    background-image: url("../Media/Luna Smith - portfolio.jpg");
+    border: 4px solid transparent;
+    background-image: url(" ");
     width: 500px;
     height: 651px;
     position: relative;
-    bottom: 657px;
+    top: 30px;
     left: 225px;
   }
   .portfolio-image-afterclick {
-    border: 4px solid red;
-    background-image: url("");
+    background-image: url("../Media/Luna Smith - portfolio.jpg");
+    border: 4px solid black;
     width: 500px;
     height: 651px;
     position: relative;
-    bottom: 657px;
+    top: 30px;
     left: 225px;
   }
   .social-nav {

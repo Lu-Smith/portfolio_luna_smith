@@ -15,7 +15,7 @@ myImage.addEventListener(`load`, function () {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   let particlesArray = [];
-  const numberOfParticles = 4000;
+  const numberOfParticles = 5000;
 
   let mappedImage = [];
   for (let y = 0; y < canvas.height; y++) {
@@ -121,7 +121,7 @@ window.addEventListener("mousemove", function (event) {
 
 ctx2.fillStyle = `#72709B`;
 ctx2.font = `30px Verdana`;
-ctx2.fillText(`MUSIC`, 0, 50);
+ctx2.fillText(`MUSIC`, 100, 100);
 const data2 = ctx2.getImageData(0, 0, 100, 100);
 
 class Particle2 {
@@ -195,9 +195,6 @@ function connect2() {
   let opacityValue2 = 1;
   for (let a = 0; a < particleArray2.length; a++) {
     for (let b = a; b < particleArray2.length; b++) {
-      // let dx = mouse.x - this.x;
-      //let dy = mouse.y - this.y;
-      //let distance = Math.sqrt(dx * dx + dy * dy);
       let dx = particleArray2[a].x - particleArray2[b].x;
       let dy = particleArray2[a].y - particleArray2[b].y;
       let distance = Math.sqrt(dx * dx + dy * dy);

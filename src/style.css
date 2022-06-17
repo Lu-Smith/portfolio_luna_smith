@@ -18,14 +18,20 @@ h1,
 
 h2,
 .description-web-developer {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   text-align: center;
-  padding: 0 20px 20px;
+  padding: 0 30px 30px;
   font-family: "Roboto Flex", sans-serif;
 }
-
+.description-fine-art {
+  background: rgb(238, 246, 247);
+  padding-top: 20px;
+  border-radius: 300px 300px 0 0;
+  margin: 10px;
+}
 footer {
+  margin-top: 200px;
   padding: 20px;
   text-align: center;
 }
@@ -144,10 +150,69 @@ footer {
 .weather-background {
   margin-bottom: 20px;
 }
+.carousel {
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 380px;
+}
+.car-slider {
+  position: relative;
+  height: 450px;
+  background: rgb(238, 246, 247);
+  padding-top: 20px;
+  border-radius: 20px;
+}
+
+.car-slider::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  height: 30%;
+  width: 100%;
+  background: rgb(212, 216, 216);
+  border-radius: 20px 20px 0 0;
+}
+
+.image-slide-size {
+  height: 380px;
+  position: relative;
+  z-index: 100;
+}
+.img-slide-size {
+  height: 260px;
+  padding: 20px;
+  object-fit: scale-down;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 300px;
+}
+.land-description {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+}
+.land-description p {
+  font-family: "Kalam", cursive;
+  font-size: 16px;
+  line-height: 40px;
+  color: grey;
+}
+
+.slider-title {
+  font-size: 20px;
+  line-height: 40px;
+  padding: 20px;
+  font-family: "Kalam", cursive;
+  text-align: center;
+  color: rgb(157, 184, 185);
+}
 
 .art-gallery-fine-art {
   padding: 5px;
 }
+
 .landscapes {
   padding-bottom: 10px;
 }
@@ -163,8 +228,13 @@ footer {
 
 .nft-art-shop,
 .fine-art-shop {
-  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
   color: white;
+  background: rgb(157, 184, 185);
+  padding: 8px 20px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 .shadows-poem {
@@ -226,14 +296,14 @@ footer {
 
   h1,
   .title-my-projects .contact-heading {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   h2,
   .contact,
   .description-web-developer {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
   }
   .contact {
     padding-left: 30px;
@@ -259,10 +329,54 @@ footer {
 
   footer {
     margin-top: 80px;
+    font-size: 20px;
   }
 
   .menu-fine-art {
     width: 100%;
+  }
+
+  .carousel {
+    width: 680px;
+  }
+  .car-slider {
+    position: relative;
+    height: 650px;
+    background: rgb(238, 246, 247);
+    padding-top: 20px;
+    border-radius: 20px;
+  }
+
+  .car-slider::before {
+    height: 40%;
+  }
+
+  .image-slide-size {
+    height: 550px;
+    position: relative;
+    z-index: 100;
+  }
+  .img-slide-size {
+    height: 480px;
+  }
+
+  .slider-title {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .land-description p {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .land-description h5 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .nft-art-shop,
+  .fine-art-shop {
+    font-size: 30px;
   }
 
   .art-gallery-fine-art {
@@ -343,7 +457,7 @@ footer {
 
   h1,
   .title-my-projects {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 40px;
     margin-top: 30px;
     width: 80%;
@@ -353,7 +467,9 @@ footer {
     width: 80%;
     margin-bottom: 40px;
   }
-
+  .description-fine-art {
+    font-size: 25px;
+  }
   .title-illustrations,
   .title-illustrations-emoji {
     width: 100%;

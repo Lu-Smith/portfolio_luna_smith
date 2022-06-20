@@ -1,3 +1,71 @@
+// hatching-eggs
+
+let newHatchingEggImg0 = document.querySelector("#hatching-eggs-button0");
+
+newHatchingEggImg0.addEventListener("click", function (newHatchingEggImg0) {
+  newHatchingEggImg0.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg1 = document.querySelector("#hatching-eggs-button1");
+
+newHatchingEggImg1.addEventListener("click", function (newHatchingEggImg1) {
+  newHatchingEggImg1.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg2 = document.querySelector("#hatching-eggs-button2");
+
+newHatchingEggImg2.addEventListener("click", function (newHatchingEggImg2) {
+  newHatchingEggImg2.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg3 = document.querySelector("#hatching-eggs-button3");
+
+newHatchingEggImg3.addEventListener("click", function (newHatchingEggImg3) {
+  newHatchingEggImg3.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg4 = document.querySelector("#hatching-eggs-button4");
+
+newHatchingEggImg4.addEventListener("click", function (newHatchingEggImg4) {
+  newHatchingEggImg4.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg5 = document.querySelector("#hatching-eggs-button5");
+
+newHatchingEggImg5.addEventListener("click", function (newHatchingEggImg5) {
+  newHatchingEggImg5.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg6 = document.querySelector("#hatching-eggs-button6");
+
+newHatchingEggImg6.addEventListener("click", function (newHatchingEggImg6) {
+  newHatchingEggImg6.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg7 = document.querySelector("#hatching-eggs-button7");
+
+newHatchingEggImg7.addEventListener("click", function (newHatchingEggImg7) {
+  newHatchingEggImg7.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg8 = document.querySelector("#hatching-eggs-button8");
+
+newHatchingEggImg8.addEventListener("click", function (newHatchingEggImg8) {
+  newHatchingEggImg8.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg9 = document.querySelector("#hatching-eggs-button9");
+
+newHatchingEggImg9.addEventListener("click", function (newHatchingEggImg9) {
+  newHatchingEggImg9.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg10 = document.querySelector("#hatching-eggs-button10");
+
+newHatchingEggImg10.addEventListener("click", function (newHatchingEggImg10) {
+  newHatchingEggImg10.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg11 = document.querySelector("#hatching-eggs-button11");
+
+newHatchingEggImg11.addEventListener("click", function (newHatchingEggImg11) {
+  newHatchingEggImg11.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+let newHatchingEggImg12 = document.querySelector("#hatching-eggs-button12");
+
+newHatchingEggImg12.addEventListener("click", function (newHatchingEggImg12) {
+  newHatchingEggImg12.target.classList.toggle(`hatching-eggs-img-afterclick`);
+});
+
 //canvas1
 
 let newPortfolio1 = document.querySelector("#portfolio-image1");

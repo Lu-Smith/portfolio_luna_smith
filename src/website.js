@@ -1,3 +1,56 @@
+// shadows
+
+let newShadows0 = document.querySelector("#shadows-button0");
+
+newShadows0.addEventListener("click", function (newShadows0) {
+  newShadows0.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows1 = document.querySelector("#shadows-button1");
+
+newShadows1.addEventListener("click", function (newShadows1) {
+  newShadows1.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows2 = document.querySelector("#shadows-button2");
+
+newShadows2.addEventListener("click", function (newShadows2) {
+  newShadows2.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows3 = document.querySelector("#shadows-button3");
+
+newShadows3.addEventListener("click", function (newShadows3) {
+  newShadows3.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows4 = document.querySelector("#shadows-button4");
+
+newShadows4.addEventListener("click", function (newShadows4) {
+  newShadows4.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows5 = document.querySelector("#shadows-button5");
+
+newShadows5.addEventListener("click", function (newShadows5) {
+  newShadows5.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows6 = document.querySelector("#shadows-button6");
+
+newShadows6.addEventListener("click", function (newShadows6) {
+  newShadows6.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows7 = document.querySelector("#shadows-button7");
+
+newShadows7.addEventListener("click", function (newShadows7) {
+  newShadows7.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows8 = document.querySelector("#shadows-button8");
+
+newShadows8.addEventListener("click", function (newShadows8) {
+  newShadows8.target.classList.toggle(`shadows-img-afterclick`);
+});
+let newShadows9 = document.querySelector("#shadows-button9");
+
+newShadows9.addEventListener("click", function (newShadows9) {
+  newShadows9.target.classList.toggle(`shadows-img-afterclick`);
+});
+
 // hatching-eggs
 
 let newHatchingEggImg0 = document.querySelector("#hatching-eggs-button0");
@@ -59,11 +112,6 @@ let newHatchingEggImg11 = document.querySelector("#hatching-eggs-button11");
 
 newHatchingEggImg11.addEventListener("click", function (newHatchingEggImg11) {
   newHatchingEggImg11.target.classList.toggle(`hatching-eggs-img-afterclick`);
-});
-let newHatchingEggImg12 = document.querySelector("#hatching-eggs-button12");
-
-newHatchingEggImg12.addEventListener("click", function (newHatchingEggImg12) {
-  newHatchingEggImg12.target.classList.toggle(`hatching-eggs-img-afterclick`);
 });
 
 //canvas1

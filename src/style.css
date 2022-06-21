@@ -44,6 +44,10 @@ footer {
   height: 443px;
 }
 
+.nott {
+  width: 94%;
+  margin: 10px;
+}
 .portfolio-image1 {
   border: 8px solid transparent;
   background-image: url(" ");
@@ -115,7 +119,6 @@ footer {
 .contact-form-photo {
   display: none;
 }
-
 .form {
   margin-bottom: 60px;
   padding: 20px;
@@ -151,8 +154,33 @@ footer {
   margin-bottom: 20px;
 }
 .slide-nott {
-  background: #4083a3;
+  background: black;
 }
+
+.slide-women-nature {
+  background: linear-gradient(
+    122.3deg,
+    rgb(111, 71, 133) 14.6%,
+    rgb(232, 129, 166) 29.6%,
+    rgb(237, 237, 183) 42.1%,
+    rgb(244, 166, 215) 56.7%,
+    rgb(154, 219, 232) 68.7%,
+    rgb(238, 226, 159) 84.8%
+  );
+}
+
+.slide-women-nature-installation {
+  background: linear-gradient(
+    122.3deg,
+    rgb(111, 71, 133) 14.6%,
+    rgb(232, 129, 166) 29.6%,
+    rgb(237, 237, 183) 42.1%,
+    rgb(244, 166, 215) 56.7%,
+    rgb(154, 219, 232) 68.7%,
+    rgb(238, 226, 159) 84.8%
+  );
+}
+
 .carousel {
   padding: 0 20px;
   margin: 0 auto;
@@ -168,10 +196,20 @@ footer {
 
 .car-slider-nott {
   position: relative;
-  height: 1400px;
+  height: 1200px;
+  width: 100%;
   background: black;
   padding-top: 20px;
   border-radius: 20px;
+}
+
+.car-slider-women-nature {
+  position: relative;
+  height: 1100px;
+  background: #6f4785;
+  padding-top: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
 }
 
 .car-slider::before {
@@ -188,9 +226,23 @@ footer {
   content: "";
   position: absolute;
   top: 2px;
+  height: 10%;
+  width: 100%;
+  background: linear-gradient(
+    112.5deg,
+    rgb(95, 10, 135) 11.4%,
+    rgb(164, 80, 139) 60.2%
+  );
+  border-radius: 20px 20px 0 0;
+}
+
+.car-slider-women-nature::before {
+  content: "";
+  position: absolute;
+  top: 2px;
   height: 15%;
   width: 100%;
-  background: white;
+  background: #e885a7;
   border-radius: 20px 20px 0 0;
 }
 
@@ -205,12 +257,24 @@ footer {
   object-fit: scale-down;
 }
 .image-slide-size-nott {
-  height: 400px;
+  height: 350px;
+
   position: relative;
   z-index: 100;
 }
 .img-slide-size-nott {
-  height: 450px;
+  height: 350px;
+  padding: 20px;
+  object-fit: scale-down;
+}
+
+.image-slide-size-women-nature {
+  height: 350px;
+  position: relative;
+  z-index: 100;
+}
+.img-slide-size-women-nature {
+  height: 350px;
   padding: 20px;
   object-fit: scale-down;
 }
@@ -221,8 +285,14 @@ footer {
 
 .nott-button {
   position: relative;
-  top: -925px;
+  top: -825px;
 }
+
+.women-nature-button {
+  position: relative;
+  top: -725px;
+}
+
 .land-description {
   font-family: "Kalam", cursive;
   font-size: 20px;
@@ -234,8 +304,17 @@ footer {
   font-size: 20px;
   line-height: 40px;
   color: wihte;
-  height: 900px;
+  height: 780px;
 }
+
+.women-nature-description {
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  line-height: 40px;
+  color: wihte;
+  height: 700px;
+}
+
 .land-description p {
   font-family: "Kalam", cursive;
   font-size: 16px;
@@ -243,6 +322,13 @@ footer {
   color: grey;
 }
 .nott-description p {
+  font-family: "Kalam", cursive;
+  font-size: 14px;
+  line-height: 30px;
+  color: white;
+}
+
+.women-nature-description p {
   font-family: "Kalam", cursive;
   font-size: 14px;
   line-height: 30px;
@@ -264,7 +350,22 @@ footer {
   padding: 20px;
   font-family: "Kalam", cursive;
   text-align: center;
-  color: #4083a3;
+  color: white;
+}
+
+.slider-title-women-nature {
+  font-size: 20px;
+  line-height: 40px;
+  padding: 20px;
+  font-family: "Kalam", cursive;
+  text-align: center;
+  color: white;
+}
+
+.video-women-nature {
+  width: 340px;
+  margin: 20px auto;
+  display: block;
 }
 
 .art-gallery-fine-art {
@@ -276,12 +377,6 @@ footer {
 }
 .sketches {
   padding-bottom: 25px;
-}
-
-.nott {
-  padding: 20px;
-  background: #171e2c;
-  box-shadow: 5px 5px 10px rgba(4, 1, 21, 0.5);
 }
 
 .fine-art-shop {
@@ -518,7 +613,10 @@ footer {
     font-size: 30px;
     line-height: 50px;
   }
-
+  .nott {
+    width: 100%;
+    margin: 0;
+  }
   .slide-nott {
     width: 100%;
   }
@@ -526,57 +624,93 @@ footer {
   .car-slider-nott {
     position: relative;
     height: 1200px;
-    background: black;
     padding-top: 20px;
-    border-radius: 20px;
   }
 
   .car-slider-nott::before {
-    content: "";
-    position: absolute;
-    top: 2px;
-    height: 15%;
+    height: 20%;
     width: 100%;
-    background: white;
-    border-radius: 20px 20px 0 0;
+  }
+
+  .slide-women-nature {
+    width: 100%;
+  }
+
+  .car-slider-women-nature {
+    position: relative;
+    height: 1300px;
+    padding-top: 20px;
+  }
+
+  .car-slider-women-nature::before {
+    height: 30%;
+    width: 100%;
   }
 
   .image-slide-size-nott {
     height: 600px;
-    position: relative;
-    z-index: 100;
   }
   .img-slide-size-nott {
     height: 550px;
-    padding: 20px;
-    object-fit: scale-down;
+  }
+
+  .image-slide-size-women-nature {
+    height: 600px;
+  }
+  .img-slide-size-women-nature {
+    height: 600px;
   }
 
   .nott-button {
     position: relative;
     top: -625px;
   }
-
+  .slider-title-nott {
+    font-size: 50px;
+    line-height: 70px;
+  }
   .nott-description {
-    font-family: "Kalam", cursive;
-    font-size: 20px;
-    line-height: 40px;
-    color: wihte;
     height: 600px;
+    color: #e781a6;
+  }
+
+  .nott-description h5 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
   }
 
   .nott-description p {
-    font-family: "Kalam", cursive;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
-    color: white;
   }
 
-  .slider-title-nott {
-    font-size: 40px;
-    line-height: 70px;
+  .women-nature-description {
+    height: 650px;
+    color: #e781a6;
   }
 
+  .women-nature-description h5 {
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .women-nature-description p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .women-nature-button {
+    position: relative;
+    top: -655px;
+  }
+
+  .video-women-nature {
+    width: 680px;
+    margin: 20px auto;
+    display: block;
+  }
   .fine-art-shop {
     font-size: 30px;
   }
@@ -772,27 +906,26 @@ footer {
     font-size: 30px;
     margin-bottom: 40px;
   }
+  .nott {
+    width: 100%;
+  }
   .slide-nott {
     margin-top: 390px;
     width: 100%;
   }
 
+  .slide-women-nature {
+    margin-top: 367px;
+    width: 100%;
+  }
+
   .car-slider-nott {
-    position: relative;
     height: 1400px;
-    background: black;
-    padding-top: 20px;
-    border-radius: 20px;
   }
 
   .car-slider-nott::before {
-    content: "";
-    position: absolute;
-    top: 2px;
     height: 20%;
     width: 100%;
-    background: white;
-    border-radius: 20px 20px 0 0;
   }
 
   .image-slide-size-nott {

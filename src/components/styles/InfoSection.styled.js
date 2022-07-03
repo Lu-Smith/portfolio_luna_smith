@@ -142,7 +142,7 @@ export const Img = styled.img`
   padding-right: 0;
 
   @media screen and (max-width: 768px) {
-    width: 50%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;

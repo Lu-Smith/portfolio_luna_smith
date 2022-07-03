@@ -5,7 +5,7 @@ import PortfolioSmall from "../../images/portfoliosmall.jpg";
 import Portfolio1Small from "../../images/8small.jpg";
 
 export const Image = styled.img`
-  background-image: url(${({ src }) => (src ? Portfolio : Portfolio1)});
+  background-image: url(${({ bg }) => (bg ? Portfolio : Portfolio1)});
   margin: 0 auto;
   border-radius: 20px;
   border: 2px solid white;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Video from "../videos/video.mp4";
-import Portfolio from "../images/portfolio.jpg";
+
 import { Button } from "./styles/Button.styled";
 import { Image } from "./styles/Image.styled";
 import {
@@ -17,11 +17,16 @@ import {
   MainContainer,
 } from "./styles/HomeSection.styled";
 
-const HomeSection = () => {
+const HomeSection = (src) => {
   const [hover, setHover] = useState(false);
+  const [changeImg, setChangeImg] = useState(false);
 
   const onHover = () => {
     setHover(!hover);
+  };
+
+  const changeImage = () => {
+    setChangeImg(!changeImg);
   };
   return (
     <HomeContainer id="home">
@@ -30,7 +35,7 @@ const HomeSection = () => {
       </HomeBg>
       <HomeContent>
         <ImageContainer>
-          <Image src={Portfolio} />
+          <Image src={changeImg} onClick={changeImage} />
         </ImageContainer>
         <MainContainer>
           <HomeH1>

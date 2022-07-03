@@ -137,7 +137,7 @@ const BioPage = () => {
 
   return (
     <Container>
-      <img src={BioImg} />
+      <img src={BioImg} alt="Bio Luna Smith" />
       <Icon to="/">
         <CloseIcon />
       </Icon>

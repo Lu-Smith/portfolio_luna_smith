@@ -35,7 +35,11 @@ const HomeSection = (src) => {
       </HomeBg>
       <HomeContent>
         <ImageContainer>
-          <Image src={changeImg} onClick={changeImage} />
+          <Image
+            src={changeImg}
+            onClick={changeImage}
+            alt="Portfolio Luna Smith"
+          />
         </ImageContainer>
         <MainContainer>
           <HomeH1>

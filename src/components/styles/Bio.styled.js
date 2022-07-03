@@ -37,6 +37,18 @@ export const BioContainer = styled.div`
   border: 10px solid grey;
   border-radius: 50px;
   margin-bottom: 50px;
+
+  @media (max-width: 768px) {
+    border: 6px solid grey;
+    border-radius: 30px;
+    padding: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    border: 4px solid grey;
+    border-radius: 20px;
+    padding: 20px;
+  }
 `;
 
 export const BioTitle = styled.h1`
@@ -44,12 +56,14 @@ export const BioTitle = styled.h1`
   opacity: 60%;
   font-size: 38px;
   text-align: center;
+
   @media screen and (max-width: 786px) {
-    margin-top: 24px;
-    font-size: 32px;
+    margin-top: 14px;
+    font-size: 30px;
   }
   @media screen and (max-width: 480px) {
     font-size: 28px;
+    margin-top: 10px;
   }
 `;
 
@@ -64,10 +78,10 @@ export const BioDescription = styled.p`
   font-family: "Poiret One", cursive;
   font-style: italic;
   @media screen and (max-width: 786px) {
-    font-size: 18px;
+    font-size: 16px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 12px;
   }
 `;
 

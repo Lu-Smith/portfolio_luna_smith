@@ -5,7 +5,7 @@ import Img4 from "../images/4.jpg";
 import Img5 from "../images/5.jpg";
 import Img6 from "../images/6.jpg";
 import Img7 from "../images/7.jpg";
-import Img8 from "../images/8.jpg";
+import Img8 from "../images/22.jpg";
 import Img9 from "../images/9.jpg";
 import Img10 from "../images/10.jpg";
 import Img11 from "../images/11.jpg";
@@ -18,8 +18,7 @@ import Img17 from "../images/17.jpg";
 import Img18 from "../images/18.jpg";
 import Img19 from "../images/19.jpg";
 import Img20 from "../images/20.jpg";
-import Img21 from "../images/21.jpg";
-import Img22 from "../images/22.jpg";
+import BioImg from "../images/BioLunaSmith.jpg";
 
 import {
   Container,
@@ -134,20 +133,11 @@ const BioPage = () => {
       imgSrc: Img20,
       alt: "A Scottish artist Luna Smith",
     },
-    {
-      id: 21,
-      imgSrc: Img21,
-      alt: "A Scottish artist Luna Smith",
-    },
-    {
-      id: 22,
-      imgSrc: Img22,
-      alt: "A Scottish artist Luna Smith",
-    },
   ];
 
   return (
     <Container>
+      <img src={BioImg} />
       <Icon to="/">
         <CloseIcon />
       </Icon>

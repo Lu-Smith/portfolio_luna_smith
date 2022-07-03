@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
 export const Container = styled.div`
-  background: linear-gradient(
-    68.6deg,
-    rgb(252, 165, 241) 1.8%,
-    rgb(181, 255, 255) 100.5%
-  );
+  background: #1d1d1b;
   padding: 40px;
+
+  img {
+    width: 100%;
+  }
 `;
 
 export const GalleryContainer = styled.div`
@@ -28,19 +28,19 @@ export const GalleryContainer = styled.div`
 `;
 
 export const BioContainer = styled.div`
-  background-color: white;
+  background-color: black opacity(0.5%);
   max-width: 800px;
   text-align: center;
   justify-content: center;
   margin: 0 auto;
   padding: 40px;
-  border: 50px solid #ecb9f4;
+  border: 10px solid grey;
   border-radius: 50px;
   margin-bottom: 50px;
 `;
 
 export const BioTitle = styled.h1`
-  color: #000;
+  color: #fff;
   opacity: 60%;
   font-size: 38px;
   text-align: center;
@@ -56,7 +56,7 @@ export const BioTitle = styled.h1`
 export const BioDescription = styled.p`
   margin: 0 auto;
   margin-top: 24px;
-  color: #000;
+  color: #fff;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -83,8 +83,9 @@ export const GalleryWrap = styled.div`
 `;
 
 export const Icon = styled(Link)`
-  margin-left: 32px;
-  margin-top: 32px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
   text-decoration: none;
   color: #fff;
   font-weight: 700;

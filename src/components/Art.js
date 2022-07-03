@@ -8,7 +8,7 @@ import Img7 from "../images/7.jpg";
 import Img8 from "../images/8.jpg";
 import Img9 from "../images/9.jpg";
 import Img10 from "../images/10.jpg";
-import Img11 from "../images/11.jpg";
+import Img11 from "../images/22.jpg";
 import Img12 from "../images/12.jpg";
 import Img13 from "../images/13.jpg";
 import Img14 from "../images/14.jpg";
@@ -19,7 +19,6 @@ import Img18 from "../images/18.jpg";
 import Img19 from "../images/19.jpg";
 import Img20 from "../images/20.jpg";
 import Img21 from "../images/21.jpg";
-import Img22 from "../images/22.jpg";
 
 import {
   Container,
@@ -137,11 +136,6 @@ const BioPage = () => {
     {
       id: 21,
       imgSrc: Img21,
-      alt: "A Scottish artist Luna Smith",
-    },
-    {
-      id: 22,
-      imgSrc: Img22,
       alt: "A Scottish artist Luna Smith",
     },
   ];

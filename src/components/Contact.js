@@ -30,6 +30,7 @@ const ContactPage = () => {
           <Icon to="/">Take me home</Icon>
           <FormContent>
             <Form action={fromSparkUrl} onSubmit={submitForm}>
+              <input type="hidden" name="_feedback.dark" value="true" />
               <input
                 type="hidden"
                 name="_feedback.success.title"

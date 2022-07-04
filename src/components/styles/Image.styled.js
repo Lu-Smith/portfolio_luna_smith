@@ -20,8 +20,7 @@ export const Image = styled.img`
     height: 361px;
   }
   @media screen and (max-width: 786px) {
-    background-image: url(${({ src }) =>
-      src ? PortfolioSmall : Portfolio1Small});
+    background-image: url(${({ src }) =>(src ? PortfolioSmall : Portfolio1Small)});
     width: 200px;
     height: 250px;
   }

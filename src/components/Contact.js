@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ContactBg from "../images/Contactbg.jpg";
 import {
   Container,
   FormContent,
@@ -24,11 +25,16 @@ const ContactPage = () => {
   };
   return (
     <>
-      <Container>
+      <Container style={{ backgroundImage: `url(${ContactBg})` }}>
         <FormWrap>
           <Icon to="/">Take me home</Icon>
           <FormContent>
             <Form action={fromSparkUrl} onSubmit={submitForm}>
+              <input
+                type="hidden"
+                name="_redirect"
+                value="https://www.lunasmithart.com/contact"
+              />
               <FormH1>Get in touch</FormH1>
               <FormLabel htmlFor="for">Email</FormLabel>
               <FormInput type="email" id="email" name="email" required="" />

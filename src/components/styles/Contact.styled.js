@@ -31,9 +31,14 @@ export const Icon = styled(Link)`
   color: #fff;
   font-weight: 700;
   font-size: 32px;
+
+  &:hover {
+    color: #35b6a0;
+  }
   @media screen and (max-width: 480px) {
-    margin-left: 16px;
-    margin-top: 8px;
+    margin-left: 0;
+    margin-top: 6px;
+    font-size: 18px;
   }
 `;
 export const FormContent = styled.div`
@@ -41,24 +46,26 @@ export const FormContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
   @media screen and (max-width: 480px) {
     padding: 10px;
   }
 `;
 
 export const Form = styled.form`
-  background: #010101;
-  max-width: 400px;
+  background: #010101 opacity(0.8);
+  max-width: 500px;
   height: auto;
   width: 100%;
   z-index: 1;
   display: grid;
   margin: 0 auto;
-  padding: 80px 32px;
+  padding: 80px 42px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
   @media screen and (max-width: 480px) {
     padding: 32px 32px;
+    margin-top: 200px;
   }
 `;
 
@@ -84,7 +91,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background: #38598b;
+  background: #cd7407;
   padding: 16px 0;
   border: none;
   border-radius: 4px;
@@ -92,6 +99,11 @@ export const FormButton = styled.button`
   font-size: 20px;
   cursor: pointer;
   margin-top: 20px;
+
+  &:hover {
+    background: #35b6a0;
+    color: black;
+  }
 `;
 
 export const Text = styled.span`
@@ -103,4 +115,7 @@ export const Text = styled.span`
 
 export const Textarea = styled.textarea`
   height: 300px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px;
 `;

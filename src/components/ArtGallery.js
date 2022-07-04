@@ -69,7 +69,9 @@ const ArtGallery = ({ slides }) => {
               key={index}
             >
               {index === current && (
-                <img src={slide.image} alt={slide.alt} className="image" />
+                <a href={slide.href} target="_blank" rel="noreferrer">
+                  <img src={slide.image} alt={slide.alt} className="image" />
+                </a>
               )}
             </div>
           );

@@ -32,8 +32,8 @@ const ContactPage = () => {
             <Form action={fromSparkUrl} onSubmit={submitForm}>
               <input
                 type="hidden"
-                name="_redirect"
-                value="https://www.lunasmithart.com/contact"
+                name="_feedback.success.title"
+                value="Thank you! Have a wonderful day 🌞"
               />
               <FormH1>Get in touch</FormH1>
               <FormLabel htmlFor="for">Email</FormLabel>

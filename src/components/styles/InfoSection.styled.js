@@ -45,10 +45,10 @@ export const MainDescription = styled.div`
 `;
 
 export const Description = styled.h2`
-  color: ${({ lightText }) => (lightText ? `#f7f8fa` : `#010606`)};
+  color: #9f9e9a;
   margin: 0 auto;
   padding: 50px;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 30px;
   letter-spacing: 1.4px;
   margin-bottom: 16px;

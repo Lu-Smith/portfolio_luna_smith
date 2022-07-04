@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "./styles/Button.styled";
 import ArtGallery from "./ArtGallery";
+import ArtGalleryBg from "../images/ArtGallerybg.jpg";
 
 import {
   InfoContainer,
@@ -74,8 +75,12 @@ const InfoSection = ({
             </Column2>
           </InfoRow>
         </InfoWrapper>
-        <MainDescription lightBg={lightBg} id={sideId}>
-          <Description lightText={lightText}>{maindescription}</Description>
+        <MainDescription
+          lightBg={lightBg}
+          id={sideId}
+          style={{ backgroundImage: `url(${ArtGalleryBg})` }}
+        >
+          <Description>{maindescription}</Description>
           <ArtGalleryWrap>
             <ArtGallery slides={slides} />
           </ArtGalleryWrap>

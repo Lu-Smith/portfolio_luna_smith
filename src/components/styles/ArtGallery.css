@@ -11,6 +11,8 @@
   height: 500px;
   object-fit: scale-down;
   border-radius: 10px;
+  border: 10px solid #9f9e99;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .right-arrow {
@@ -49,6 +51,8 @@
 @media screen and (max-width: 786px) {
   .image {
     height: 300px;
+    border: 5px solid #9f9e99;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   }
 
   .right-arrow {

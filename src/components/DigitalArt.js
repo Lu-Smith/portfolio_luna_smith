@@ -50,50 +50,50 @@ const DigitalArtPage = () => {
     {
       id: 1,
       imgSrc: ImgW1,
-      alt: "Sunset by Luna Smith",
+      alt: "Sunset",
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
     {
       id: 2,
       imgSrc: ImgW2,
-      alt: "Day by Luna Smith",
+      alt: "Day",
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
     {
       id: 2,
       imgSrc: ImgW3,
-      alt: "Sunrise by Luna Smith",
+      alt: "Sunrise",
 
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
     {
       id: 3,
       imgSrc: ImgW4,
-      alt: "Snow by Luna Smith",
+      alt: "Snow",
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
     {
       id: 5,
       imgSrc: ImgW5,
-      alt: "Day Clouds by Luna Smith",
+      alt: "Day Clouds",
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
     {
       id: 6,
       imgSrc: ImgW6,
-      alt: "Galaxy by Luna Smith",
+      alt: "Galaxy",
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
     {
       id: 5,
       imgSrc: ImgW7,
-      alt: "Thunder by Luna Smith",
+      alt: "Thunder",
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
     {
       id: 6,
       imgSrc: ImgW8,
-      alt: "Night by Luna Smith",
+      alt: "Night",
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
   ];

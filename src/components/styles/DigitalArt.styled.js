@@ -63,6 +63,12 @@ export const DigitalArtContainerEmojis = styled.div`
   border-radius: 50px;
   margin-bottom: 100px;
   margin-top: 200px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+    margin-top: 60px;
+    padding: 20px;
+  }
 `;
 
 export const DigitalArtTitle = styled.h1`
@@ -72,10 +78,10 @@ export const DigitalArtTitle = styled.h1`
   text-align: center;
   @media screen and (max-width: 786px) {
     margin-top: 24px;
-    font-size: 32px;
+    font-size: 30px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 28px;
+    font-size: 22px;
   }
 `;
 
@@ -111,6 +117,16 @@ export const GalleryWrap = styled.div`
     font-family: "Poiret One", cursive;
   }
 
+  h1 {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-bottom: 20px;
+    h1 {
+      font-size: 16px;
+    }
+  }
+
   &:hover {
     filter: opacity(0.8);
   }
@@ -132,6 +148,14 @@ export const GalleryWrapEmojis = styled.div`
     display: block;
   }
 
+  h1 {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 16px;
+    }
+  }
   &:hover {
     filter: opacity(0.8);
   }

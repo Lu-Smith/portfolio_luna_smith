@@ -6,6 +6,15 @@ import Img5 from "../../images/illustrations/day clouds by Luna Smith.jpg";
 import Img6 from "../../images/illustrations/sunrise by Luna Smith.jpg";
 import Img7 from "../../images/illustrations/snow by Luna Smith.jpg";
 import Img8 from "../../images/illustrations/night by Luna Smith.jpg";
+import Img9 from "../../images/illustrations/dictionary/bookshellturtle.png";
+import Img10 from "../../images/illustrations/dictionary/elf-reading.png";
+import Img11 from "../../images/illustrations/dictionary/owlreading.png";
+import Img12 from "../../images/illustrations/dictionary/turtlereading.png";
+import Img13 from "../../images/illustrations/random/Dreamers.jpg";
+import Img14 from "../../images/illustrations/mermaids/KittyMermaid.jpg";
+import Img15 from "../../images/illustrations/mermaids/HedgeHogMermaid.jpg";
+import Img16 from "../../images/illustrations/mermaids/MonkeyMermaid.jpg";
+import Img17 from "../../images/illustrations/mermaids/PuppyMermaid.jpg";
 
 export const IllustrationsData = [
   {
@@ -39,5 +48,41 @@ export const IllustrationsData = [
   {
     image: Img8,
     alt: `night background - Illustration by Luna Smith`,
+  },
+  {
+    image: Img9,
+    alt: `Turtle with Books   - Illustration by Luna Smith`,
+  },
+  {
+    image: Img10,
+    alt: `Elf reading a book  - Illustration by Luna Smith`,
+  },
+  {
+    image: Img11,
+    alt: `Owl reading a book - Illustration by Luna Smith`,
+  },
+  {
+    image: Img12,
+    alt: `Turtle holding a book- Illustration by Luna Smith`,
+  },
+  {
+    image: Img13,
+    alt: `Dreamers - Illustration by Luna Smith`,
+  },
+  {
+    image: Img14,
+    alt: `Baby Kitty Mermaid - Illustration by Luna Smith`,
+  },
+  {
+    image: Img15,
+    alt: `Baby HedgeHog Mermaid- Illustration by Luna Smith`,
+  },
+  {
+    image: Img16,
+    alt: `Baby Monkey Mermaid- Illustration by Luna Smith`,
+  },
+  {
+    image: Img17,
+    alt: `Baby Puppy Mermaid- Illustration by Luna Smith`,
   },
 ];

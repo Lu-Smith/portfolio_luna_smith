@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
 export const Container = styled.div`
-  background: #1b2430;
+  background: #000;
   padding: 40px;
 `;
 
@@ -30,7 +30,7 @@ export const GalleryContainer = styled.div`
 `;
 
 export const WebContainer = styled.div`
-  background-color: #ececec;
+  background-color: grey;
   max-width: 800px;
   text-align: center;
   justify-content: center;
@@ -49,8 +49,8 @@ export const WebContainer = styled.div`
 `;
 
 export const WebTitle = styled.h1`
-  color: #1b2430;
-  opacity: 60%;
+  color: #fff;
+  opacity: 70%;
   font-size: 38px;
   text-align: center;
   @media screen and (max-width: 786px) {
@@ -65,7 +65,8 @@ export const WebTitle = styled.h1`
 export const WebDescription = styled.p`
   margin: 0 auto;
   margin-top: 24px;
-  color: #142d4c;
+  color: #fff;
+  opacity: 90%;
   font-size: 20px;
   line-height: 30px;
   text-align: center;

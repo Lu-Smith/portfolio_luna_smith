@@ -94,7 +94,7 @@ const WebPage = () => {
         <CloseIcon />
       </Icon>
       <WebContainer>
-        <WebTitle>Web Developer - JavaScript</WebTitle>
+        <WebTitle>JavaScript</WebTitle>
         <WebDescription>
           My projects coded with JavaScript, Canvas, HTML, CSS, Visual Studio
           Code, GitHub , Bootstrap, Flexbox, Photoshop and hosted on Netlify.
@@ -117,7 +117,7 @@ const WebPage = () => {
         })}
       </GalleryContainer>
       <WebContainer>
-        <WebTitle>Web Developer -React</WebTitle>
+        <WebTitle>React</WebTitle>
         <WebDescription>
           My projects coded with React, Styled Components, JavaScript, Canvas,
           HTML, CSS, Visual Studio Code, GitHub , Bootstrap, Flexbox, Photoshop

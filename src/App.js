@@ -5,6 +5,7 @@ import Bio from "./pages/bio";
 import Art from "./pages/art";
 import DigitalArt from "./pages/digitalart";
 import Web from "./pages/web";
+import Landscapes from "./pages/landscapes";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/art" element={<Art />} />
           <Route path="/digitalart" element={<DigitalArt />} />
           <Route path="/web" element={<Web />} />
+          <Route path="/landscapes" element={<Landscapes />} />
         </Routes>
       </Router>
     </ThemeProvider>

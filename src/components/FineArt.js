@@ -28,7 +28,7 @@ const Paintings = () => {
     <PaintingsContainer id="fineart">
       <PaintingsH1>Fine Art</PaintingsH1>
       <PaintingsWrapper>
-        <PaintingsCard>
+        <PaintingsCard to="landscapes">
           <PaintingsIcon src={Icon1} />
           <PaintingsH2>Landscapes</PaintingsH2>
           <PaintingsP>Oil paintings on canvas</PaintingsP>

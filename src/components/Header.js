@@ -97,8 +97,8 @@ export default function Header({ toggle }) {
             <MenuButtonLink
               to="contact"
               smooth="true"
-              duration={500}
               spy="true"
+              duration={500}
               exact="true"
               offset={-100}
             >

@@ -14,9 +14,9 @@ import ImgR6 from "../../images/web/5R.jpg";
 export const WebDesignsData = [
   {
     id: 1,
-    image: Img1,
-    alt: "My first website",
-    href: "https://www.shecodes.io/workshops/shecodes-basics-57e94c3e-366c-4503-ab78-e964ad540d88/projects/812937",
+    image: ImgR6,
+    alt: "Art Gallery",
+    href: "https://example-art-gallery.netlify.app/",
   },
   {
     id: 2,
@@ -27,15 +27,15 @@ export const WebDesignsData = [
   },
   {
     id: 3,
-    image: Img3,
+    image: ImgR4,
     alt: "Weather App",
-    href: "https://celadon-cobbler-675e8d.netlify.app/",
+    href: "https://weather-app-react-luna-smith.netlify.app/",
   },
   {
     id: 4,
-    image: Img4,
-    alt: "Text Animation",
-    href: "https://code-letter-javascript-animation.netlify.app/",
+    image: ImgR5,
+    alt: "Community",
+    href: "https://community-fans.netlify.app/",
   },
   {
     id: 5,
@@ -69,20 +69,23 @@ export const WebDesignsData = [
   },
   {
     id: 10,
-    image: ImgR4,
+
+    image: Img3,
     alt: "Weather App",
-    href: "https://weather-app-react-luna-smith.netlify.app/",
+    href: "https://celadon-cobbler-675e8d.netlify.app/",
   },
   {
     id: 11,
-    image: ImgR5,
-    alt: "Community",
-    href: "https://community-fans.netlify.app/",
+
+    image: Img4,
+    alt: "Text Animation",
+    href: "https://code-letter-javascript-animation.netlify.app/",
   },
   {
     id: 12,
-    image: ImgR6,
-    alt: "Art Gallery",
-    href: "https://example-art-gallery.netlify.app/",
+
+    image: Img1,
+    alt: "My first website",
+    href: "https://www.shecodes.io/workshops/shecodes-basics-57e94c3e-366c-4503-ab78-e964ad540d88/projects/812937",
   },
 ];

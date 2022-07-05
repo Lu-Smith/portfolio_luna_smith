@@ -43,11 +43,12 @@ export const WebContainer = styled.div`
   @media screen and (max-width: 820px) {
     padding: 30px;
     margin-top: 30px;
-      margin-bottom: 50px;
+    margin-bottom: 50px;
+  }
   @media screen and (max-width: 480px) {
     padding: 20px;
-       margin-top: 40px;
-      margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
   }
 `;
 

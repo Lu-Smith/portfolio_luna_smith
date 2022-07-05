@@ -34,17 +34,20 @@ export const WebContainer = styled.div`
   max-width: 800px;
   text-align: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 40px;
-  border: 2px solid #51557e;
+  border: 2px solid #bea15b;
   border-radius: 50px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  @media screen and (max-width: 786px) {
+  margin-bottom: 70px;
+  margin-top: 140px;
+  @media screen and (max-width: 820px) {
     padding: 30px;
-  }
+    margin-top: 30px;
+      margin-bottom: 50px;
   @media screen and (max-width: 480px) {
     padding: 20px;
+       margin-top: 40px;
+      margin-bottom: 30px;
   }
 `;
 
@@ -89,13 +92,14 @@ export const GalleryWrap = styled.div`
 
   a {
     text-decoration: none;
-    color: #9fd3c7;
+    color: #fff;
     text-align: center;
     font-size: 12px;
     font-family: "Poiret One", cursive;
   }
   h1 {
     font-size: 19px;
+    padding: 20px;
   }
   @media screen and (max-width: 786px) {
     h1 {
@@ -105,10 +109,12 @@ export const GalleryWrap = styled.div`
   @media screen and (max-width: 480px) {
     h1 {
       font-size: 14px;
+      padding: 15px;
     }
   }
   &:hover {
     filter: opacity(0.8);
+    padding: 10px;
   }
 `;
 
@@ -116,7 +122,7 @@ export const Icon = styled(Link)`
   margin-left: 32px;
   margin-top: 32px;
   text-decoration: none;
-  color: #51557e;
+  color: #bea15b;
   font-weight: 700;
   font-size: 32px;
   @media screen and (max-width: 480px) {
@@ -126,7 +132,7 @@ export const Icon = styled(Link)`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #9fd3c7;
+  color: #bea15b;
 
   &:hover {
     color: #04e2d7;

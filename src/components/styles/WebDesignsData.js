@@ -8,6 +8,8 @@ import ImgR1 from "../../images/web/1R.jpg";
 import ImgR3 from "../../images/web/2R.jpg";
 import ImgR2 from "../../images/web/3R.jpg";
 import ImgR4 from "../../images/web/4R.jpg";
+import ImgR5 from "../../images/web/6R.jpg";
+import ImgR6 from "../../images/web/5R.jpg";
 
 export const WebDesignsData = [
   {
@@ -70,5 +72,17 @@ export const WebDesignsData = [
     image: ImgR4,
     alt: "Weather App",
     href: "https://weather-app-react-luna-smith.netlify.app/",
+  },
+  {
+    id: 11,
+    image: ImgR5,
+    alt: "Community",
+    href: "https://community-fans.netlify.app/",
+  },
+  {
+    id: 12,
+    image: ImgR6,
+    alt: "Art Gallery",
+    href: "https://example-art-gallery.netlify.app/",
   },
 ];

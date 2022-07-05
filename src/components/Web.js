@@ -8,6 +8,9 @@ import ImgR1 from "../images/web/1R.jpg";
 import ImgR3 from "../images/web/2R.jpg";
 import ImgR2 from "../images/web/3R.jpg";
 import ImgR4 from "../images/web/4R.jpg";
+import ImgR5 from "../images/web/5R.jpg";
+import ImgR6 from "../images/web/6R.jpg";
+import WebBg from "../images/Webbg.jpg";
 
 import {
   Container,
@@ -86,6 +89,18 @@ const WebPage = () => {
       alt: "Weather App",
       href: "https://weather-app-react-luna-smith.netlify.app/",
     },
+    {
+      id: 5,
+      imgSrc: ImgR5,
+      alt: "Styled Component - Community",
+      href: "https://community-fans.netlify.app/",
+    },
+    {
+      id: 6,
+      imgSrc: ImgR6,
+      alt: "Styled Component - Art Gallery",
+      href: "https://example-art-gallery.netlify.app/",
+    },
   ];
 
   return (
@@ -93,7 +108,7 @@ const WebPage = () => {
       <Icon to="/">
         <CloseIcon />
       </Icon>
-      <WebContainer>
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
         <WebTitle>JavaScript</WebTitle>
         <WebDescription>
           My projects coded with JavaScript, Canvas, HTML, CSS, Visual Studio
@@ -116,7 +131,7 @@ const WebPage = () => {
           );
         })}
       </GalleryContainer>
-      <WebContainer>
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
         <WebTitle>React</WebTitle>
         <WebDescription>
           My projects coded with React, Styled Components, JavaScript, Canvas,

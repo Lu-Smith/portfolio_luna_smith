@@ -1,24 +1,48 @@
-import Img1 from "../images/1.jpg";
-import Img2 from "../images/2.jpg";
-import Img3 from "../images/3.jpg";
-import Img4 from "../images/4.jpg";
-import Img5 from "../images/5.jpg";
-import Img6 from "../images/6.jpg";
-import Img7 from "../images/7.jpg";
-import Img8 from "../images/22.jpg";
-import Img9 from "../images/9.jpg";
-import Img10 from "../images/10.jpg";
-import Img11 from "../images/11.jpg";
-import Img12 from "../images/12.jpg";
-import Img13 from "../images/13.jpg";
-import Img14 from "../images/14.jpg";
-import Img15 from "../images/15.jpg";
-import Img16 from "../images/16.jpg";
-import Img17 from "../images/17.jpg";
-import Img18 from "../images/18.jpg";
-import Img19 from "../images/19.jpg";
-import Img20 from "../images/20.jpg";
-import BioImg from "../images/BioLunaSmith.jpg";
+import Img1 from "../images/fineart/landscapes/Dragon.jpg";
+import Img2 from "../images/fineart/landscapes/Autumn Reflection.jpg";
+import Img3 from "../images/fineart/landscapes/Guardian Tree.jpg";
+import Img4 from "../images/fineart/landscapes/Hawaiian Beach.jpg";
+import Img5 from "../images/fineart/landscapes/Autumn Sunset.jpg";
+import Img6 from "../images/fineart/landscapes/Icy River.jpg";
+import Img7 from "../images/fineart/landscapes/Autumn.jpg";
+import Img8 from "../images/fineart/landscapes/Grasslands of Arran.jpg";
+import Img9 from "../images/fineart/landscapes/Great Canyon.jpg";
+import Img10 from "../images/fineart/landscapes/Hello Highlands.jpg";
+import Img11 from "../images/fineart/landscapes/Italian Alps.jpg";
+import Img12 from "../images/fineart/landscapes/Melting Autumn Sunrise.jpg";
+import Img13 from "../images/fineart/landscapes/Melting Blue Mountains.jpg";
+import Img14 from "../images/fineart/landscapes/Mermaid Euphony.jpg";
+import Img15 from "../images/fineart/landscapes/Morning Dream.jpg";
+import Img16 from "../images/fineart/landscapes/Morning Muse.jpg";
+import Img17 from "../images/fineart/landscapes/North Berwick.jpg";
+import Img18 from "../images/fineart/landscapes/Paradise.jpg";
+import Img19 from "../images/fineart/landscapes/Rocky Beach.jpg";
+import Img20 from "../images/fineart/landscapes/Savannah Beach.jpg";
+import Img21 from "../images/fineart/landscapes/Seaside Garden.jpg";
+import Img22 from "../images/fineart/landscapes/Secret Garden.jpg";
+import Img23 from "../images/fineart/landscapes/Shimmering Golden Trees.jpg";
+import Img24 from "../images/fineart/landscapes/Snowy Mist.jpg";
+import Img25 from "../images/fineart/landscapes/Snowy Mount Rainier.jpg";
+import Img26 from "../images/fineart/landscapes/Snowy Mountain.jpg";
+import Img27 from "../images/fineart/landscapes/Storm Wave.jpg";
+import Img28 from "../images/fineart/landscapes/Sunrise at Elgol Beach.jpg";
+import Img29 from "../images/fineart/landscapes/Sunset at North Berwick.jpg";
+import Img30 from "../images/fineart/landscapes/Winter Breeze.jpg";
+import Img31 from "../images/fineart/landscapes/Sunset at North Berwick.jpg";
+import Img32 from "../images/fineart/landscapes/The First Walk.jpg";
+import Img33 from "../images/fineart/landscapes/The Frigid Whisper of Diabaig.jpg";
+import Img34 from "../images/fineart/landscapes/The Hum of the Hollow.jpg";
+import Img35 from "../images/fineart/landscapes/The Song of Glen Etive.jpg";
+import Img36 from "../images/fineart/landscapes/Trapped in the Silent Wind.jpg";
+import Img37 from "../images/fineart/landscapes/Viking Sunset.jpg";
+import Img38 from "../images/fineart/landscapes/Waterfall.jpg";
+import Img39 from "../images/fineart/landscapes/When Winter meets Summer.jpg";
+import Img40 from "../images/fineart/landscapes/Winter at the Lake.jpg";
+import Img41 from "../images/fineart/landscapes/Sunset at the Icy River.jpg";
+import Img42 from "../images/fineart/landscapes/Winter Cottage.jpg";
+import Img43 from "../images/fineart/landscapes/Work at Sunset.jpg";
+import Img44 from "../images/fineart/landscapes/Winter in Woods.jpg";
+import Img45 from "../images/fineart/landscapes/Winter Path.jpg";
 
 import {
   Container,
@@ -31,7 +55,7 @@ import {
   CloseIcon,
 } from "./styles/Bio.styled";
 
-const BioPage = () => {
+const LandscapePage = () => {
   let data = [
     {
       id: 1,
@@ -133,38 +157,144 @@ const BioPage = () => {
       imgSrc: Img20,
       alt: "A Scottish artist Luna Smith",
     },
+    {
+      id: 21,
+      imgSrc: Img21,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 22,
+      imgSrc: Img22,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 23,
+      imgSrc: Img23,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 24,
+      imgSrc: Img24,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 25,
+      imgSrc: Img25,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 26,
+      imgSrc: Img26,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 27,
+      imgSrc: Img27,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 28,
+      imgSrc: Img28,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 29,
+      imgSrc: Img29,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 30,
+      imgSrc: Img30,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 31,
+      imgSrc: Img31,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 32,
+      imgSrc: Img32,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 33,
+      imgSrc: Img33,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 34,
+      imgSrc: Img34,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 35,
+      imgSrc: Img35,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 36,
+      imgSrc: Img36,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 37,
+      imgSrc: Img37,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 38,
+      imgSrc: Img38,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 39,
+      imgSrc: Img39,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 40,
+      imgSrc: Img40,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 41,
+      imgSrc: Img41,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 42,
+      imgSrc: Img42,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 43,
+      imgSrc: Img43,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 44,
+      imgSrc: Img44,
+      alt: "A Scottish artist Luna Smith",
+    },
+    {
+      id: 45,
+      imgSrc: Img45,
+      alt: "A Scottish artist Luna Smith",
+    },
   ];
 
   return (
     <Container>
-      <img src={BioImg} alt="Bio Luna Smith" />
       <Icon to="/">
         <CloseIcon />
       </Icon>
       <BioContainer>
-        <BioTitle>Bio</BioTitle>
+        <BioTitle>Landscapes</BioTitle>
         <BioDescription>
-          My name is Luna Smith, and I am an established Scottish painter. My
-          works are sold to collectors worldwide, including Australia, Belgium,
-          Canada, Czech Republic, France, Germany, India, Ireland, Italy,
-          Mexico, Norway, Portugal, Spain, Switzerland, the United Kingdom, and
-          the United States.   I was born in Manchester, UK. My passion for art
-          has been around since I was little. I often found myself in awe of the
-          nature around me and would draw landscapes and birds for hours. Since
-          winning my first art competition in primary school, I knew what I
-          wanted to be. And even though many hardships and painful life
-          experiences delayed me, I never lost sight of the path to my dreams. ​
-          I have travelled a lot and lived in various countries. From these
-          experiences, I have learned much from the languages, cultures,
-          customs, architecture, and natural environments. And they inspire me
-          in my work.   I am specialising in oils. With my first brushstroke, I
-          had fallen in love with this medium. Its thick and visible texture is
-          captivating and indeed reveals the artist’s thoughts. The struggle,
-          the fun, and the energy that went into the painting are on full
-          display. My unique style takes advantage of this and interprets the
-          things I see and hear around me with vigorous loose brushstrokes
-          blended with expressive finger work. It not only shows the surface
-          level of the subject, but it also allows me to paint its soul.
+          Precious moments enchanted in canvas to cultivate our own spiritual
+          nature. We are the crucial part of the World. Paint your own path in
+          the endless forest. Paint you own sunshine in the dark space.
         </BioDescription>
       </BioContainer>
       <GalleryContainer>
@@ -180,4 +310,4 @@ const BioPage = () => {
   );
 };
 
-export default BioPage;
+export default LandscapePage;

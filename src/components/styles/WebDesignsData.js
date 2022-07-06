@@ -69,21 +69,18 @@ export const WebDesignsData = [
   },
   {
     id: 10,
-
     image: Img3,
     alt: "Weather App",
     href: "https://celadon-cobbler-675e8d.netlify.app/",
   },
   {
     id: 11,
-
     image: Img4,
     alt: "Text Animation",
     href: "https://code-letter-javascript-animation.netlify.app/",
   },
   {
     id: 12,
-
     image: Img1,
     alt: "My first website",
     href: "https://www.shecodes.io/workshops/shecodes-basics-57e94c3e-366c-4503-ab78-e964ad540d88/projects/812937",

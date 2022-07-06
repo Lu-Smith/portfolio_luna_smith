@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const PaintingsContainer = styled.div`
@@ -70,16 +71,6 @@ export const PaintingsH1 = styled.h1`
   }
 `;
 
-export const PaintingsH2 = styled.h2`
-  font-size: 1rem;
-  margin-bottom: 10px;
-`;
-
-export const PaintingsP = styled.p`
-  font-size: 1rem;
-  text-align: center;
-`;
-
 export const HomeBtnWrapper = styled.div`
   margin-top: 40px;
   display: flex;
@@ -94,4 +85,35 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
+`;
+
+export const MenuButton = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export const MenuButtonLink = styled(LinkR)`
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 40px;
+  white-space: nowrap;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    padding: 20px;
+  }
+`;
+
+export const PaintingsH2 = styled.h2`
+  font-size: 1rem;
+  margin-bottom: 10px;
+`;
+
+export const PaintingsP = styled.p`
+  font-size: 1rem;
+  text-align: center;
 `;

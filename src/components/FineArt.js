@@ -16,6 +16,8 @@ import {
   HomeBtnWrapper,
   ArrowForward,
   ArrowRight,
+  MenuButton,
+  MenuButtonLink,
 } from "./styles/FineArt.styled";
 
 const Paintings = () => {
@@ -28,10 +30,21 @@ const Paintings = () => {
     <PaintingsContainer id="fineart">
       <PaintingsH1>Fine Art</PaintingsH1>
       <PaintingsWrapper>
-        <PaintingsCard to="landscapes">
-          <PaintingsIcon src={Icon1} />
-          <PaintingsH2>Landscapes</PaintingsH2>
-          <PaintingsP>Oil paintings on canvas</PaintingsP>
+        <PaintingsCard>
+          <MenuButton>
+            <MenuButtonLink
+              to="/landscapes"
+              smooth="true"
+              duration={500}
+              spy="true"
+              exact="true"
+              offset={-100}
+            >
+              <PaintingsIcon src={Icon1} />
+              <PaintingsH2>Landscapes</PaintingsH2>
+              <PaintingsP>Oil paintings on canvas</PaintingsP>
+            </MenuButtonLink>
+          </MenuButton>
         </PaintingsCard>
         <PaintingsCard>
           <PaintingsIcon src={Icon2} />

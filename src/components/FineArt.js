@@ -52,9 +52,20 @@ const Paintings = () => {
           <PaintingsP>Oil paintings on canvas</PaintingsP>
         </PaintingsCard>
         <PaintingsCard>
-          <PaintingsIcon src={Icon3} />
-          <PaintingsH2>Nott</PaintingsH2>
-          <PaintingsP>Oil paintings on canvas</PaintingsP>
+          <MenuButton>
+            <MenuButtonLink
+              to="/nott"
+              smooth="true"
+              duration={500}
+              spy="true"
+              exact="true"
+              offset={-100}
+            >
+              <PaintingsIcon src={Icon3} />
+              <PaintingsH2>Nott</PaintingsH2>
+              <PaintingsP>Oil paintings on canvas</PaintingsP>
+            </MenuButtonLink>
+          </MenuButton>
         </PaintingsCard>
         <PaintingsCard>
           <PaintingsIcon src={Icon4} />

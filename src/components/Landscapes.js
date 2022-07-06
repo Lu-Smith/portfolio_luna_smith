@@ -53,7 +53,7 @@ import {
   BioDescription,
   Icon,
   CloseIcon,
-} from "./styles/Bio.styled";
+} from "./styles/Landscapes.styled";
 
 const LandscapePage = () => {
   let data = [

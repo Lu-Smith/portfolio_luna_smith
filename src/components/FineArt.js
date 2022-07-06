@@ -47,9 +47,20 @@ const Paintings = () => {
           </MenuButton>
         </PaintingsCard>
         <PaintingsCard>
-          <PaintingsIcon src={Icon2} />
-          <PaintingsH2>Abstracts</PaintingsH2>
-          <PaintingsP>Oil paintings on canvas</PaintingsP>
+          <MenuButton>
+            <MenuButtonLink
+              to="/abstracts"
+              smooth="true"
+              duration={500}
+              spy="true"
+              exact="true"
+              offset={-100}
+            >
+              <PaintingsIcon src={Icon2} />
+              <PaintingsH2>Abstracts</PaintingsH2>
+              <PaintingsP>Oil paintings on canvas</PaintingsP>
+            </MenuButtonLink>
+          </MenuButton>
         </PaintingsCard>
         <PaintingsCard>
           <MenuButton>

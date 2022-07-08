@@ -21,6 +21,12 @@ export const GalleryContainer = styled.div`
     -moz-column-count: 2;
     column-count: 2;
   }
+
+  @media (max-width: 480px) {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
 `;
 
 export const BioContainer = styled.div`

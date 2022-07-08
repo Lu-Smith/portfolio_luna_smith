@@ -4,6 +4,7 @@ import Img2 from "../../images/web/3.jpg";
 import Img4 from "../../images/web/4.jpg";
 import Img5 from "../../images/web/5.jpg";
 import Img6 from "../../images/web/6.jpg";
+import Img7 from "../../images/web/7.jpg";
 import ImgR1 from "../../images/web/1R.jpg";
 import ImgR3 from "../../images/web/2R.jpg";
 import ImgR2 from "../../images/web/3R.jpg";
@@ -81,6 +82,12 @@ export const WebDesignsData = [
   },
   {
     id: 12,
+    image: Img7,
+    alt: "SASS - my first website",
+    href: "https://sass-my-first-website.netlify.app/",
+  },
+  {
+    id: 13,
     image: Img1,
     alt: "My first website",
     href: "https://www.shecodes.io/workshops/shecodes-basics-57e94c3e-366c-4503-ab78-e964ad540d88/projects/812937",

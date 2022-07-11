@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Img1 from "../images/fineart/nott/The Warrior of Shattered Tears by Luna Smith.jpg";
 import Img2 from "../images/fineart/nott/Kiss of Mother's Love by Luna Smith.jpg";
 import Img3 from "../images/fineart/nott/The Heartbeat of the Raging Cyclon  by Luna Smith.jpg";
@@ -23,9 +24,19 @@ import {
   BioDescription,
   Icon,
   CloseIcon,
+  ShopBtnLink,
+  HomeBtnWrapper,
+  ArrowForward,
+  ArrowRight
 } from "./styles/Nott.styled";
 
 const NottPage = () => {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
+
   let data = [
     {
       id: 1,
@@ -117,6 +128,17 @@ const NottPage = () => {
           dream, we reach our visions. We unite with the best versions of
           ourselves. 
         </BioDescription>
+        <HomeBtnWrapper>
+        <ShopBtnLink 
+          href="//www.saatchiart.com/lunasmithart"
+          target="_blank"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
+          rel="noreferrer noopener"
+        >
+          Shop {hover ? <ArrowForward /> : <ArrowRight />}
+        </ShopBtnLink >
+      </HomeBtnWrapper>
       </BioContainer>
       <GalleryContainer>
         {data.map((item, index) => {

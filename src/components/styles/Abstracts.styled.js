@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
+import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const Container = styled.div`
   background: #1d1d1b;
@@ -119,4 +120,40 @@ export const CloseIcon = styled(FaTimes)`
     color: #04e2d7;
     transition: 0.2 s ease-in-out;
   }
+`;
+
+export const HomeBtnWrapper = styled.div`
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+`;
+
+export const ShopBtnLink = styled.a`
+text-decoration: none;
+background-color: #FA9109;
+color: #fff;
+padding: 10px 20px;
+border-radius: 20px;
+border: none;
+white-space: nowrap;
+display: flex;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+&:hover {
+  background-color: red;
+  border: 2px solid red;
+}
+`;
+
+export const ArrowForward = styled(MdArrowForward)`
+  margin-left: 8px;
+  font-size: 20px;
+`;
+
+export const ArrowRight = styled(MdKeyboardArrowRight)`
+  margin-left: 8px;
+  font-size: 20px;
 `;

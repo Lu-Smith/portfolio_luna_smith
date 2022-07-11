@@ -19,7 +19,7 @@ const theme = {
     footer: `black`,
   },
   font: {
-    header: `#C8CAE1`,
+    header: `white`,
     body: `black`,
     footer: `white`,
   },

@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Img1 from "../images/fineart/abstracts/B in Shadows by Luna Smith oil painting.jpg";
 import Img2 from "../images/fineart/abstracts/G in Shadows by Luna Smith - oil painting.jpg";
 import Img3 from "../images/fineart/abstracts/L in Shadows by Luna Smith - oil painting.jpg";
@@ -38,9 +39,19 @@ import {
   BioDescription,
   Icon,
   CloseIcon,
+  ShopBtnLink,
+  HomeBtnWrapper,
+  ArrowForward,
+  ArrowRight
 } from "./styles/Abstracts.styled";
 
 const AbstractsPage = () => {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
+
   let data = [
     {
       id: 1,
@@ -202,6 +213,18 @@ const AbstractsPage = () => {
       <BioContainer>
         <BioTitle>Abstracts</BioTitle>
         <BioDescription>Find yourself in oil painting</BioDescription>
+      
+      <HomeBtnWrapper>
+        <ShopBtnLink 
+          href="//www.saatchiart.com/lunasmithart"
+          target="_blank"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
+          rel="noreferrer noopener"
+        >
+          Shop {hover ? <ArrowForward /> : <ArrowRight />}
+        </ShopBtnLink >
+      </HomeBtnWrapper>
       </BioContainer>
       <GalleryContainer>
         {data.map((item, index) => {

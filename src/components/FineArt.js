@@ -3,7 +3,6 @@ import Icon1 from "../images/The Guardian Tree.jpg";
 import Icon2 from "../images/Dreams of Sorrow.jpg";
 import Icon3 from "../images/The Warrior of Shattered Tears.jpg";
 import Icon4 from "../images/Owl.jpg";
-import { Button } from "./styles/Button.styled";
 
 import {
   PaintingsContainer,
@@ -18,6 +17,7 @@ import {
   ArrowRight,
   MenuButton,
   MenuButtonLink,
+  ShopBtnLink 
 } from "./styles/FineArt.styled";
 
 const Paintings = () => {
@@ -96,20 +96,15 @@ const Paintings = () => {
         </PaintingsCard>
       </PaintingsWrapper>
       <HomeBtnWrapper>
-        <Button
-          to="home"
+        <ShopBtnLink 
+          href="//www.saatchiart.com/lunasmithart"
+          target="_blank"
           onMouseEnter={onHover}
           onMouseLeave={onHover}
-          primary="true"
-          dark="true"
-          smooth="true"
-          duration={500}
-          spy="true"
-          exact="true"
-          offset={-80}
+          rel="noreferrer noopener"
         >
-          More {hover ? <ArrowForward /> : <ArrowRight />}
-        </Button>
+          Shop {hover ? <ArrowForward /> : <ArrowRight />}
+        </ShopBtnLink >
       </HomeBtnWrapper>
     </PaintingsContainer>
   );

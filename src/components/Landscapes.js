@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Img1 from "../images/fineart/landscapes/Dragon.jpg";
 import Img2 from "../images/fineart/landscapes/Autumn Reflection.jpg";
 import Img3 from "../images/fineart/landscapes/Guardian Tree.jpg";
@@ -53,9 +54,18 @@ import {
   BioDescription,
   Icon,
   CloseIcon,
+  ShopBtnLink,
+  HomeBtnWrapper,
+  ArrowForward,
+  ArrowRight
 } from "./styles/Landscapes.styled";
 
 const LandscapePage = () => {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
   let data = [
     {
       id: 1,
@@ -296,6 +306,17 @@ const LandscapePage = () => {
           nature. We are the crucial part of the World. Paint your own path in
           the endless forest. Paint you own sunshine in the dark space.
         </BioDescription>
+        <HomeBtnWrapper>
+        <ShopBtnLink 
+          href="//www.saatchiart.com/lunasmithart"
+          target="_blank"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
+          rel="noreferrer noopener"
+        >
+          Shop {hover ? <ArrowForward /> : <ArrowRight />}
+        </ShopBtnLink >
+      </HomeBtnWrapper>
       </BioContainer>
       <GalleryContainer>
         {data.map((item, index) => {

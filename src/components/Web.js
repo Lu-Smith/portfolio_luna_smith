@@ -5,6 +5,7 @@ import Img4 from "../images/web/4.jpg";
 import Img5 from "../images/web/5.jpg";
 import Img6 from "../images/web/7.jpg";
 import Img7 from "../images/web/6.jpg";
+import Img8 from "../images/web/8.png";
 
 import ImgR1 from "../images/web/1R.jpg";
 import ImgR3 from "../images/web/2R.jpg";
@@ -70,6 +71,12 @@ const WebPage = () => {
       alt: "Follow me",
       href: "https://follow-me-javascript-dots-animation.netlify.app/",
     },
+    {
+      id: 8,
+      imgSrc: Img8,
+      alt: "Team Generator",
+      href: "https://elaborate-caramel-f27ed1.netlify.app/",
+    },
   ];
 
   let reactdata = [
@@ -119,7 +126,7 @@ const WebPage = () => {
       <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
         <WebTitle>JavaScript</WebTitle>
         <WebDescription>
-          My projects coded with JavaScript, SASS, Canvas, HTML, CSS, Visual
+          My projects coded with JavaScript, SASS, Angular, TypeScript, Canvas, HTML, CSS, Visual
           Studio Code, GitHub , Bootstrap, Flexbox, Photoshop and hosted on
           Netlify.
         </WebDescription>

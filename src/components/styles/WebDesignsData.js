@@ -6,6 +6,7 @@ import Img5 from "../../images/web/5.jpg";
 import Img6 from "../../images/web/6.jpg";
 import Img7 from "../../images/web/7.jpg";
 import Img8 from "../../images/web/8.png";
+import Img9 from "../../images/web/9.png";
 
 
 import ImgR1 from "../../images/web/1R.jpg";
@@ -100,5 +101,11 @@ export const WebDesignsData = [
     image: Img1,
     alt: "My first website",
     href: "https://www.shecodes.io/workshops/shecodes-basics-57e94c3e-366c-4503-ab78-e964ad540d88/projects/812937",
+  },
+  {
+    id: 15,
+    image: Img9,
+    alt: "Example Shop",
+    href: "https://resonant-mermaid-b21b5e.netlify.app/",
   },
 ];

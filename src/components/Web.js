@@ -6,6 +6,7 @@ import Img5 from "../images/web/5.jpg";
 import Img6 from "../images/web/7.jpg";
 import Img7 from "../images/web/6.jpg";
 import Img8 from "../images/web/8.png";
+import Img9 from "../images/web/9.png";
 
 import ImgR1 from "../images/web/1R.jpg";
 import ImgR3 from "../images/web/2R.jpg";
@@ -13,6 +14,7 @@ import ImgR2 from "../images/web/3R.jpg";
 import ImgR4 from "../images/web/4R.jpg";
 import ImgR5 from "../images/web/5R.jpg";
 import ImgR6 from "../images/web/6R.jpg";
+
 import WebBg from "../images/Webbg.jpg";
 
 import {
@@ -76,6 +78,12 @@ const WebPage = () => {
       imgSrc: Img8,
       alt: "Team Generator",
       href: "https://elaborate-caramel-f27ed1.netlify.app/",
+    },
+    {
+      id: 9,
+      imgSrc: Img9,
+      alt: "Example Shop",
+      href: "https://resonant-mermaid-b21b5e.netlify.app/",
     },
   ];
 

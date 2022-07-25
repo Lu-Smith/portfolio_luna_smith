@@ -22,13 +22,15 @@ import Img20 from "../images/fineart/abstracts/Winter Kiss by Luna Smith.jpg";
 import Img21 from "../images/fineart/abstracts/Ocean Breeze by Luna Smith.jpg";
 import Img22 from "../images/fineart/abstracts/Outside by Luna Smith.jpg";
 import Img23 from "../images/fineart/abstracts/Inside by Luna Smith.jpg";
-import Img24 from "../images/fineart/abstracts/PeacefulDaybyLu.jpg";
-import Img25 from "../images/fineart/abstracts/InvisiblebyLu.jpg";
-import Img26 from "../images/fineart/abstracts/LifeStorybyLU.jpg";
-import Img27 from "../images/fineart/abstracts/Invisible2byLu.jpg";
-import Img28 from "../images/fineart/abstracts/Invisible 1 by Luna Smith.jpg";
+import Img24 from "../images/fineart/abstracts/Growing up by Luna Smith.jpg";
+import Img25 from "../images/fineart/abstracts/Fly Fly Fly by Luna Smith.jpg";
+import Img26 from "../images/fineart/abstracts/PeacefulDaybyLu.jpg";
+import Img27 from "../images/fineart/abstracts/ButterflyabstractbyLu.jpg";
+import Img28 from "../images/fineart/abstracts/LifeStorybyLU.jpg";
 import Img29 from "../images/fineart/abstracts/Christmas by Luna Smith.jpg";
-import Img30 from "../images/fineart/abstracts/ButterflyabstractbyLu.jpg";
+import Img30 from "../images/fineart/abstracts/InvisiblebyLu.jpg";
+import Img31 from "../images/fineart/abstracts/Invisible 1 by Luna Smith.jpg";
+import Img32 from "../images/fineart/abstracts/Invisible2byLu.jpg";
 
 import {
   Container,
@@ -58,161 +60,173 @@ const AbstractsPage = () => {
     {
       id: 1,
       imgSrc: Img1,
-      alt: "B in Shadows by Luna Smith oil painting",
+      alt: "B in Shadows",
     },
     {
       id: 2,
       imgSrc: Img2,
-      alt: "G in Shadows by Luna Smith - oil painting",
+      alt: "G in Shadows",
     },
     {
       id: 3,
       imgSrc: Img3,
-      alt: "L in Shadows by Luna Smith - oil painting",
+      alt: "L in Shadows",
     },
     {
       id: 4,
       imgSrc: Img4,
-      alt: "Z in Shadows by Luna Smith - Scottish art",
+      alt: "Z in Shadows",
     },
     {
       id: 5,
       imgSrc: Img5,
-      alt: "V in Shadows by Luna Smith - Scottish art",
+      alt: "V in Shadows",
     },
     {
       id: 6,
       imgSrc: Img6,
-      alt: "R in Shadows by Luna Smith - oil painting",
+      alt: "R in Shadows",
     },
     {
       id: 7,
       imgSrc: Img7,
-      alt: "O in Shadows by Luna Smith",
+      alt: "O in Shadows",
     },
     {
       id: 8,
       imgSrc: Img8,
-      alt: "M in Shadows by Luna Smith",
+      alt: "M in Shadows",
     },
     {
       id: 9,
       imgSrc: Img9,
-      alt: "J in Shadows by Luna Smith - oil painting",
+      alt: "J in Shadows",
     },
     {
       id: 10,
       imgSrc: Img10,
-      alt: "WomenNaturebyLu",
+      alt: "Women Nature",
     },
     {
       id: 11,
       imgSrc: Img11,
-      alt: "Complex Void by Luna Smith",
+      alt: "Complex Void",
     },
     {
       id: 12,
       imgSrc: Img12,
-      alt: "Edges of Joys by Luna Smith",
+      alt: "Edges of Joys",
     },
     {
       id: 13,
       imgSrc: Img13,
-      alt: "Dreams of Sorrow by Luna Smith",
+      alt: "Dreams of Sorrow",
     },
     {
       id: 14,
       imgSrc: Img14,
-      alt: "Life Architect by Luna Smith",
+      alt: "Life Architect",
     },
     {
       id: 15,
       imgSrc: Img15,
-      alt: "FlyingNaturebyLu",
+      alt: "Flying Nature",
     },
     {
       id: 16,
       imgSrc: Img16,
-      alt: "NewBeginingbyLu",
+      alt: "New Begining",
     },
     {
       id: 17,
       imgSrc: Img17,
-      alt: "OddyseybyLu",
+      alt: "Oddysey",
     },
     {
       id: 18,
       imgSrc: Img18,
-      alt: "Summer Breeze by Luna Smith",
+      alt: "Mischief",
     },
     {
       id: 19,
       imgSrc: Img19,
-      alt: "Winter Kiss by Luna Smith",
+      alt: "Summer Kiss",
     },
     {
       id: 20,
       imgSrc: Img20,
-      alt: "Ocean Breeze by Luna Smith",
+      alt: "Winter Kiss",
     },
     {
       id: 21,
       imgSrc: Img21,
-      alt: "Outside by laun Smith",
+      alt: "Summer Breeze",
     },
     {
       id: 22,
       imgSrc: Img22,
-      alt: "Inside by laun Smith",
+      alt: "Outside",
     },
     {
       id: 23,
       imgSrc: Img23,
-      alt: "PeacefulDaybyLu",
+      alt: "Inside",
     },
     {
       id: 24,
       imgSrc: Img24,
-      alt: "LifeStorybyLU",
+      alt: "Growing Up",
     },
     {
       id: 25,
       imgSrc: Img25,
-      alt: "InvisiblebyLu",
+      alt: "Fly Fly Fly",
     },
     {
       id: 26,
       imgSrc: Img26,
-      alt: "Invisible2byLu",
+      alt: "Peaceful Day",
     },
     {
       id: 27,
       imgSrc: Img27,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Butterfly",
     },
     {
       id: 28,
       imgSrc: Img28,
-      alt: "Invisible2byLu",
+      alt: "Life Story",
     },
     {
       id: 29,
       imgSrc: Img29,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Xmas",
     },
     {
       id: 30,
       imgSrc: Img30,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Invisible",
+    },
+    {
+      id: 31,
+      imgSrc: Img31,
+      alt: "Invisible 2",
+    },
+    {
+      id: 32,
+      imgSrc: Img32,
+      alt: "Invisible 3",
     },
   ];
 
-const [model, setModel] = useState(false);
-const [tempimgSrc, setTempimgSrc] = useState(``);
-const getImg = (imgSrc) => {
-  setTempimgSrc(imgSrc);
-  setModel(true);
-}
+  const [model, setModel] = useState(false);
+  const [tempimgSrc, setTempimgSrc] = useState(``);
+  const [title, setTitle] = useState(``);
+  const getImg = (imgSrc, alt) => {
+    setTempimgSrc(imgSrc);
+    setModel(true);
+    setTitle(alt);
+  }
 
   return (
     <Container>
@@ -236,13 +250,15 @@ const getImg = (imgSrc) => {
       </HomeBtnWrapper>
       </BioContainer>
       <div className={model? "model open" : "model"}>
-        <img src={tempimgSrc} alt=""/>
+      <img src={tempimgSrc} alt={title.alt}/>
+        <h2>{title}</h2>
+        <h3>Oil painting on canvas</h3>
         <CloseIconCloseUp onClick={() => setModel(false)} />
       </div>
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc)}>
+            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc, item.alt)}>
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

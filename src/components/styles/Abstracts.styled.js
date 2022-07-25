@@ -8,9 +8,7 @@ export const Container = styled.div`
   padding: 40px;
 
 
-  /*model*/
-
-.model {
+  .model {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -18,6 +16,7 @@ export const Container = styled.div`
   left: 0;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   background-color: #000;
   transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
@@ -32,18 +31,57 @@ export const Container = styled.div`
   visibility: visible;
   opacity: 1;
   transform: scale(1);
+  display: flex;
 }
 
 .model img {
  width: auto;
- max-width: 100%;
+ max-width: 90%;
  height: auto;
- max-height: 100%;
+ max-height: 80%;
  display: block;
  line-height: 0;
  box-sizing: border-box;
  padding: 20px 0 20px;
  margin: 0 auto;
+}
+
+h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+h3 {
+  color: grey;
+  font-size: 24px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+@media (max-width: 991px) {
+  h2 {
+  font-size: 28px;
+  margin-top: 18px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 18px;
+}
+}
+
+@media (max-width: 480px) {
+  
+h2 {
+  font-size: 20px;
+  margin-top: 14px;
+}
+
+h3 {
+  font-size: 14px;
+  margin-top: 14px;
+}
 }
 `;
 

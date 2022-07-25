@@ -122,6 +122,8 @@ export const CloseIcon = styled(FaTimes)`
   }
 `;
 
+
+
 export const HomeBtnWrapper = styled.div`
   margin-top: 40px;
   display: flex;

@@ -57,7 +57,8 @@ import {
   ShopBtnLink,
   HomeBtnWrapper,
   ArrowForward,
-  ArrowRight
+  ArrowRight,
+  CloseIconCloseUp
 } from "./styles/Landscapes.styled";
 
 const LandscapePage = () => {
@@ -294,6 +295,13 @@ const LandscapePage = () => {
     },
   ];
 
+  const [model, setModel] = useState(false);
+  const [tempimgSrc, setTempimgSrc] = useState(``);
+  const getImg = (imgSrc) => {
+    setTempimgSrc(imgSrc);
+    setModel(true);
+  }
+
   return (
     <Container>
       <Icon to="/">
@@ -318,10 +326,14 @@ const LandscapePage = () => {
         </ShopBtnLink >
       </HomeBtnWrapper>
       </BioContainer>
+      <div className={model? "model open" : "model"}>
+        <img src={tempimgSrc} alt=""/>
+        <CloseIconCloseUp onClick={() => setModel(false)} />
+      </div>
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index}>
+            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc)}>
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

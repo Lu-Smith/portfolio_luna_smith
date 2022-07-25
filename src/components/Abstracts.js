@@ -207,8 +207,8 @@ const AbstractsPage = () => {
     },
   ];
 
-  const [model, setModel] = useState(false);
-  const [tempimgSrc, setTempimgSrc] = useState(``);
+const [model, setModel] = useState(false);
+const [tempimgSrc, setTempimgSrc] = useState(``);
 const getImg = (imgSrc) => {
   setTempimgSrc(imgSrc);
   setModel(true);

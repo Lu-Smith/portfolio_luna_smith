@@ -194,7 +194,7 @@ const AnimalsPage = () => {
     },
   ];
 
-  const [model, setModel] = useState(false);
+const [model, setModel] = useState(false);
 const [tempimgSrc, setTempimgSrc] = useState(``);
 const getImg = (imgSrc) => {
   setTempimgSrc(imgSrc);

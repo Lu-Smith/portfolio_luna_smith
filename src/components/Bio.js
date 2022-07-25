@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Img1 from "../images/1.jpg";
 import Img2 from "../images/2.jpg";
 import Img3 from "../images/3.jpg";
@@ -29,6 +30,7 @@ import {
   BioDescription,
   Icon,
   CloseIcon,
+  CloseIconCloseUp
 } from "./styles/Bio.styled";
 
 const BioPage = () => {
@@ -135,6 +137,13 @@ const BioPage = () => {
     },
   ];
 
+const [model, setModel] = useState(false);
+const [tempimgSrc, setTempimgSrc] = useState(``);
+const getImg = (imgSrc) => {
+  setTempimgSrc(imgSrc);
+  setModel(true);
+}
+
   return (
     <Container>
       <img src={BioImg} alt="Bio Luna Smith" />
@@ -167,10 +176,14 @@ const BioPage = () => {
           level of the subject, but it also allows me to paint its soul.
         </BioDescription>
       </BioContainer>
+      <div className={model? "model open" : "model"}>
+        <img src={tempimgSrc} alt=""/>
+        <CloseIconCloseUp onClick={() => setModel(false)} />
+      </div>
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index}>
+            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc)}>
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

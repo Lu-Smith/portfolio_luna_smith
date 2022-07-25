@@ -29,7 +29,7 @@ import Img27 from "../images/fineart/landscapes/Storm Wave.jpg";
 import Img28 from "../images/fineart/landscapes/Sunrise at Elgol Beach.jpg";
 import Img29 from "../images/fineart/landscapes/Sunset at North Berwick.jpg";
 import Img30 from "../images/fineart/landscapes/Winter Breeze.jpg";
-import Img31 from "../images/fineart/landscapes/Sunset at North Berwick.jpg";
+import Img31 from "../images/fineart/landscapes/Winter Path.jpg";
 import Img32 from "../images/fineart/landscapes/The First Walk.jpg";
 import Img33 from "../images/fineart/landscapes/The Frigid Whisper of Diabaig.jpg";
 import Img34 from "../images/fineart/landscapes/The Hum of the Hollow.jpg";
@@ -43,7 +43,7 @@ import Img41 from "../images/fineart/landscapes/Sunset at the Icy River.jpg";
 import Img42 from "../images/fineart/landscapes/Winter Cottage.jpg";
 import Img43 from "../images/fineart/landscapes/Work at Sunset.jpg";
 import Img44 from "../images/fineart/landscapes/Winter in Woods.jpg";
-import Img45 from "../images/fineart/landscapes/Winter Path.jpg";
+
 
 import {
   Container,
@@ -71,235 +71,232 @@ const LandscapePage = () => {
     {
       id: 1,
       imgSrc: Img1,
-      alt: "Meri - Timeless Internal art - The Frigid Wishper of Diabaig Luna Smith",
+      alt: "Lonely Dragon by Luna Smith",
     },
     {
       id: 2,
       imgSrc: Img2,
-      alt: "The Kiss of Mother's love in Luna Smith's art studio",
+      alt: "Autumn Reflection",
     },
     {
       id: 3,
       imgSrc: Img3,
-      alt: "Blue whale by a Scottish artist Luna Smith",
+      alt: "Guardian Tree",
     },
     {
       id: 4,
       imgSrc: Img4,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Hawaiian Beach",
     },
     {
       id: 5,
       imgSrc: Img5,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Autumn Sunset",
     },
     {
       id: 6,
       imgSrc: Img6,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Icy River",
     },
     {
       id: 7,
       imgSrc: Img7,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Autmn",
     },
     {
       id: 8,
       imgSrc: Img8,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Grasslands of Arran",
     },
     {
       id: 9,
       imgSrc: Img9,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Great Canyon",
     },
     {
       id: 10,
       imgSrc: Img10,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Hello Highlands",
     },
     {
       id: 11,
       imgSrc: Img11,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Italian Alps",
     },
     {
       id: 12,
       imgSrc: Img12,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Melting Autumn Sunrise",
     },
     {
       id: 13,
       imgSrc: Img13,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Melting Blue Mountains",
     },
     {
       id: 14,
       imgSrc: Img14,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Memaid Euphony",
     },
     {
       id: 15,
       imgSrc: Img15,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Morning Dream",
     },
     {
       id: 16,
       imgSrc: Img16,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Morning Muse",
     },
     {
       id: 17,
       imgSrc: Img17,
-      alt: "A Scottish artist Luna Smith",
+      alt: "North Berwick",
     },
     {
       id: 18,
       imgSrc: Img18,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Paradise",
     },
     {
       id: 19,
       imgSrc: Img19,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Rocky Beach",
     },
     {
       id: 20,
       imgSrc: Img20,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Savannah Beach",
     },
     {
       id: 21,
       imgSrc: Img21,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Seaside Garden",
     },
     {
       id: 22,
       imgSrc: Img22,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Secret Garden",
     },
     {
       id: 23,
       imgSrc: Img23,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Shimmering Golden Trees",
     },
     {
       id: 24,
       imgSrc: Img24,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Snowy Mist",
     },
     {
       id: 25,
       imgSrc: Img25,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Snowy Mount Rainier",
     },
     {
       id: 26,
       imgSrc: Img26,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Snowy Mountain",
     },
     {
       id: 27,
       imgSrc: Img27,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Storm Wave",
     },
     {
       id: 28,
       imgSrc: Img28,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Sunrise at Elgol Beach",
     },
     {
       id: 29,
       imgSrc: Img29,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Sunset at North Berwick",
     },
     {
       id: 30,
       imgSrc: Img30,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Winter Breeze",
     },
     {
       id: 31,
       imgSrc: Img31,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Winter Path",
     },
     {
       id: 32,
       imgSrc: Img32,
-      alt: "A Scottish artist Luna Smith",
+      alt: "The First Walk",
     },
     {
       id: 33,
       imgSrc: Img33,
-      alt: "A Scottish artist Luna Smith",
+      alt: "The Frigid Whisper of Diabaig",
     },
     {
       id: 34,
       imgSrc: Img34,
-      alt: "A Scottish artist Luna Smith",
+      alt: "The Hum of the Hollow",
     },
     {
       id: 35,
       imgSrc: Img35,
-      alt: "A Scottish artist Luna Smith",
+      alt: "The Song of Glen Etive",
     },
     {
       id: 36,
       imgSrc: Img36,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Trapped in the Silent Wind",
     },
     {
       id: 37,
       imgSrc: Img37,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Viking Sunset",
     },
     {
       id: 38,
       imgSrc: Img38,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Waterfall",
     },
     {
       id: 39,
       imgSrc: Img39,
-      alt: "A Scottish artist Luna Smith",
+      alt: "When Winter meets Summer",
     },
     {
       id: 40,
       imgSrc: Img40,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Winter at the Lake",
     },
     {
       id: 41,
       imgSrc: Img41,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Sunset at the Icy River",
     },
     {
       id: 42,
       imgSrc: Img42,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Winter Cottage",
     },
     {
       id: 43,
       imgSrc: Img43,
-      alt: "A Scottish artist Luna Smith",
+      alt: "Work at Sunset",
     },
     {
       id: 44,
       imgSrc: Img44,
-      alt: "A Scottish artist Luna Smith",
-    },
-    {
-      id: 45,
-      imgSrc: Img45,
-      alt: "A Scottish artist Luna Smith",
-    },
+      alt: "Winter Woods",
+    }
   ];
 
   const [model, setModel] = useState(false);
   const [tempimgSrc, setTempimgSrc] = useState(``);
-  const getImg = (imgSrc) => {
+  const [title, setTitle] = useState(``);
+  const getImg = (imgSrc, alt) => {
     setTempimgSrc(imgSrc);
     setModel(true);
+    setTitle(alt);
   }
 
   return (
@@ -327,13 +324,15 @@ const LandscapePage = () => {
       </HomeBtnWrapper>
       </BioContainer>
       <div className={model? "model open" : "model"}>
-        <img src={tempimgSrc} alt=""/>
+        <img src={tempimgSrc} alt={title.alt}/>
+        <h2>{title}</h2>
+        <h3>Oil painting on canvas</h3>
         <CloseIconCloseUp onClick={() => setModel(false)} />
       </div>
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc)}>
+            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc, item.alt)}>
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

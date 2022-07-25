@@ -15,6 +15,7 @@ import ImgR2 from "../../images/web/3R.jpg";
 import ImgR4 from "../../images/web/4R.jpg";
 import ImgR5 from "../../images/web/6R.jpg";
 import ImgR6 from "../../images/web/5R.jpg";
+import ImgR7 from "../../images/web/7R.png";
 
 export const WebDesignsData = [
   {
@@ -107,5 +108,11 @@ export const WebDesignsData = [
     image: Img9,
     alt: "Example Shop",
     href: "https://resonant-mermaid-b21b5e.netlify.app/",
+  },
+  {
+    id: 6,
+    image: ImgR7,
+    alt: "Sroll Animations",
+    href: "https://scroll-animation-react.netlify.app/",
   },
 ];

@@ -14,6 +14,7 @@ import ImgR2 from "../images/web/3R.jpg";
 import ImgR4 from "../images/web/4R.jpg";
 import ImgR5 from "../images/web/5R.jpg";
 import ImgR6 from "../images/web/6R.jpg";
+import ImgR7 from "../images/web/7R.png";
 
 import WebBg from "../images/Webbg.jpg";
 
@@ -123,6 +124,12 @@ const WebPage = () => {
       imgSrc: ImgR6,
       alt: "Styled Component - Art Gallery",
       href: "https://example-art-gallery.netlify.app/",
+    },
+    {
+      id: 7,
+      imgSrc: ImgR7,
+      alt: "Scroll Animations",
+      href: "https://scroll-animation-react.netlify.app/",
     },
   ];
 

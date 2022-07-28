@@ -142,7 +142,7 @@ const WebPage = () => {
         <WebTitle>JavaScript</WebTitle>
         <WebDescription>
           My projects coded with JavaScript, SASS, Angular, TypeScript, Canvas, HTML, CSS, Visual
-          Studio Code, GitHub , Bootstrap, Flexbox, Photoshop and hosted on
+          Studio Code, GitHub , Bootstrap, Flexbox, Photoshop, Agile methodologies and hosted on
           Netlify.
         </WebDescription>
       </WebContainer>
@@ -166,7 +166,7 @@ const WebPage = () => {
         <WebTitle>React</WebTitle>
         <WebDescription>
           My projects coded with React, Styled Components, JavaScript, Canvas,
-          HTML, CSS, Visual Studio Code, GitHub , Bootstrap, Flexbox, Photoshop
+          HTML, CSS, Visual Studio Code, GitHub , Bootstrap, Flexbox, Photoshop, Agile methodologies
           and hosted on Netlify.
         </WebDescription>
       </WebContainer>

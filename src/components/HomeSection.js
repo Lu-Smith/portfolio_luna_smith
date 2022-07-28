@@ -39,7 +39,7 @@ const HomeSection = (bg) => {
         </ImageContainer>
         <MainContainer>
           <HomeH1>
-            Luna Smith is an artist, a web developer and illustrator.
+            Luna Smith is an artist, a web developer and an illustrator.
           </HomeH1>
           <HomeP>
             Her original artworks take inspiration from sounds, Norse Mythology,

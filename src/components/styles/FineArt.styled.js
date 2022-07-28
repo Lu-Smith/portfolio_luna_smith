@@ -3,14 +3,14 @@ import { Link as LinkR } from "react-router-dom";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const PaintingsContainer = styled.div`
-  height: 1000px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
   @media screen and (max-width: 768px) {
-    height: 1700px;
+    height: 1800px;
     padding-top: 150px;
     padding-bottom: 150px;
   }

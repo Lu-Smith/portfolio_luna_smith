@@ -25,6 +25,10 @@ export const HomeContainer = styled.div`
       linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
     z-index: 2;
   }
+
+  @media screen and (max-width: 480px) {
+    height: 850px;
+  }
 `;
 
 export const HomeBg = styled.div`
@@ -90,6 +94,7 @@ export const HomeH1 = styled.h1`
     font-size: 32px;
   }
   @media screen and (max-width: 480px) {
+    padding: 0 20px 0 20px;
     font-size: 28px;
   }
 `;

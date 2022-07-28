@@ -51,9 +51,14 @@ export const WebsiteRights = styled.small`
   color: #fff;
   margin-bottom: 16px;
 
-  @media screen and (max-width: 7860px) {
+  @media screen and (max-width: 786px) {
     margin: 0 auto;
     padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 0 20px 40px 20px;
+    text-align: center;
   }
 `;
 export const SocialIcons = styled.div`

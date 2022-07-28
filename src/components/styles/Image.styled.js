@@ -5,7 +5,7 @@ import PortfolioSmall from "../../images/portfoliosmall.jpg";
 import Portfolio1Small from "../../images/8small.jpg";
 
 export const Image = styled.img`
-  background-image: url(${({ bg }) => (bg ? Portfolio : Portfolio1)});
+  background-image: url(${({ bg }) => (bg ? Portfolio1 : Portfolio)});
   margin: 0 auto;
   border-radius: 20px;
   border: 2px solid white;
@@ -20,7 +20,7 @@ export const Image = styled.img`
     height: 361px;
   }
   @media screen and (max-width: 786px) {
-    background-image: url(${({ src }) =>(src ? PortfolioSmall : Portfolio1Small)});
+    background-image: url(${({ bg }) =>(bg ? Portfolio1Small : PortfolioSmall)});
     width: 200px;
     height: 250px;
   }

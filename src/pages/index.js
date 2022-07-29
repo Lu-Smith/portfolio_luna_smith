@@ -10,6 +10,7 @@ import {
   homeObjThree,
 } from "../components/styles/Data.styled";
 import Footer from "../components/Footer";
+import ContactFooter from "../components/ContactFooter";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +27,7 @@ const Home = () => {
       <InfoSection {...homeObjTwo} />
       <FineArt />
       <InfoSection {...homeObjThree} />
+      <ContactFooter />
       <Footer />
     </>
   );

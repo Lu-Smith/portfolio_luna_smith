@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const PaintingsContainer = styled.div`
-  height: 100px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;

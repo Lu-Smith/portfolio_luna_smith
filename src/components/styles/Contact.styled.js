@@ -11,6 +11,16 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   background: linear-gradient(to top, #09203f 0%, #537895 100%);
+
+  @media screen and (max-width: 480px) {
+   max-width: 480px;
+   margin: 0 auto;
+}
+
+  @media screen and (max-width: 400px) {
+   max-width: 390px;
+   margin: 0 auto;
+}
 `;
 
 export const FormWrap = styled.div`
@@ -49,6 +59,7 @@ export const FormContent = styled.div`
 
   @media screen and (max-width: 480px) {
     padding: 10px;
+    max-width: 100%;
   }
 `;
 
@@ -119,3 +130,6 @@ export const Textarea = styled.textarea`
   line-height: 20px;
   padding: 10px;
 `;
+
+
+

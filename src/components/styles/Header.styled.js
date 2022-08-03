@@ -137,10 +137,13 @@ export const MenuButtonLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  box-shadow: 0 4px 5px #d404fa;
   &:hover {
-    transition: all 0.2s ease-in-out;
     background: #04ecc4;
     color: #010606;
+    transform: translateY(5px);
+    box-shadow: none;
   }
 
   @media screen and (max-width: 1130px) {

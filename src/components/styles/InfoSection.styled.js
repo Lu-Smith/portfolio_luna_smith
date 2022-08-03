@@ -1,5 +1,19 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { Link as LinkR } from "react-router-dom";
+
+const rotate = keyframes`
+from {
+  transform: scale3d(1, 1, 1)  rotate(0deg);
+  opacity: 1;
+}
+to {
+  transform: scale3d(.7, .2, .7) rotate(360deg);
+  opacity: 0;
+  
+}
+`
+
+
 
 export const InfoContainer = styled.div`
   padding-top: 60px;
@@ -157,6 +171,7 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  animation: ${rotate} infinite 20s linear;
 
 
   @media screen and (max-width: 768px) {
@@ -190,8 +205,9 @@ export const MenuButtonLink = styled(LinkR)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   &:hover {
-    transition: all 0.2s ease-in-out;
     background: #04ecc4;
     color: #010606;
   }
 `;
+
+

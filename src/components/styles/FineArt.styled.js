@@ -86,14 +86,16 @@ border-radius: 20px;
 border: none;
 white-space: nowrap;
 display: flex;
-  margin: 30px auto;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.2s ease-in-out;
+margin: 30px auto;
+justify-content: center;
+align-items: center;
+transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+box-shadow: 0 4px 5px #fff;
 
 &:hover {
   background-color: red;
-  border: 2px solid red;
+  transform: translateY(5px);
+  box-shadow: none;
 }
 `;
 

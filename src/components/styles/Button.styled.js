@@ -16,9 +16,12 @@ export const Button = styled(Link)`
   margin: 30px auto;
   justify-content: center;
   align-items: center;
-  transition: all 0.2s ease-in-out;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  box-shadow: 0 4px 2px #fff;
+  max-height: 40px;
   &:hover {
-    transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? `#fff` : `#38598B`)};
+    transform: translateY(5px);
+    box-shadow: none;
+    background: ${({ primary }) => (primary ? `#fff` : `#FA9109`)};
   }
 `;

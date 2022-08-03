@@ -12,6 +12,11 @@ export const Container = styled.div`
   overflow: hidden;
   background: linear-gradient(to top, #09203f 0%, #537895 100%);
 
+  @media screen and (max-width: 600px) {
+   min-height: 400px;
+   margin: 0 auto;
+}
+
   @media screen and (max-width: 480px) {
    max-width: 480px;
    margin: 0 auto;
@@ -44,6 +49,13 @@ export const Icon = styled(Link)`
   &:hover {
     color: #35b6a0;
   }
+
+  @media screen and (max-width: 600px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
   @media screen and (max-width: 480px) {
     margin-left: 0;
     margin-top: 6px;
@@ -82,6 +94,13 @@ export const Form = styled.form`
   padding: 80px 42px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+
+  @media screen and (max-width: 600px) {
+    padding: 22px 22px;
+    margin-top: 10px;
+    max-width: 560px;
+  }
+
   @media screen and (max-width: 480px) {
     padding: 32px 32px;
     margin-top: 200px;
@@ -119,6 +138,10 @@ export const FormInput = styled.input`
   border-radius: 4px;
 
   @media screen and (max-width: 360px) {
+    padding: 12px 12px;
+  }
+
+  @media screen and (max-width: 360px) {
     padding: 10px 10px;
     margin-bottom: 22px;
   }
@@ -137,6 +160,9 @@ export const FormButton = styled.button`
   &:hover {
     background: #35b6a0;
     color: black;
+  }
+  @media screen and (max-width: 60px) {
+    padding: 12px 0;
   }
 
   @media screen and (max-width: 360px) {
@@ -157,10 +183,14 @@ export const Textarea = styled.textarea`
   line-height: 20px;
   padding: 10px;
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 600px) {
   height: 250px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 18px;
+  }
+
+  @media screen and (max-width: 360px) {
+  font-size: 12px;
   }
 `;
 

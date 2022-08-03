@@ -7,6 +7,8 @@ import Img6 from "../images/web/7.jpg";
 import Img7 from "../images/web/6.jpg";
 import Img8 from "../images/web/8.png";
 import Img9 from "../images/web/9.png";
+import Img10 from "../images/web/10.jpg";
+import Img11 from "../images/web/11.jpg";
 
 import ImgR1 from "../images/web/1R.jpg";
 import ImgR3 from "../images/web/2R.jpg";
@@ -86,6 +88,18 @@ const WebPage = () => {
       alt: "Example Shop",
       href: "https://resonant-mermaid-b21b5e.netlify.app/",
     },
+    {
+      id: 10,
+      imgSrc: Img10,
+      alt: "JS Animations",
+      href: "https://js-animations-luna-smith.netlify.app/",
+    },
+    {
+      id: 11,
+      imgSrc: Img11,
+      alt: "JS Scroll Animation",
+      href: "https://js-scroll-animation-luna-smith.netlify.app/",
+    }
   ];
 
   let reactdata = [

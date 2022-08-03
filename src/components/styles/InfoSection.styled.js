@@ -3,12 +3,12 @@ import { Link as LinkR } from "react-router-dom";
 
 const rotate = keyframes`
 from {
-  transform: scale3d(1, 1, 1)  rotate(0deg);
+  transform: scale3d(.7, .2, .7)  rotate(0deg);
   opacity: 1;
 }
 to {
-  transform: scale3d(.7, .2, .7) rotate(360deg);
-  opacity: 0;
+  transform: scale3d(1, 1, 1) rotate(360deg);
+  opacity: 0.2;
   
 }
 `

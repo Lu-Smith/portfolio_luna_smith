@@ -12,6 +12,21 @@ import Img11 from "../../images/soundoflife/11.jpg";
 import Img12 from "../../images/soundoflife/12.jpg";
 import Img13 from "../../images/soundoflife/13.jpg";
 import Img14 from "../../images/soundoflife/14.jpg";
+import Img15 from "../../images/soundoflife/15.jpg";
+import Img16 from "../../images/soundoflife/16.jpg";
+import Img17 from "../../images/soundoflife/17.jpg";
+import Img18 from "../../images/soundoflife/18.jpg";
+import Img19 from "../../images/soundoflife/19.jpg";
+import Img20 from "../../images/soundoflife/20.jpg";
+import Img21 from "../../images/soundoflife/21.jpg";
+import Img22 from "../../images/soundoflife/22.jpg";
+import Img23 from "../../images/soundoflife/23.jpg";
+import Img24 from "../../images/soundoflife/24.jpg";
+import Img25 from "../../images/soundoflife/25.jpg";
+import Img26 from "../../images/soundoflife/26.jpg";
+import Img27 from "../../images/soundoflife/27.jpg";
+import Img28 from "../../images/soundoflife/28.jpg";
+import Img29 from "../../images/soundoflife/29.jpg";
 
 export const ArtGalleryData = [
   {
@@ -69,5 +84,65 @@ export const ArtGalleryData = [
   {
     image: Img14,
     alt: `Warriors, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img15,
+    alt: `Curiosity, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img16,
+    alt: `Pianist, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img17,
+    alt: `Water Goddess, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img18,
+    alt: `Saxophone, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img19,
+    alt: `Jazz, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img20,
+    alt: `Pastel Violin, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img21,
+    alt: `Dancer, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img22,
+    alt: `Piano, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img23,
+    alt: `Violin, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img24,
+    alt: `Icy Dancer, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img25,
+    alt: `Morning, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img26,
+    alt: `Fear, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img27,
+    alt: `Flute, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img28,
+    alt: `Trumpet, Sound of Life by Luna Smith`,
+  },
+  {
+    image: Img29,
+    alt: `Jump, Sound of Life by Luna Smith`,
   },
 ];

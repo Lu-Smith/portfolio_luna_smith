@@ -25,6 +25,7 @@ export const homeObjOne = {
   darkText: false,
   maindescription: `Sound of Life`,
   slides: ArtGalleryData,
+  link: "soundoflife",
 };
 
 export const homeObjTwo = {
@@ -47,6 +48,7 @@ export const homeObjTwo = {
   darkText: true,
   maindescription: `My Projects`,
   slides: WebDesignsData,
+  link: "/web",
 };
 
 export const homeObjThree = {
@@ -69,4 +71,5 @@ export const homeObjThree = {
   darkText: true,
   maindescription: `Digital art`,
   slides: IllustrationsData,
+  link: "/digitalart",
 };

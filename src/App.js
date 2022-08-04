@@ -9,6 +9,7 @@ import Landscapes from "./pages/landscapes";
 import Abstracts from "./pages/abstracts";
 import Nott from "./pages/nott";
 import Animals from "./pages/animals";
+import SoundofLife from "./pages/soundoflife";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -40,6 +41,7 @@ function App() {
           <Route path="/abstracts" element={<Abstracts />} />
           <Route path="/nott" element={<Nott />} />
           <Route path="/animals" element={<Animals />} />
+          <Route path="/soundoflife" element={<SoundofLife />} />
         </Routes>
       </Router>
     </ThemeProvider>

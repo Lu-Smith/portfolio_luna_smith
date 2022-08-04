@@ -120,6 +120,10 @@ export const FormH1 = styled.h1`
   font-weight: 400;
   text-align: center;
 
+  @media screen and (max-width: 600px) {
+    margin-bottom: 30px;
+  }
+
   @media screen and (max-width: 360px) {
     margin-bottom: 20px;
   }
@@ -136,6 +140,11 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
+
+  @media screen and (max-width: 600px) {
+    padding: 14px 14px;
+    max-width: 280px;
+  }
 
   @media screen and (max-width: 360px) {
     padding: 12px 12px;

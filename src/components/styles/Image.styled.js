@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Portfolio from "../../images/portfolio.jpg";
-import Portfolio1 from "../../images/8.jpg";
+import Portfolio1 from "../../images/artstudio/8.jpg";
 import PortfolioSmall from "../../images/portfoliosmall.jpg";
-import Portfolio1Small from "../../images/8small.jpg";
+import Portfolio1Small from "../../images/artstudio/8small.jpg";
 
 export const Image = styled.img`
   background-image: url(${({ bg }) => (bg ? Portfolio1 : Portfolio)});

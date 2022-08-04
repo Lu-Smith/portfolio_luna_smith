@@ -43,6 +43,7 @@ const InfoSection = ({
   more,
   sideId,
   slides,
+  link
 }) => {
   return (
     <>
@@ -70,7 +71,9 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
+                <a href={link}>
                 <Img src={img} alt={alt} />
+                </a>
               </ImgWrap>
             </Column2>
           </InfoRow>

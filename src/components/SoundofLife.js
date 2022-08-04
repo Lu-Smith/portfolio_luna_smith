@@ -44,7 +44,7 @@ import {
   ArrowForward,
   ArrowRight,
   CloseIconCloseUp
-} from "./styles/Landscapes.styled";
+} from "./styles/SoundofLife.styled";
 
 const SoundofLifePage = () => {
   const [hover, setHover] = useState(false);

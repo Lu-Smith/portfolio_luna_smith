@@ -1,11 +1,54 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
+const rotateImages = keyframes`
+  0% {
+    transform: scale3d(1, 1, 1)  rotate(0deg);
+    opacity: 1;
+  }
+  30% {
+    transform: scale3d(.9, 1, .7) rotate(20deg);
+    opacity: 0.9;
+  }
+  60% {
+    transform: scale3d(.7, 1, .9) rotate(-20deg);
+    opacity: 1;
+  }
+  80% {
+    transform: scale3d(1, 1, 1) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale3d(1, 1, 1) rotate(0deg);
+    opacity: 1;
+  }
+`
+
+const backgroundChange = keyframes`
+ 0% {
+  background: #1d1d1b;
+  }
+  30% {
+    background: #ffcbcb;
+  }
+  60% {
+    background: #000;
+  }
+  80% {
+    background: #ffcbcb;
+  }
+  100% {
+    background: #1d1d1b;
+  }
+`
+
+
 export const Container = styled.div`
   background: #1d1d1b;
   padding: 40px;
+  animation: ${backgroundChange} 60s infinite linear;
 
      /*model*/
 
@@ -33,6 +76,7 @@ export const Container = styled.div`
   opacity: 1;
   transform: scale(1);
   display: flex;
+  animation: ${rotateImages} infinite 10s ease-in-out;
 }
 
 .model img {
@@ -45,6 +89,8 @@ export const Container = styled.div`
  box-sizing: border-box;
  padding: 20px 0 20px;
  margin: 0 auto;
+ 
+ 
 }
 
 h2 {

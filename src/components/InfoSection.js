@@ -71,7 +71,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <a href={link}>
+                <a href={link} spy="true">
                 <Img src={img} alt={alt} />
                 </a>
               </ImgWrap>
@@ -83,7 +83,9 @@ const InfoSection = ({
           id={sideId}
           style={{ backgroundImage: `url(${ArtGalleryBg})` }}
         >
-          <Description>{maindescription}</Description>
+          <Description>
+            <a href={link} spy="true">
+            {maindescription}</a></Description>
           <ArtGalleryWrap>
             <ArtGallery slides={slides} />
           </ArtGalleryWrap>

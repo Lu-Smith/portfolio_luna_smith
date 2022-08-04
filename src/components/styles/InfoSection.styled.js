@@ -62,6 +62,17 @@ export const MainDescription = styled.div`
   background: ${({ lightBg }) => (lightBg ? `#F7BDCB` : `#212529`)};
   border-radius: 10px;
 
+  a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 200ms all ease-in-out;
+  }
+
+  a:hover {
+    color: #03B4DA;
+  }
+
   @media screen and (max-width: 768px) {
     height: 600px;
   }

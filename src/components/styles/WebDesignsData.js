@@ -13,11 +13,12 @@ import Img11 from "../../images/web/11.jpg";
 
 import ImgR1 from "../../images/web/1R.jpg";
 import ImgR3 from "../../images/web/2R.jpg";
-import ImgR2 from "../../images/web/3R.jpg";
+import ImgR7 from "../../images/web/3R.jpg";
 import ImgR4 from "../../images/web/4R.jpg";
 import ImgR5 from "../../images/web/6R.jpg";
 import ImgR6 from "../../images/web/5R.jpg";
-import ImgR7 from "../../images/web/7R.png";
+import ImgR8 from "../../images/web/7R.png";
+import ImgR2 from "../../images/web/8R.jpg";
 
 export const WebDesignsData = [
   {
@@ -84,8 +85,8 @@ export const WebDesignsData = [
   {
     id: 11,
     image: ImgR2,
-    alt: "Music App",
-    href: "https://music-app-luna-smith.netlify.app/",
+    alt: "Recipe App",
+    href: "https://recipe-app-react-luna-smith.netlify.app/",
   },
   {
     id: 10,
@@ -126,6 +127,12 @@ export const WebDesignsData = [
   {
     id: 16,
     image: ImgR7,
+    alt: "Music App",
+    href: "https://music-app-luna-smith.netlify.app/",
+  },
+  {
+    id: 17,
+    image: ImgR8,
     alt: "Sroll Animations",
     href: "https://scroll-animation-react.netlify.app/",
   },

@@ -11,12 +11,13 @@ import Img10 from "../images/web/10.jpg";
 import Img11 from "../images/web/11.jpg";
 
 import ImgR1 from "../images/web/1R.jpg";
-import ImgR3 from "../images/web/2R.jpg";
+import ImgR8 from "../images/web/2R.jpg";
 import ImgR2 from "../images/web/3R.jpg";
 import ImgR4 from "../images/web/4R.jpg";
 import ImgR5 from "../images/web/5R.jpg";
 import ImgR6 from "../images/web/6R.jpg";
 import ImgR7 from "../images/web/7R.png";
+import ImgR3 from "../images/web/8R.jpg";
 
 import WebBg from "../images/Webbg.jpg";
 
@@ -117,10 +118,11 @@ const WebPage = () => {
     },
     {
       id: 3,
-      imgSrc: ImgR2,
-      alt: "Music App",
-      href: "https://music-app-luna-smith.netlify.app/",
+      imgSrc: ImgR8,
+      alt: "Recipe App",
+      href: "https://recipe-app-react-luna-smith.netlify.app/",
     },
+   
     {
       id: 4,
       imgSrc: ImgR4,
@@ -130,8 +132,8 @@ const WebPage = () => {
     {
       id: 5,
       imgSrc: ImgR5,
-      alt: "Styled Component - Community",
-      href: "https://community-fans.netlify.app/",
+      alt: "Art World",
+      href: "https://example-art-gallery.netlify.app/",
     },
     {
       id: 6,
@@ -144,6 +146,13 @@ const WebPage = () => {
       imgSrc: ImgR7,
       alt: "Scroll Animations",
       href: "https://scroll-animation-react.netlify.app/",
+    },
+  
+    {
+      id: 8,
+      imgSrc: ImgR2,
+      alt: "Music App",
+      href: "https://music-app-luna-smith.netlify.app/",
     },
   ];
 

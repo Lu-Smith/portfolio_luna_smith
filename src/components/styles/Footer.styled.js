@@ -9,8 +9,8 @@ export const FooterContainer = styled.footer`
 export const FooterWrap = styled.div`
   padding: 48px 24px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   max-width: 1100px;
   margin: 0 auto;
@@ -28,32 +28,25 @@ export const SocialMedia = styled.section`
 export const SocialMediaWrap = styled.div`
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
-  margin: 40px auto 0 auto;
-  @media screen and (max-width: 820px) {
+  margin: 0 auto;
+  @media screen and (max-width: 920px) {
     flex-direction: column;
   }
 `;
 
 export const SocialLogo = styled(Link)`
-  color: #fff;
-  justify-self: start;
   cursor: pointer;
-  text-decoration: none;
-  font-size: 1.5rem;
-  display: flex;
   align-items: center;
-  margin-bottom: 16px;
-  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 20px;
 `;
 
 export const WebsiteRights = styled.small`
   color: #fff;
-  margin-bottom: 16px;
+  margin-top: 30px;
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 920px) {
     margin: 0 auto;
-    padding-bottom: 50px;
   }
 
   @media screen and (max-width: 480px) {
@@ -76,6 +69,7 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
   color: #ffff;
   font-size: 24px;
+  margin-top: 20px;
 `;
 
 export const Portfolio = styled.a`

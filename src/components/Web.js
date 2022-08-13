@@ -18,6 +18,7 @@ import ImgR5 from "../images/web/5R.jpg";
 import ImgR6 from "../images/web/6R.jpg";
 import ImgR7 from "../images/web/7R.png";
 import ImgR3 from "../images/web/8R.jpg";
+import ImgR9 from "../images/web/9R.jpg";
 
 import WebBg from "../images/Webbg.jpg";
 
@@ -147,12 +148,17 @@ const WebPage = () => {
       alt: "Scroll Animations",
       href: "https://scroll-animation-react.netlify.app/",
     },
-  
     {
       id: 8,
       imgSrc: ImgR2,
       alt: "Music App",
       href: "https://music-app-luna-smith.netlify.app/",
+    },
+    {
+      id: 9,
+      imgSrc: ImgR9,
+      alt: "React TypeScript PawHub",
+      href: "https://pawhub-react-typescript.netlify.app/",
     },
   ];
 

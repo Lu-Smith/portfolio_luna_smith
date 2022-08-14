@@ -20,6 +20,7 @@ import ImgR6 from "../../images/web/5R.jpg";
 import ImgR8 from "../../images/web/7R.png";
 import ImgR2 from "../../images/web/8R.jpg";
 import ImgR9 from "../../images/web/9R.jpg";
+import ImgR10 from "../../images/web/10R.jpg";
 
 export const WebDesignsData = [
   {
@@ -142,5 +143,11 @@ export const WebDesignsData = [
     image: ImgR9,
     alt: "React TypeScript PawHub",
     href: "https://pawhub-react-typescript.netlify.app/",
+  },
+  {
+    id: 19,
+    image: ImgR10,
+    alt: "Restaurant Reservations TypeScript Redux",
+    href: "https://restaurant-reservation-order.netlify.app/",
   },
 ];

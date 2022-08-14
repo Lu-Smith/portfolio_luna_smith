@@ -19,6 +19,7 @@ import ImgR6 from "../images/web/6R.jpg";
 import ImgR7 from "../images/web/7R.png";
 import ImgR3 from "../images/web/8R.jpg";
 import ImgR9 from "../images/web/9R.jpg";
+import ImgR10 from "../images/web/10R.jpg";
 
 import WebBg from "../images/Webbg.jpg";
 
@@ -159,6 +160,12 @@ const WebPage = () => {
       imgSrc: ImgR9,
       alt: "React TypeScript PawHub",
       href: "https://pawhub-react-typescript.netlify.app/",
+    },
+    {
+      id: 9,
+      imgSrc: ImgR10,
+      alt: "Restaurant Reservations TypeScript Redux",
+      href: "https://restaurant-reservation-order.netlify.app/",
     },
   ];
 

@@ -140,8 +140,8 @@ const WebPage = () => {
     {
       id: 6,
       imgSrc: ImgR6,
-      alt: "Styled Component - Art Gallery",
-      href: "https://example-art-gallery.netlify.app/",
+      alt: "Bubble - community space",
+      href: "https://community-fans.netlify.app/",
     },
     {
       id: 7,

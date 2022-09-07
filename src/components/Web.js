@@ -20,6 +20,7 @@ import ImgR7 from "../images/web/7R.png";
 import ImgR3 from "../images/web/8R.jpg";
 import ImgR9 from "../images/web/9R.jpg";
 import ImgR10 from "../images/web/10R.jpg";
+import ImgR11 from "../images/web/11R.jpg";
 
 import WebBg from "../images/Webbg.jpg";
 
@@ -162,10 +163,16 @@ const WebPage = () => {
       href: "https://pawhub-react-typescript.netlify.app/",
     },
     {
-      id: 9,
+      id: 10,
       imgSrc: ImgR10,
-      alt: "Restaurant Reservations TypeScript Redux",
+      alt: "Restaurant Reservations - TypeScript/Redux",
       href: "https://restaurant-reservation-order.netlify.app/",
+    },
+    {
+      id: 11,
+      imgSrc: ImgR11,
+      alt: "Todo List - TypeScript/Redux",
+      href: "https://todo-list-react-redux-typescript.netlify.app/",
     },
   ];
 
@@ -175,35 +182,10 @@ const WebPage = () => {
         <CloseIcon />
       </Icon>
       <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
-        <WebTitle>JavaScript</WebTitle>
-        <WebDescription>
-          My projects coded with JavaScript, SASS, Angular, TypeScript, Canvas, HTML, CSS, Visual
-          Studio Code, GitHub , Bootstrap, Flexbox, Photoshop, Agile methodologies and hosted on
-          Netlify.
-        </WebDescription>
-      </WebContainer>
-      <GalleryContainer>
-        {jsdata.map((item, index) => {
-          return (
-            <GalleryWrap key={index}>
-              <a href={item.href} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={item.imgSrc}
-                  alt={item.alt}
-                  style={{ width: `100%` }}
-                />
-                <h1>{item.alt}</h1>
-              </a>
-            </GalleryWrap>
-          );
-        })}
-      </GalleryContainer>
-      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
         <WebTitle>React</WebTitle>
         <WebDescription>
-          My projects coded with React, Styled Components, JavaScript, Canvas,
-          HTML, CSS, Visual Studio Code, GitHub , Bootstrap, Flexbox, Photoshop, Agile methodologies
-          and hosted on Netlify.
+          My projects coded with React, Styled Components, Redux, TypeScript, JavaScript, 
+          HTML, CSS, Bootstrap, Photoshop, Visual Studio Code and GitHub.
         </WebDescription>
       </WebContainer>
       <GalleryContainer>
@@ -222,6 +204,30 @@ const WebPage = () => {
           );
         })}
       </GalleryContainer>
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
+        <WebTitle>JavaScript</WebTitle>
+        <WebDescription>
+          My projects coded with JavaScript, SASS, Angular, TypeScript, Canvas, HTML, CSS, Bootstrap, Flexbox, Photoshop, Visual
+          Studio Code and GitHub.
+        </WebDescription>
+      </WebContainer>
+      <GalleryContainer>
+        {jsdata.map((item, index) => {
+          return (
+            <GalleryWrap key={index}>
+              <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={item.imgSrc}
+                  alt={item.alt}
+                  style={{ width: `100%` }}
+                />
+                <h1>{item.alt}</h1>
+              </a>
+            </GalleryWrap>
+          );
+        })}
+      </GalleryContainer>
+ 
     </Container>
   );
 };

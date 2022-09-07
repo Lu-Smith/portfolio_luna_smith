@@ -21,6 +21,7 @@ import ImgR8 from "../../images/web/7R.png";
 import ImgR2 from "../../images/web/8R.jpg";
 import ImgR9 from "../../images/web/9R.jpg";
 import ImgR10 from "../../images/web/10R.jpg";
+import ImgR11 from "../../images/web/11R.jpg";
 
 export const WebDesignsData = [
   {
@@ -91,63 +92,69 @@ export const WebDesignsData = [
     href: "https://recipe-app-react-luna-smith.netlify.app/",
   },
   {
-    id: 10,
+    id: 12,
     image: Img3,
     alt: "Weather App",
     href: "https://celadon-cobbler-675e8d.netlify.app/",
   },
   {
-    id: 11,
+    id: 13,
     image: Img4,
     alt: "Text Animation",
     href: "https://code-letter-javascript-animation.netlify.app/",
   },
   {
-    id: 12,
+    id: 14,
     image: Img7,
     alt: "SASS - my first website",
     href: "https://sass-my-first-website.netlify.app/",
   },
   {
-    id: 13,
+    id: 15,
     image: Img8,
     alt: "Team Generator",
     href: "https://elaborate-caramel-f27ed1.netlify.app/",
   },
   {
-    id: 14,
+    id: 16,
     image: Img1,
     alt: "My first website",
     href: "https://www.shecodes.io/workshops/shecodes-basics-57e94c3e-366c-4503-ab78-e964ad540d88/projects/812937",
   },
   {
-    id: 15,
+    id: 17,
     image: Img9,
     alt: "Example Shop",
     href: "https://resonant-mermaid-b21b5e.netlify.app/",
   },
   {
-    id: 16,
+    id: 18,
     image: ImgR7,
     alt: "Music App",
     href: "https://music-app-luna-smith.netlify.app/",
   },
   {
-    id: 17,
+    id: 19,
     image: ImgR8,
     alt: "Sroll Animations",
     href: "https://scroll-animation-react.netlify.app/",
   },
   {
-    id: 18,
+    id: 20,
     image: ImgR9,
     alt: "React TypeScript PawHub",
     href: "https://pawhub-react-typescript.netlify.app/",
   },
   {
-    id: 19,
+    id: 21,
     image: ImgR10,
-    alt: "Restaurant Reservations TypeScript Redux",
+    alt: "Restaurant Reservations - TypeScript Redux",
     href: "https://restaurant-reservation-order.netlify.app/",
+  },
+  {
+    id: 22,
+    image: ImgR11,
+    alt: "Todo List - TypeScript Redux",
+    href: "https://todo-list-react-redux-typescript.netlify.app/",
   },
 ];

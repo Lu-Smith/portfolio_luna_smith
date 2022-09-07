@@ -36,7 +36,10 @@ export const homeObjTwo = {
   lightTextDesc: true,
   topLine: `Web Designs`,
   headline: `Web Developer`,
-  description: `I started coding with SheCodes in April 2022. I completed SheCodes Basics, SheCodes Plus ,and SheCodes React. I have knowledge of HTML, CSS, JavaScript, Canvas, React, Styled Elements, Visual Studio Code, Sandbox, API, GitHub, Bootstrap, Flexbox, Responsive websites and Hosting. I am enjoying coding and designing websites. Currently I am looking for a job a React developer.`,
+  description: `I started coding SheCodes where I completed various courses including SheCodes React. I
+  worked on interesting and challenging projects with HTML, CSS, JavaScript, TypeScript, Canvas, React, Redux, Styled
+  Components, Bootstrap, Flexbox, Responsive websites, PHP, Visual Studio Code, Sandbox, API, GitHub and Agile Methodologies, and Hosting. I am enjoying coding, problem-solving, animations, and
+  designing websites. I am looking forward to collaboration with web developers and clients.`,
   buttonLabel: `More`,
   more: `/web`,
   buttonLabelHome: `Home`,

@@ -79,7 +79,7 @@ const WebPage = () => {
       id: 7,
       imgSrc: Img7,
       alt: "Follow me",
-      href: "https://follow-me-javascript-dots-animation.netlify.app/",
+      href: "https://canvas-project-js.netlify.app/",
     },
     {
       id: 8,

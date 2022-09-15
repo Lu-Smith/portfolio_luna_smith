@@ -102,8 +102,8 @@ const WebPage = () => {
     {
       id: 11,
       imgSrc: Img11,
-      alt: "JS Scroll Animation",
-      href: "https://js-scroll-animation-luna-smith.netlify.app/",
+      alt: "JS Text Animations",
+      href: "https://ephemeral-bienenstitch-24f392.netlify.app/",
     },
     {
       id: 12,

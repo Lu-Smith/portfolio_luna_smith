@@ -1,31 +1,34 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
+import { Link as LinkS } from "react-scroll";
 
 export const Container = styled.div`
-  background: #000;
+  background: #f5f9ee;
   padding: 40px;
 `;
 
 export const GalleryContainer = styled.div`
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 33%;
-  -moz-column-width: 33%;
-  column-width: 33%;
-  padding: 0 12px;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-width: 25%;
+  -moz-column-width: 25%;
+  column-width: 25%;
+  padding: 2px 100px;
 
   @media (max-width: 991px) {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+    padding: 0 50px;
   }
 
   @media (max-width: 480px) {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
+    padding: 0 10px;
   }
 `;
 
@@ -89,7 +92,8 @@ export const GalleryWrap = styled.div`
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin: 6%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 
   a {
     text-decoration: none;
@@ -101,6 +105,7 @@ export const GalleryWrap = styled.div`
   h1 {
     font-size: 19px;
     padding: 20px;
+    background-color: #bea15b;
   }
   @media screen and (max-width: 786px) {
     h1 {
@@ -115,7 +120,8 @@ export const GalleryWrap = styled.div`
   }
   &:hover {
     filter: opacity(0.8);
-    padding: 10px;
+    transform: scale(105%);
+    box-shadow: none;
   }
 `;
 
@@ -139,4 +145,60 @@ export const CloseIcon = styled(FaTimes)`
     color: #04e2d7;
     transition: 0.2 s ease-in-out;
   }
+`;
+
+export const Header = styled.div`
+  margin: 20px 40px 60px 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+`;
+
+export const JavaScriptProjects = styled(LinkS)`
+padding: 10px 15px;
+font-size: 26px;
+border-radius: 20px;
+cursor: pointer;
+color: black;
+
+&:hover {
+  color: #bea15b;
+}
+`;
+
+export const ReactProjects = styled(LinkS)`
+font-size: 26px;
+padding: 10px 15px;
+border-radius: 20px;
+cursor: pointer;
+color: black;
+
+&:hover {
+  color: #bea15b;
+}
+`;
+
+export const AllProjects = styled(LinkS)`
+font-size: 26px;
+padding: 10px 15px;
+border-radius: 20px;
+cursor: pointer;
+color: black;
+
+&:hover {
+  color: #bea15b;
+}
+`;
+
+export const AnimationsProjects = styled(LinkS)`
+font-size: 26px;
+padding: 10px 15px;
+border-radius: 20px;
+cursor: pointer;
+color: black;
+
+&:hover {
+  color: #bea15b;
+}
 `;

@@ -53,8 +53,8 @@ export const WebDesignsData = [
   {
     id: 5,
     image: Img5,
-    alt: "Rainining Image",
-    href: "https://magical-biscuit-4ef62b.netlify.app/",
+    alt: "Pixel Rain Images",
+    href: "https://pixel-rain.netlify.app/",
   },
   {
     id: 6,
@@ -101,8 +101,8 @@ export const WebDesignsData = [
   {
     id: 13,
     image: Img4,
-    alt: "Text Animation",
-    href: "https://code-letter-javascript-animation.netlify.app/",
+    alt: "Mandala Shapes",
+    href: "https://mandala-shapes.netlify.app/",
   },
   {
     id: 14,

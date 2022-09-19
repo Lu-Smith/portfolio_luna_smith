@@ -52,7 +52,7 @@ const HomeSection = (bg) => {
             <Button
               onMouseEnter={onHover}
               onMouseLeave={onHover}
-              to="projects"
+              to="webdesigns"
               primary="true"
               dark="true"
               smooth="true"

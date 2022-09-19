@@ -38,7 +38,8 @@ import {
   AnimationsProjects,
   JavaScriptProjects,
   ReactProjects,
-  AllProjects
+  AllProjects, 
+  HomeButton,
 } from "./styles/Web.styled";
 
 const WebPage = () => {
@@ -379,7 +380,7 @@ const WebPage = () => {
       <Icon to="/">
         <CloseIcon />
       </Icon>
-      <Header>
+      <Header id="header">
         <AllProjects
          to="allprojects"
          smooth="true"
@@ -437,6 +438,16 @@ const WebPage = () => {
           );
         })}
       </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
       <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
         <WebTitle id="reactprojects">React</WebTitle>
         <WebDescription>
@@ -460,6 +471,16 @@ const WebPage = () => {
           );
         })}
       </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
       <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
         <WebTitle id="jsprojects">JavaScript</WebTitle>
         <WebDescription>
@@ -483,10 +504,20 @@ const WebPage = () => {
           );
         })}
       </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
       <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
         <WebTitle id="animationsprojects">Animations</WebTitle>
         <WebDescription>
-          My cool animations made with JavaScript and canvas.
+          My cool animations created with JavaScript and canvas.
         </WebDescription>
       </WebContainer>
       <GalleryContainer>
@@ -505,6 +536,16 @@ const WebPage = () => {
           );
         })}
       </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
  
     </Container>
   );

@@ -202,3 +202,26 @@ color: black;
   color: #bea15b;
 }
 `;
+
+export const HomeButton = styled(LinkS)`
+text-align: center;
+margin: 0 auto;
+display: block;
+margin-top: 50px;
+background-color:  #bea15b;
+width: 20%;
+font-size: 26px;
+padding: 10px 15px;
+border-radius: 20px;
+cursor: pointer;
+color: white;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+transition: all 200ms ease-in-out;
+
+&:hover {
+  color: #bea15b;
+  background-color: white;
+  box-shadow: none;
+  transform: translateY(5px);
+}
+`;

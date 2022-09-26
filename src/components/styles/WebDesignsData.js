@@ -10,6 +10,7 @@ import Img9 from "../../images/web/9.png";
 import Img10 from "../../images/web/10.jpg";
 import Img11 from "../../images/web/11.jpg";
 import Img12 from "../../images/web/12.jpg";
+import Img13 from "../../images/web/13.jpg";
 
 
 import ImgR1 from "../../images/web/1R.jpg";
@@ -163,5 +164,11 @@ export const WebDesignsData = [
     image: Img12,
     alt: "Play with CANVAS",
     href: "https://multiple-canvases-js.netlify.app/",
+  },
+  {
+    id: 24,
+    image: Img13,
+    alt: "Just for FUN",
+    href: "https://just-for-fun-js.netlify.app/",
   },
 ];

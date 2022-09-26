@@ -11,6 +11,7 @@ import Img10 from "../images/web/10.jpg";
 import Img11 from "../images/web/11.jpg";
 import Img12 from "../images/web/12.jpg";
 import Img13 from "../images/web/13.jpg";
+import Img14 from "../images/web/14.jpg";
 
 import ImgR1 from "../images/web/1R.jpg";
 import ImgR8 from "../images/web/2R.jpg";
@@ -120,9 +121,15 @@ const WebPage = () => {
     },
     {
       id: 13,
-      imgSrc: Img12,
+      imgSrc: Img13,
       alt: "Just for FUN",
       href: "https://just-for-fun-js.netlify.app/",
+    },
+    {
+      id: 14,
+      imgSrc: Img14,
+      alt: "Matrix",
+      href: "https://matrix-js.netlify.app/",
     }
   ];
 
@@ -340,6 +347,12 @@ const WebPage = () => {
       alt: "Just for FUN",
       href: "https://just-for-fun-js.netlify.app/",
     },
+    {
+      id: 25,
+      imgSrc: Img14,
+      alt: "Matrix",
+      href: "https://matrix-js.netlify.app/",
+    },
    
   ];
   let animationsdata = [
@@ -385,7 +398,13 @@ const WebPage = () => {
       imgSrc: Img12,
       alt: "Play with CANVAS",
       href: "https://multiple-canvases-js.netlify.app/",
-    }
+    },
+    {
+      id: 7,
+      imgSrc: Img14,
+      alt: "Matrix",
+      href: "https://matrix-js.netlify.app/",
+    },
   ];
 
   return (

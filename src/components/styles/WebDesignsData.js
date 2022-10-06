@@ -12,6 +12,9 @@ import Img11 from "../../images/web/11.jpg";
 import Img12 from "../../images/web/12.jpg";
 import Img13 from "../../images/web/13.jpg";
 import Img14 from "../../images/web/14.jpg";
+import Img15 from "../../images/web/15.jpg";
+import Img16 from "../../images/web/16.jpg";
+
 
 
 import ImgR1 from "../../images/web/1R.jpg";
@@ -177,5 +180,17 @@ export const WebDesignsData = [
     image: Img14,
     alt: "Matrix",
     href: "https://matrix-js.netlify.app/",
+  },
+  {
+    id: 26,
+    image: Img15,
+    alt: "Rock Paper Scissors",
+    href: "https://rockpaperscissors-fun-game.netlify.app/",
+  },
+  {
+    id: 27,
+    image: Img16,
+    alt: "Memory Game",
+    href: "https://memory-game-crypto-coo.netlify.app/",
   },
 ];

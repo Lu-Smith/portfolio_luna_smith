@@ -23,15 +23,22 @@ import Img22 from "../../images/illustrations/characters/bee.png";
 import Img23 from "../../images/illustrations/characters/black cat.png";
 import Img24 from "../../images/illustrations/characters/ghosts.png";
 import Img25 from "../../images/illustrations/characters/halloween cat.png";
-import Img26 from "../../images/illustrations/characters/mole1.png";
-import Img27 from "../../images/illustrations/characters/mole2.png";
-import Img28 from "../../images/illustrations/characters/mole3.png";
-import Img29 from "../../images/illustrations/characters/mole4.png";
-import Img30 from "../../images/illustrations/items/apple.png";
-import Img31 from "../../images/illustrations/items/apple2.png";
-import Img32 from "../../images/illustrations/items/bananas.png";
-import Img33 from "../../images/illustrations/items/rock.png";
-import Img34 from "../../images/illustrations/items/halloween pumpkin.png";
+import Img26 from "../../images/illustrations/characters/elephant.png";
+import Img27 from "../../images/illustrations/characters/giraffe.png";
+import Img28 from "../../images/illustrations/characters/jellyfish.png";
+import Img29 from "../../images/illustrations/characters/moles.png";
+import Img30 from "../../images/illustrations/characters/monkey.png";
+import Img31 from "../../images/illustrations/characters/owl.png";
+import Img32 from "../../images/illustrations/characters/parrot.png";
+import Img33 from "../../images/illustrations/characters/puppy.png";
+import Img34 from "../../images/illustrations/characters/queen.png";
+import Img35 from "../../images/illustrations/characters/snake.png";
+import Img36 from "../../images/illustrations/characters/turtle.png";
+import Img37 from "../../images/illustrations/characters/zebra.png";
+import Img38 from "../../images/illustrations/items/fruits.png";
+import Img39 from "../../images/illustrations/items/things.png";
+import Img40 from "../../images/illustrations/items/things1.png";
+
 
 
 
@@ -139,38 +146,62 @@ export const IllustrationsData = [
   },
   {
     image: Img26,
-    alt: `Mole- Illustration by Luna Smith`,
+    alt: `Elephant- Illustration by Luna Smith`,
   },
   {
     image: Img27,
-    alt: `Mole- Illustration by Luna Smith`,
+    alt: `Giraffe- Illustration by Luna Smith`,
   },
   {
     image: Img28,
-    alt: `Mole- Illustration by Luna Smith`,
+    alt: `Jelyfish- Illustration by Luna Smith`,
   },
   {
     image: Img29,
-    alt: `Mole- Illustration by Luna Smith`,
+    alt: `Moles- Illustration by Luna Smith`,
   },
   {
     image: Img30,
-    alt: `Red Apple- Illustration by Luna Smith`,
+    alt: `Monkey- Illustration by Luna Smith`,
   },
   {
     image: Img31,
-    alt: `Eaten Red Apple- Illustration by Luna Smith`,
+    alt: `Owl- Illustration by Luna Smith`,
   },
   {
     image: Img32,
-    alt: `Bananas- Illustration by Luna Smith`,
+    alt: `Parrot- Illustration by Luna Smith`,
   },
   {
     image: Img33,
-    alt: `Rock- Illustration by Luna Smith`,
+    alt: `Puppy- Illustration by Luna Smith`,
   },
   {
     image: Img34,
-    alt: `Halloween Pumpkin- Illustration by Luna Smith`,
+    alt: `Queen- Illustration by Luna Smith`,
+  },
+  {
+    image: Img35,
+    alt: `Snake- Illustration by Luna Smith`,
+  },
+  {
+    image: Img36,
+    alt: `Turtle- Illustration by Luna Smith`,
+  },
+  {
+    image: Img37,
+    alt: `Zebra- Illustration by Luna Smith`,
+  },
+  {
+    image: Img38,
+    alt: `Fruits, an apple, a banana, a pumpkin- Illustration by Luna Smith`,
+  },
+  {
+    image: Img39,
+    alt: `Random things Illustration by Luna Smith`,
+  },
+  {
+    image: Img40,
+    alt: `Random things- Illustration by Luna Smith`,
   },
 ];

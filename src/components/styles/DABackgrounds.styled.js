@@ -7,6 +7,8 @@ export const Container = styled.div`
   background: #c3195d; 
 `;
 
+
+
 export const DigitalArtContainer = styled.div`
   background: #680747; 
   width: 40%;
@@ -60,99 +62,43 @@ export const DigitalArtDescription = styled.p`
 `;
 
 export const GalleryContainer = styled.div`
-  background: #141010; 
+  background: white; 
   width: 80%;
   margin: 0 auto;
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-
-  @media screen and (max-width: 1100px) {
+  padding: 100px;
+  column-count: 2;
+  @media screen and (max-width: 1200px) {
+    width: 85%;
+    padding: 60px;
+  }
+  @media screen and (max-width: 820px) {
     width: 90%;
-    padding: 30px;
+    padding: 40px;
   }
-
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 580px) {
+    padding: 20px;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 10px;
     width: 95%;
-    padding: 0 5px;
-  }
-  @media screen and (max-width: 400px) {
-    flex-direction: column;
+    column-count: 1;
   }
 `;
 
-export const ButtonImage = styled(Link)`
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  border: 4px solid white;
-  background: #c3195d; 
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 30px auto;
-  @media screen and (max-width:786px) {
-    border-radius: 15px;
-    border: 2px solid white;
-  }
-  @media screen and (max-width:786px) {
-    margin: 15px auto;
-  }
-`;
+export const GalleryWrap = styled.div`
+   margin: 0 5px 20px 5px;
+   img {
+    border: 4px solid white;
+    border-radius: 20px;
+   }
 
-export const Image = styled.img`
-  padding: 20px;
-  border-radius: 20px;
-  width: 400px;
-  height: 300px;
-  object-fit: contain;
-  @media screen and (max-width:1120px) {
-    width: 300px;
-    height: 200px;
-  }
-  @media screen and (max-width:820px) {
-    width: 220px;
-    height: 120px;
-    padding: 10px;
-  }
-  @media screen and (max-width:620px) {
-    width: 160px;
-    height: 80px;
-    padding: 5px;
-  }
-  @media screen and (max-width: 400px) {
-    width: 220px;
-    height: 120px;
-    padding: 10px;
-  }
-`;
-
-export const TitleImage = styled.div`
-  color: white;
-  padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 35px;
-  @media screen and (max-width:820px) {
-    font-size: 20px;
-    line-height: 25px;
-    padding-bottom: 18px;
-  }
-  @media screen and (max-width:620px) {
-    font-size: 14px;
-    line-height: 18px;
-    padding-bottom: 8px;
-  }
-`;
+`
 
 export const Icon = styled(Link)`
   text-decoration: none;
   color: #51557e;
   font-weight: 700;
   font-size: 32px;
-  
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -170,3 +116,6 @@ export const CloseIcon = styled(FaTimes)`
     margin-top: 8px;
   }
 `;
+
+
+

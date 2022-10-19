@@ -27,6 +27,9 @@ import ImgR9 from "../images/web/9R.jpg";
 import ImgR10 from "../images/web/10R.jpg";
 import ImgR11 from "../images/web/11R.jpg";
 
+import Img1PHP from "../images/web/1PHP.jpg";
+import Img2PHP from "../images/web/2PHP.jpg";
+
 import WebBg from "../images/Webbg.jpg";
 
 import {
@@ -42,6 +45,7 @@ import {
   AnimationsProjects,
   JavaScriptProjects,
   ReactProjects,
+  PHPProjects,
   AllProjects, 
   HomeButton,
 } from "./styles/Web.styled";
@@ -378,6 +382,18 @@ const WebPage = () => {
       imgSrc: Img16,
       alt: "Memory Game",
       href: "https://memory-game-crypto-coo.netlify.app/",
+    },
+    {
+      id: 27,
+      imgSrc: Img1PHP,
+      alt: "Flash Cards",
+      href: "https://flash-cards-php.herokuapp.com/index.php",
+    },
+    {
+      id: 28,
+      imgSrc: Img2PHP,
+      alt: "Halloween pictures",
+      href: "https://halloween-php.herokuapp.com/index.php",
     }
    
   ];
@@ -432,6 +448,20 @@ const WebPage = () => {
       href: "https://matrix-js.netlify.app/",
     },
   ];
+  let phpdata = [
+    {
+      id: 1,
+      imgSrc: Img1PHP,
+      alt: "Flash Cards",
+      href: "https://flash-cards-php.herokuapp.com/index.php",
+    },
+    {
+      id: 2,
+      imgSrc: Img2PHP,
+      alt: "Halloween pictures",
+      href: "https://halloween-php.herokuapp.com/index.php",
+    }
+  ];
 
   return (
     <Container>
@@ -479,6 +509,16 @@ const WebPage = () => {
         >
           Animations
         </AnimationsProjects>
+        <PHPProjects
+          to="phpprojects"
+          smooth="true"
+          duration={500}
+          spy="true"
+          exact="true"
+          offset={-100}
+        >
+          PHP
+        </PHPProjects>
       </Header>
       <GalleryContainer id="allprojects">
         {alldata.map((item, index) => {
@@ -604,7 +644,38 @@ const WebPage = () => {
       >
         Scroll Up
       </HomeButton>
- 
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
+        <WebTitle id="phpprojects">PHP</WebTitle>
+        <WebDescription>
+          My projects coded with HTML, SASS and PHP.
+        </WebDescription>
+      </WebContainer>
+      <GalleryContainer>
+        {phpdata.map((item, index) => {
+          return (
+            <GalleryWrap key={index}>
+              <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={item.imgSrc}
+                  alt={item.alt}
+                  style={{ width: `100%` }}
+                />
+                <h1>{item.alt}</h1>
+              </a>
+            </GalleryWrap>
+          );
+        })}
+      </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
     </Container>
   );
 };

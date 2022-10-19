@@ -203,6 +203,18 @@ color: black;
 }
 `;
 
+export const PHPProjects = styled(LinkS)`
+font-size: 26px;
+padding: 10px 15px;
+border-radius: 20px;
+cursor: pointer;
+color: black;
+
+&:hover {
+  color: #bea15b;
+}
+`;
+
 export const HomeButton = styled(LinkS)`
 text-align: center;
 margin: 0 auto;

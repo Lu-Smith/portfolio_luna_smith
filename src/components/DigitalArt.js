@@ -1,5 +1,5 @@
 import ImgW1 from "../images/illustrations/sunset by Luna Smith.jpg";
-import ImgR1 from "../images/illustrations/dictionary/bookshellturtle.png";
+import ImgP12 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 12.jpg";
 import ImgM1 from "../images/illustrations/mermaids/KittyMermaid.jpg";
 import ImgC1 from "../images/illustrations/characters/Little Witch.png";
 import ImgI1 from "../images/illustrations/items/xylophone.png";
@@ -48,9 +48,9 @@ const DigitalArtPage = () => {
          </ButtonImage>
         </div>
         <div>
-        <ButtonImage to="/dareading">
-          <Image src={ImgR1} alt="reading cartoon cahracters created by Luna Smith"/>
-          <TitleImage>Reading</TitleImage>
+        <ButtonImage to="/daportraits">
+          <Image src={ImgP12} alt="digital art,portraits created by Luna Smith"/>
+          <TitleImage>Portraits</TitleImage>
          </ButtonImage>
          <ButtonImage to="/daitems">
           <Image src={ImgI1} alt="random items illustrations created by Luna Smith"/>

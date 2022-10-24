@@ -1,14 +1,14 @@
 import React from "react";
-import Reading from "../components/DAReading";
+import Portraits from "../components/DAPortrait";
 import ScrollToTop from "../components/ScrollToTop";
 
-const dareading = () => {
+const daportraits = () => {
   return (
     <>
       <ScrollToTop />
-      <Reading />
+      <Portraits />
     </>
   );
 };
 
-export default dareading;
+export default daportraits;

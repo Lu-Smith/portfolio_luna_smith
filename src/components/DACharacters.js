@@ -17,6 +17,11 @@ import ImgC16 from "../images/illustrations/characters/black cat.png";
 import ImgC17 from "../images/illustrations/characters/halloween cat.png";
 import ImgC18 from "../images/illustrations/characters/ghosts.png";
 import ImgC19 from "../images/illustrations/characters/moles.png";
+import ImgR1 from "../images/illustrations/dictionary/elf-reading.png";
+import ImgR2 from "../images/illustrations/dictionary/owlreading.png";
+import ImgR3 from "../images/illustrations/dictionary/turtlereading.png";
+import ImgR4 from "../images/illustrations/dictionary/bookshellturtle.png";
+
 
 import {
   Container,
@@ -126,6 +131,26 @@ const CharactersPage = () => {
       imgSrc: ImgC19,
       alt: "Moles cartoon character by Luna Smith",
     },
+    {
+      id: 20,
+      imgSrc: ImgR1,
+      alt: "Elf reading a book, cartoon character by Luna Smith",
+    },
+    {
+      id: 21,
+      imgSrc: ImgR2,
+      alt: "Owl reading a book, cartoon character by Luna Smith",
+    },
+    {
+      id: 22,
+      imgSrc: ImgR3,
+      alt: "Turtle holding a book, cartoon character by Luna Smith",
+    },
+    {
+      id: 23,
+      imgSrc: ImgR4,
+      alt: "Turtle with a book shell, cartoon character by Luna Smith",
+    }
     
   ];
 

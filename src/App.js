@@ -14,7 +14,7 @@ import Backgrounds from "./pages/dabackgrounds";
 import Items from "./pages/daitems";
 import Mermaids from "./pages/damermaids";
 import Characters from "./pages/dacharacters";
-import Reading from "./pages/dareading";
+import Portraits from "./pages/daportraits";
 import Books from "./pages/dabooks";
 
 
@@ -52,7 +52,7 @@ function App() {
           <Route path="/soundoflife" element={<SoundofLife />} />
           <Route path="/dabackgrounds" element={<Backgrounds />} />
           <Route path="/damermaids" element={<Mermaids />} />
-          <Route path="/dareading" element={<Reading />} />
+          <Route path="/daportraits" element={<Portraits />} />
           <Route path="/dacharacters" element={<Characters />} />
           <Route path="/daitems" element={<Items />} />
           <Route path="/dabooks" element={<Books />} />

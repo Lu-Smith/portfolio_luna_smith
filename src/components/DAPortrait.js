@@ -11,6 +11,9 @@ import ImgP10 from "../images/illustrations/portraits/Halloween portrait by Luna
 import ImgP11 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 11.jpg";
 import ImgP12 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 12.jpg";
 
+import ImgV1 from "../images/illustrations/portraits/short Halloween 6.mp4";
+import ImgV2 from "../images/illustrations/portraits/short Halloween 5.mp4";
+
 import {
   Container,
   GalleryContainer,
@@ -23,6 +26,18 @@ import {
 } from "./styles/DABackgrounds.styled";
 
 const PortraitPage = () => {
+  let videodata = [
+    {
+      id: 1,
+      imgSrc: ImgV1,
+      alt: "Halloween portraits video by Luna Smith",
+    },
+    {
+      id: 2,
+      imgSrc: ImgV2,
+      alt: "Halloween portraits video by Luna Smith",
+    }
+  ];
   let portraitdata = [
     {
       id: 1,
@@ -96,7 +111,21 @@ const PortraitPage = () => {
         <DigitalArtDescription>
           Halloween special...
         </DigitalArtDescription>
-      </DigitalArtContainer>
+      </DigitalArtContainer>   
+      <GalleryContainer>
+        {videodata.map((item, index) => {
+          return (
+            <GalleryWrap key={index}>
+                <video
+                  src={item.imgSrc}
+                  alt={item.alt}
+                  style={{ width: `100%` }}
+                  controls
+                />
+            </GalleryWrap>
+          );
+        })}
+      </GalleryContainer>       
       <GalleryContainer>
         {portraitdata.map((item, index) => {
           return (

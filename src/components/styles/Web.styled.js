@@ -133,8 +133,8 @@ export const Icon = styled(Link)`
   font-weight: 700;
   font-size: 32px;
   @media screen and (max-width: 480px) {
-    margin-left: 16px;
-    margin-top: 8px;
+    margin-left: 0px;
+    margin-top: 0px;
   }
 `;
 
@@ -153,6 +153,10 @@ export const Header = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+
+  @media screen and (max-width: 480px) {
+    margin: 20px 40px 10px 40px;
+  }
 `;
 
 export const JavaScriptProjects = styled(LinkS)`
@@ -165,6 +169,11 @@ color: black;
 &:hover {
   color: #bea15b;
 }
+
+@media screen and (max-width: 480px) {
+  padding: 8px 10px;
+  font-size: 18px;
+  }
 `;
 
 export const ReactProjects = styled(LinkS)`
@@ -177,6 +186,11 @@ color: black;
 &:hover {
   color: #bea15b;
 }
+
+@media screen and (max-width: 480px) {
+  padding: 8px 10px;
+  font-size: 18px;
+  }
 `;
 
 export const AllProjects = styled(LinkS)`
@@ -189,6 +203,11 @@ color: black;
 &:hover {
   color: #bea15b;
 }
+
+@media screen and (max-width: 480px) {
+  padding: 8px 10px;
+  font-size: 18px;
+  }
 `;
 
 export const AnimationsProjects = styled(LinkS)`
@@ -201,6 +220,11 @@ color: black;
 &:hover {
   color: #bea15b;
 }
+
+@media screen and (max-width: 480px) {
+  padding: 8px 10px;
+  font-size: 18px;
+  }
 `;
 
 export const PHPProjects = styled(LinkS)`
@@ -213,6 +237,11 @@ color: black;
 &:hover {
   color: #bea15b;
 }
+
+@media screen and (max-width: 480px) {
+  padding: 8px 10px;
+  font-size: 18px;
+  }
 `;
 
 export const HomeButton = styled(LinkS)`
@@ -236,4 +265,11 @@ transition: all 200ms ease-in-out;
   box-shadow: none;
   transform: translateY(5px);
 }
+
+@media screen and (max-width: 480px) {
+  margin-top: 20px;
+  width: 40%;
+  font-size: 18px;
+  padding: 10px 15px;
+  }
 `;

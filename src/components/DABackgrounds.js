@@ -6,6 +6,8 @@ import ImgW5 from "../images/illustrations/day clouds by Luna Smith.jpg";
 import ImgW6 from "../images/illustrations/galaxy by Luna Smith.jpg";
 import ImgW7 from "../images/illustrations/thunder by Luna Smith.jpg";
 import ImgW8 from "../images/illustrations/night by Luna Smith.jpg";
+import ImgW9 from "../images/illustrations/Halloween background 1.jpg";
+import ImgW10 from "../images/illustrations/Halloween background 2.jpg";
 
 
 
@@ -25,51 +27,52 @@ const BackgroundsPage = () => {
     {
       id: 1,
       imgSrc: ImgW1,
-      alt: "Sunset",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
+      alt: "Sunset background by Luna Smith"
     },
     {
       id: 2,
       imgSrc: ImgW2,
-      alt: "Day",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
-    },
-    {
-      id: 2,
-      imgSrc: ImgW3,
-      alt: "Sunrise",
-
-      href: "https://weather-app-react-luna-smith.netlify.app/",
+      alt: "Day background by Luna Smith"
     },
     {
       id: 3,
+      imgSrc: ImgW3,
+      alt: "Sunrise background by Luna Smith"
+    },
+    {
+      id: 4,
       imgSrc: ImgW4,
-      alt: "Snow",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
+      alt: "Snow background by Luna Smith"
     },
     {
       id: 5,
       imgSrc: ImgW5,
-      alt: "Day Clouds",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
+      alt: "Day Clouds background by Luna Smith"
     },
     {
       id: 6,
       imgSrc: ImgW6,
-      alt: "Galaxy",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
+      alt: "Galaxy background by Luna Smith"
     },
     {
-      id: 5,
+      id: 7,
       imgSrc: ImgW7,
-      alt: "Thunder",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
+      alt: "Thunder background by Luna Smith"
     },
     {
-      id: 6,
+      id: 8,
       imgSrc: ImgW8,
-      alt: "Night",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
+      alt: "Night background by Luna Smith"
+    },
+    {
+      id: 9,
+      imgSrc: ImgW9,
+      alt: "Halloween background by Luna Smith"
+    },
+    {
+      id: 10,
+      imgSrc: ImgW10,
+      alt: "Halloween background by Luna Smith"
     },
   ];
 

@@ -7,8 +7,6 @@ export const Container = styled.div`
   background: #c3195d; 
 `;
 
-
-
 export const DigitalArtContainer = styled.div`
   background: #680747; 
   width: 40%;
@@ -74,6 +72,7 @@ export const GalleryContainer = styled.div`
   @media screen and (max-width: 820px) {
     width: 90%;
     padding: 40px;
+    column-count: 1;
   }
   @media screen and (max-width: 580px) {
     padding: 20px;
@@ -81,7 +80,6 @@ export const GalleryContainer = styled.div`
   @media screen and (max-width: 400px) {
     padding: 10px;
     width: 95%;
-    column-count: 1;
   }
 `;
 

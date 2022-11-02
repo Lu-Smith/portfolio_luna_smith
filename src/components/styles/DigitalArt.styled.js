@@ -74,11 +74,9 @@ export const GalleryContainer = styled.div`
     padding: 30px;
   }
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     width: 95%;
     padding: 0 5px;
-  }
-  @media screen and (max-width: 400px) {
     flex-direction: column;
   }
 `;
@@ -111,16 +109,16 @@ export const Image = styled.img`
   object-fit: contain;
   @media screen and (max-width:1120px) {
     width: 300px;
-    height: 200px;
+    height: 250px;
   }
   @media screen and (max-width:820px) {
-    width: 220px;
-    height: 120px;
+    width: 360px;
+    height: 200px;
     padding: 10px;
   }
   @media screen and (max-width:620px) {
-    width: 160px;
-    height: 80px;
+    width: 300px;
+    height: 150px;
     padding: 5px;
   }
   @media screen and (max-width: 400px) {
@@ -152,7 +150,6 @@ export const Icon = styled(Link)`
   color: #51557e;
   font-weight: 700;
   font-size: 32px;
-  
 `;
 
 export const CloseIcon = styled(FaTimes)`

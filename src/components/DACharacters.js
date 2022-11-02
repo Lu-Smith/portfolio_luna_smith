@@ -1,7 +1,7 @@
 import ImgC1 from "../images/illustrations/characters/Little Witch.png";
 import ImgC2 from "../images/illustrations/characters/queen.png";
 import ImgC3 from "../images/illustrations/characters/turtle.png";
-import ImgC4 from "../images/illustrations/characters/zebra.png";
+import ImgC4 from "../images/illustrations/characters/zebra - Copy.png";
 import ImgC5 from "../images/illustrations/characters/bunny.png";
 import ImgC6 from "../images/illustrations/characters/giraffe.png";
 import ImgC7 from "../images/illustrations/characters/jellyfish.png";
@@ -10,13 +10,20 @@ import ImgC9 from "../images/illustrations/characters/owl.png";
 import ImgC10 from "../images/illustrations/characters/puppy.png";
 import ImgC11 from "../images/illustrations/characters/snake.png";
 import ImgC12 from "../images/illustrations/characters/bee.png";
-import ImgC13 from "../images/illustrations/characters/elephant.png";
+import ImgC13 from "../images/illustrations/characters/Sociaty10.png";
 import ImgC14 from "../images/illustrations/characters/elf2.png";
 import ImgC15 from "../images/illustrations/characters/bird.png";
-import ImgC16 from "../images/illustrations/characters/black cat.png";
+import ImgC16 from "../images/illustrations/characters/Sociaty14.png";
 import ImgC17 from "../images/illustrations/characters/halloween cat.png";
 import ImgC18 from "../images/illustrations/characters/ghosts.png";
 import ImgC19 from "../images/illustrations/characters/moles.png";
+import ImgC20 from "../images/illustrations/characters/Little Witch - Copy.png";
+import ImgC21 from "../images/illustrations/characters/owl - Copy.png";
+import ImgC22 from "../images/illustrations/characters/parrot - Copy.png";
+import ImgC23 from "../images/illustrations/characters/puppy - Copy.png";
+import ImgC24 from "../images/illustrations/characters/queen - Copy.png";
+import ImgC25 from "../images/illustrations/characters/snake - Copy.png";
+import ImgC26 from "../images/illustrations/characters/turtle 2.png";
 import ImgR1 from "../images/illustrations/dictionary/elf-reading.png";
 import ImgR2 from "../images/illustrations/dictionary/owlreading.png";
 import ImgR3 from "../images/illustrations/dictionary/turtlereading.png";
@@ -43,115 +50,149 @@ const CharactersPage = () => {
     },
     {
       id: 2,
+      imgSrc: ImgC20,
+      alt: "Little Witch flying - halloween cartoon character by Luna Smith",
+    },
+    {
+      id: 3,
       imgSrc: ImgC2,
       alt: "Queen cartoon character by Luna Smith",
     },
     {
-      id: 3,
+      id: 4,
+      imgSrc: ImgC24,
+      alt: "Queen cartoon character by Luna Smith",
+    },
+    {
+      id: 5,
       imgSrc: ImgC3,
       alt: "Turtle cartoon character by Luna Smith",
     },
     {
-      id: 4,
+      id: 6,
+      imgSrc: ImgC26,
+      alt: "Turtle cartoon character by Luna Smith",
+    },
+    {
+      id: 7,
       imgSrc: ImgC4,
       alt: "Zebra cartoon character by Luna Smith",
     },
     {
-      id: 5,
+      id: 8,
       imgSrc: ImgC5,
       alt: "Bunny cartoon character by Luna Smith",
     },
     {
-      id: 6,
+      id: 9,
       imgSrc: ImgC6,
       alt: "Giraffe cartoon character by Luna Smith",
     },
     {
-      id: 7,
+      id: 10,
       imgSrc: ImgC7,
       alt: "Jellyfish cartoon character by Luna Smith",
     },
     {
-      id: 8,
+      id: 11,
       imgSrc: ImgC8,
       alt: "Monkey cartoon character by Luna Smith",
     },
     {
-      id: 9,
+      id: 12,
+      imgSrc: ImgC22,
+      alt: "Parrot cartoon character by Luna Smith",
+    },
+    {
+      id: 13,
       imgSrc: ImgC9,
       alt: "Owl cartoon character by Luna Smith",
     },
     {
-      id: 10,
+      id: 14,
+      imgSrc: ImgC21,
+      alt: "Owl cartoon character by Luna Smith",
+    },
+    {
+      id: 15,
       imgSrc: ImgC10,
       alt: "Puppy cartoon character by Luna Smith",
     },
     {
-      id: 11,
+      id: 16,
+      imgSrc: ImgC23,
+      alt: "Puppy cartoon character by Luna Smith",
+    },
+    {
+      id: 17,
       imgSrc: ImgC11,
       alt: "Snake cartoon character by Luna Smith",
     },
     {
-      id: 12,
+      id: 18,
+      imgSrc: ImgC25,
+      alt: "Snake cartoon character by Luna Smith",
+    },
+    {
+      id: 19,
       imgSrc: ImgC12,
       alt: "Bee cartoon character by Luna Smith",
     },
     {
-      id: 13,
+      id: 20,
       imgSrc: ImgC13,
       alt: "Elephant cartoon character by Luna Smith",
     },
     {
-      id: 14,
+      id: 21,
       imgSrc: ImgC14,
       alt: "Elf cartoon character by Luna Smith",
     },
     {
-      id: 15,
+      id: 22,
       imgSrc: ImgC15,
       alt: "Bird cartoon character by Luna Smith",
     },
     {
-      id: 16,
+      id: 23,
       imgSrc: ImgC16,
       alt: "Halloween black cat cartoon character by Luna Smith",
     },
     {
-      id: 17,
+      id: 24,
       imgSrc: ImgC17,
       alt: "Halloween black cat cartoon character by Luna Smith",
     },
     {
-      id: 18,
+      id: 25,
       imgSrc: ImgC18,
       alt: "Ghosts cartoon character by Luna Smith",
     },
     {
-      id: 19,
+      id: 26,
       imgSrc: ImgC19,
       alt: "Moles cartoon character by Luna Smith",
     },
     {
-      id: 20,
+      id: 27,
       imgSrc: ImgR1,
       alt: "Elf reading a book, cartoon character by Luna Smith",
     },
     {
-      id: 21,
+      id: 28,
       imgSrc: ImgR2,
       alt: "Owl reading a book, cartoon character by Luna Smith",
     },
     {
-      id: 22,
+      id: 29,
       imgSrc: ImgR3,
       alt: "Turtle holding a book, cartoon character by Luna Smith",
     },
     {
-      id: 23,
+      id: 30,
       imgSrc: ImgR4,
       alt: "Turtle with a book shell, cartoon character by Luna Smith",
     }
-    
   ];
 
   return (

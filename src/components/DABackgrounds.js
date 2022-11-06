@@ -8,6 +8,7 @@ import ImgW7 from "../images/illustrations/thunder by Luna Smith.jpg";
 import ImgW8 from "../images/illustrations/night by Luna Smith.jpg";
 import ImgW9 from "../images/illustrations/Halloween background 1.jpg";
 import ImgW10 from "../images/illustrations/Halloween background 2.jpg";
+import ImgW11 from "../images/illustrations/Black and White landscape1.jpg";
 
 
 
@@ -26,13 +27,13 @@ const BackgroundsPage = () => {
   let weatherdata = [
     {
       id: 1,
-      imgSrc: ImgW1,
-      alt: "Sunset background by Luna Smith"
+      imgSrc: ImgW11,
+      alt: "Black and White background, desert by Luna Smith"
     },
     {
       id: 2,
-      imgSrc: ImgW2,
-      alt: "Day background by Luna Smith"
+      imgSrc: ImgW1,
+      alt: "Sunset background by Luna Smith"
     },
     {
       id: 3,
@@ -46,8 +47,8 @@ const BackgroundsPage = () => {
     },
     {
       id: 5,
-      imgSrc: ImgW5,
-      alt: "Day Clouds background by Luna Smith"
+      imgSrc: ImgW2,
+      alt: "Day background by Luna Smith"
     },
     {
       id: 6,
@@ -63,6 +64,11 @@ const BackgroundsPage = () => {
       id: 8,
       imgSrc: ImgW8,
       alt: "Night background by Luna Smith"
+    },
+    {
+      id: 8,
+      imgSrc: ImgW5,
+      alt: "Day clouds background by Luna Smith"
     },
     {
       id: 9,

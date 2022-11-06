@@ -65,6 +65,11 @@ export const GalleryContainer = styled.div`
   margin: 0 auto;
   padding: 100px;
   column-count: 2;
+
+  video {
+    margin: 0 auto;
+    display: block;
+  }
   @media screen and (max-width: 1200px) {
     width: 85%;
     padding: 60px;

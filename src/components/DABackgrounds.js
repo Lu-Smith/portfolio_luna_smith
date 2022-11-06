@@ -9,6 +9,7 @@ import ImgW8 from "../images/illustrations/night by Luna Smith.jpg";
 import ImgW9 from "../images/illustrations/Halloween background 1.jpg";
 import ImgW10 from "../images/illustrations/Halloween background 2.jpg";
 import ImgW11 from "../images/illustrations/Black and White landscape1.jpg";
+import ImgV1 from "../images/illustrations/videos/AutumnScene.mp4";
 
 
 
@@ -105,6 +106,7 @@ const BackgroundsPage = () => {
             </GalleryWrap>
           );
         })}
+        <video src={ImgV1} style={{ width: `50%` }} alt="autumn scenery" controls/>
       </GalleryContainer>
     </Container>
   );

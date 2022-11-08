@@ -10,8 +10,7 @@ import ImgW9 from "../images/illustrations/Halloween background 1.jpg";
 import ImgW10 from "../images/illustrations/Halloween background 2.jpg";
 import ImgW11 from "../images/illustrations/Black and White landscape1.jpg";
 import ImgV1 from "../images/illustrations/videos/AutumnScene.mp4";
-
-
+import ImgV2 from "../images/illustrations/autumn scene 2.jpg";
 
 import {
   Container,
@@ -80,6 +79,11 @@ const BackgroundsPage = () => {
       id: 10,
       imgSrc: ImgW10,
       alt: "Halloween background by Luna Smith"
+    },
+    {
+      id: 11,
+      imgSrc: ImgV2,
+      alt: "Autumn Scene, a woman in a red dress with an umbrella - background by Luna Smith"
     },
   ];
 

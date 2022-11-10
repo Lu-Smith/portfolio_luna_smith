@@ -17,7 +17,7 @@ const CharactersPage = () => {
       id: 1,
       imgSrc: ImgB1,
       alt: "ABC learning is fun by Luna Smith",
-      href: "https://www.amazon.co.uk/ABC-learning-fun-Luna-Smith-ebook/dp/B0BHX6NW3M",
+      href: "https://www.amazon.co.uk/ABC-learning-fun-Luna-Smith/dp/B0BJC2GVJ1/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=",
     }
     
   ];

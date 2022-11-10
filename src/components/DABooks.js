@@ -9,7 +9,7 @@ import {
   Icon,
   CloseIcon,
   GalleryWrap
-} from "./styles/DABackgrounds.styled";
+} from "./styles/DABooks.styled";
 
 const CharactersPage = () => {
   let charactersdata = [
@@ -37,7 +37,7 @@ const CharactersPage = () => {
         {charactersdata.map((item, index) => {
           return (
             <GalleryWrap key={index}>
-              <a href={item.href} alt={item.alt}>
+              <a href={item.href} alt={item.alt} target="_blank" rel="noreferrer">
                 <img
                   src={item.imgSrc}
                   alt={item.alt}

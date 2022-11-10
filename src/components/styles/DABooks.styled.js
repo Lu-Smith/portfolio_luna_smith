@@ -90,11 +90,22 @@ export const GalleryContainer = styled.div`
 
 export const GalleryWrap = styled.div`
    margin: 0 5px 20px 5px;
+   a {
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover {
+    opacity: 70%;
+    }
+   }
    img {
     border: 4px solid white;
     border-radius: 20px;
    }
-
 `
 
 export const Icon = styled(Link)`

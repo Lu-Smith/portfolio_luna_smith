@@ -1,4 +1,4 @@
-import ImgC4 from "../images/illustrations/characters/zebra.png";
+import ImgB1 from "../images/illustrations/books/ABClearningisfuncover.jpg";
 
 import {
   Container,
@@ -15,8 +15,9 @@ const CharactersPage = () => {
   let charactersdata = [
     {
       id: 1,
-      imgSrc: ImgC4,
-      alt: "Zebra cartoon character by Luna Smith",
+      imgSrc: ImgB1,
+      alt: "ABC learning is fun by Luna Smith",
+      href: "https://www.amazon.co.uk/ABC-learning-fun-Luna-Smith-ebook/dp/B0BHX6NW3M",
     }
     
   ];
@@ -29,18 +30,21 @@ const CharactersPage = () => {
       <DigitalArtContainer>
         <DigitalArtTitle>Books</DigitalArtTitle>
         <DigitalArtDescription>
-          Coming Soon...
+          Learning is fun...
         </DigitalArtDescription>
       </DigitalArtContainer>
       <GalleryContainer>
         {charactersdata.map((item, index) => {
           return (
             <GalleryWrap key={index}>
+              <a href={item.href} alt={item.alt}>
                 <img
                   src={item.imgSrc}
                   alt={item.alt}
                   style={{ width: `100%` }}
                 />
+              Click here to buy
+              </a>
             </GalleryWrap>
           );
         })}

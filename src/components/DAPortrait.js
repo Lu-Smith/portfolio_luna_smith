@@ -10,6 +10,7 @@ import ImgP9 from "../images/illustrations/portraits/Halloween portrait by Luna 
 import ImgP10 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 10.jpg";
 import ImgP11 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 11.jpg";
 import ImgP12 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 12.jpg";
+import ImgP13 from "../images/illustrations/portraits/Portrait child 2.jpg";
 
 import ImgV1 from "../images/illustrations/portraits/short Halloween 6.mp4";
 import ImgV2 from "../images/illustrations/portraits/short Halloween 5.mp4";
@@ -98,6 +99,11 @@ const PortraitPage = () => {
       id: 12,
       imgSrc: ImgP12,
       alt: "Halloween portrait by Luna Smith",
+    },
+    {
+      id: 13,
+      imgSrc: ImgP13,
+      alt: "Child Portrait by Luna Smith",
     }
   ];
 

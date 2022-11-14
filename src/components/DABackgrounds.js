@@ -9,6 +9,7 @@ import ImgW8 from "../images/illustrations/night by Luna Smith.jpg";
 import ImgW9 from "../images/illustrations/Halloween background 1.jpg";
 import ImgW10 from "../images/illustrations/Halloween background 2.jpg";
 import ImgW11 from "../images/illustrations/Black and White landscape1.jpg";
+import ImgW12 from "../images/illustrations/Black and White landscape2.jpg";
 import ImgV1 from "../images/illustrations/videos/AutumnScene.mp4";
 import ImgV2 from "../images/illustrations/autumn scene 2.jpg";
 
@@ -32,56 +33,61 @@ const BackgroundsPage = () => {
     },
     {
       id: 2,
+      imgSrc: ImgW12,
+      alt: "Black and White background, desert by Luna Smith"
+    },
+    {
+      id: 3,
       imgSrc: ImgW1,
       alt: "Sunset background by Luna Smith"
     },
     {
-      id: 3,
+      id: 4,
       imgSrc: ImgW3,
       alt: "Sunrise background by Luna Smith"
     },
     {
-      id: 4,
+      id: 5,
       imgSrc: ImgW4,
       alt: "Snow background by Luna Smith"
     },
     {
-      id: 5,
+      id: 6,
       imgSrc: ImgW2,
       alt: "Day background by Luna Smith"
     },
     {
-      id: 6,
+      id: 7,
       imgSrc: ImgW6,
       alt: "Galaxy background by Luna Smith"
     },
     {
-      id: 7,
+      id: 8,
       imgSrc: ImgW7,
       alt: "Thunder background by Luna Smith"
     },
     {
-      id: 8,
+      id: 9,
       imgSrc: ImgW8,
       alt: "Night background by Luna Smith"
     },
     {
-      id: 8,
+      id: 10,
       imgSrc: ImgW5,
       alt: "Day clouds background by Luna Smith"
     },
     {
-      id: 9,
+      id: 11,
       imgSrc: ImgW9,
       alt: "Halloween background by Luna Smith"
     },
     {
-      id: 10,
+      id: 12,
       imgSrc: ImgW10,
       alt: "Halloween background by Luna Smith"
     },
     {
-      id: 11,
+      id: 13,
       imgSrc: ImgV2,
       alt: "Autumn Scene, a woman in a red dress with an umbrella - background by Luna Smith"
     },

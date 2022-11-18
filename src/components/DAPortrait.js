@@ -11,6 +11,7 @@ import ImgP10 from "../images/illustrations/portraits/Halloween portrait by Luna
 import ImgP11 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 11.jpg";
 import ImgP12 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 12.jpg";
 import ImgP13 from "../images/illustrations/portraits/Portrait child 2.jpg";
+import ImgP14 from "../images/illustrations/portraits/Portrait 1.jpg";
 
 import ImgV1 from "../images/illustrations/portraits/short Halloween 6.mp4";
 import ImgV2 from "../images/illustrations/portraits/short Halloween 5.mp4";
@@ -42,8 +43,8 @@ const PortraitPage = () => {
   let portraitdata = [
     {
       id: 1,
-      imgSrc: ImgP1,
-      alt: "Halloween portrait by Luna Smith",
+      imgSrc: ImgP14,
+      alt: "Portrait by Luna Smith",
     },
     {
       id: 2,
@@ -52,17 +53,17 @@ const PortraitPage = () => {
     },
     {
       id: 3,
-      imgSrc: ImgP3,
+      imgSrc: ImgP5,
       alt: "Halloween portrait by Luna Smith",
     },
     {
       id: 4,
-      imgSrc: ImgP4,
+      imgSrc: ImgP10,
       alt: "Halloween portrait by Luna Smith",
     },
     {
       id: 5,
-      imgSrc: ImgP5,
+      imgSrc: ImgP13,
       alt: "Halloween portrait by Luna Smith",
     },
     {
@@ -77,7 +78,7 @@ const PortraitPage = () => {
     },
     {
       id: 8,
-      imgSrc: ImgP8,
+      imgSrc: ImgP11,
       alt: "Halloween portrait by Luna Smith",
     },
     {
@@ -87,12 +88,12 @@ const PortraitPage = () => {
     },
     {
       id: 10,
-      imgSrc: ImgP10,
+      imgSrc: ImgP3,
       alt: "Halloween portrait by Luna Smith",
     },
     {
       id: 11,
-      imgSrc: ImgP11,
+      imgSrc: ImgP8,
       alt: "Halloween portrait by Luna Smith",
     },
     {
@@ -102,8 +103,13 @@ const PortraitPage = () => {
     },
     {
       id: 13,
-      imgSrc: ImgP13,
+      imgSrc: ImgP4,
       alt: "Child Portrait by Luna Smith",
+    },
+    {
+      id: 14,
+      imgSrc: ImgP1,
+      alt: "Halloween Portrait by Luna Smith",
     }
   ];
 

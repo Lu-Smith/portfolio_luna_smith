@@ -25,7 +25,7 @@ import {
   Icon,
   CloseIcon,
   GalleryWrap
-} from "./styles/DABackgrounds.styled";
+} from "./styles/DAPortrait.styled";
 
 const PortraitPage = () => {
   let videodata = [
@@ -131,7 +131,6 @@ const PortraitPage = () => {
                 <video
                   src={item.imgSrc}
                   alt={item.alt}
-                  style={{ width: `100%` }}
                   controls
                 />
             </GalleryWrap>
@@ -145,7 +144,6 @@ const PortraitPage = () => {
                 <img
                   src={item.imgSrc}
                   alt={item.alt}
-                  style={{ width: `100%` }}
                 />
             </GalleryWrap>
           );

@@ -65,6 +65,10 @@ export const GalleryContainer = styled.div`
   margin: 0 auto;
   padding: 100px;
   column-count: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 
   video {
     margin: 0 auto;
@@ -78,6 +82,8 @@ export const GalleryContainer = styled.div`
     width: 90%;
     padding: 40px;
     column-count: 1;
+    flex-direction: column;
+    margin: 0 auto;
   }
   @media screen and (max-width: 580px) {
     padding: 20px;
@@ -89,14 +95,14 @@ export const GalleryContainer = styled.div`
 `;
 
 export const GalleryWrap = styled.div`
-   margin: 0 5px 20px 5px;
+   width: 80%;
    a {
     text-decoration: none;
-    font-size: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 30px;
 
     &:hover {
     opacity: 70%;
@@ -105,6 +111,21 @@ export const GalleryWrap = styled.div`
    img {
     border: 4px solid white;
     border-radius: 20px;
+    padding: 30px;
+   }
+   div {
+    background-color: red;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+
+    @media screen and (max-width: 820px) {
+    font-size: 18px;
+    }
+    @media screen and (max-width: 480px) {
+    font-size: 16px;
+    }
    }
 `
 

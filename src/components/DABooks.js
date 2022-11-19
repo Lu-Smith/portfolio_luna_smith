@@ -52,7 +52,7 @@ const CharactersPage = () => {
                   alt={item.alt}
                   style={{ width: `100%` }}
                 />
-              {item.buy}
+              <div>{item.buy}</div>
               </a>
             </GalleryWrap>
           );

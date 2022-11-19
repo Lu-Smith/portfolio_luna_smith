@@ -1,4 +1,5 @@
-import ImgB1 from "../images/illustrations/books/ABClearningisfuncover.jpg";
+import ImgB1 from "../images/illustrations/books/ABClearningisfun cover by Luna Smith.jpg";
+import ImgB2 from "../images/illustrations/books/Mistletoe cover by Luna Smith.jpg";
 
 import {
   Container,
@@ -18,6 +19,14 @@ const CharactersPage = () => {
       imgSrc: ImgB1,
       alt: "ABC learning is fun by Luna Smith",
       href: "https://www.amazon.co.uk/ABC-learning-fun-Luna-Smith/dp/B0BJC2GVJ1/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=",
+      buy: "Click here to buy"
+    },
+    {
+      id: 2,
+      imgSrc: ImgB2,
+      alt: "Mistletoe by Luna Smith",
+      href: "https://www.amazon.co.uk/ABC-learning-fun-Luna-Smith/dp/B0BJC2GVJ1/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=",
+      buy: "Coming soon..."
     }
     
   ];
@@ -43,7 +52,7 @@ const CharactersPage = () => {
                   alt={item.alt}
                   style={{ width: `100%` }}
                 />
-              Click here to buy
+              {item.buy}
               </a>
             </GalleryWrap>
           );

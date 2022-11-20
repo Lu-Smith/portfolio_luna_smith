@@ -12,6 +12,7 @@ import ImgP11 from "../images/illustrations/portraits/Halloween portrait by Luna
 import ImgP12 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 12.jpg";
 import ImgP13 from "../images/illustrations/portraits/Portrait child 2.jpg";
 import ImgP14 from "../images/illustrations/portraits/Portrait 1.jpg";
+import ImgP15 from "../images/illustrations/portraits/Portrait 3.6.jpg";
 
 import ImgV1 from "../images/illustrations/portraits/short Halloween 6.mp4";
 import ImgV2 from "../images/illustrations/portraits/short Halloween 5.mp4";
@@ -43,7 +44,7 @@ const PortraitPage = () => {
   let portraitdata = [
     {
       id: 1,
-      imgSrc: ImgP14,
+      imgSrc: ImgP12,
       alt: "Portrait by Luna Smith",
     },
     {
@@ -68,8 +69,8 @@ const PortraitPage = () => {
     },
     {
       id: 6,
-      imgSrc: ImgP6,
-      alt: "Halloween portrait by Luna Smith",
+      imgSrc: ImgP15,
+      alt: "Alien spirit portrait by Luna Smith",
     },
     {
       id: 7,
@@ -83,22 +84,22 @@ const PortraitPage = () => {
     },
     {
       id: 9,
-      imgSrc: ImgP9,
-      alt: "Halloween portrait by Luna Smith",
-    },
-    {
-      id: 10,
       imgSrc: ImgP3,
       alt: "Halloween portrait by Luna Smith",
     },
     {
-      id: 11,
+      id: 10,
       imgSrc: ImgP8,
       alt: "Halloween portrait by Luna Smith",
     },
     {
+      id: 11,
+      imgSrc: ImgP6,
+      alt: "Halloween portrait by Luna Smith",
+    },
+    {
       id: 12,
-      imgSrc: ImgP12,
+      imgSrc: ImgP14,
       alt: "Halloween portrait by Luna Smith",
     },
     {
@@ -109,6 +110,11 @@ const PortraitPage = () => {
     {
       id: 14,
       imgSrc: ImgP1,
+      alt: "Halloween Portrait by Luna Smith",
+    },
+    {
+      id: 14,
+      imgSrc: ImgP9,
       alt: "Halloween Portrait by Luna Smith",
     }
   ];

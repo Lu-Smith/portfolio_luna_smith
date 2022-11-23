@@ -266,6 +266,13 @@ transition: all 200ms ease-in-out;
   transform: translateY(5px);
 }
 
+@media screen and (max-width: 800px) {
+  margin-top: 35px;
+  width: 30%;
+  font-size: 22px;
+  padding: 10px 15px;
+  }
+
 @media screen and (max-width: 480px) {
   margin-top: 20px;
   width: 40%;

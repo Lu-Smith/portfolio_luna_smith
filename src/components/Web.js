@@ -21,7 +21,7 @@ import ImgR2 from "../images/web/3R.jpg";
 import ImgR4 from "../images/web/4R.jpg";
 import ImgR5 from "../images/web/5R.jpg";
 import ImgR6 from "../images/web/6R.jpg";
-import ImgR7 from "../images/web/7R.png";
+import ImgR7 from "../images/web/7R.jpg";
 import ImgR3 from "../images/web/8R.jpg";
 import ImgR9 from "../images/web/9R.jpg";
 import ImgR10 from "../images/web/10R.jpg";
@@ -192,8 +192,8 @@ const WebPage = () => {
     {
       id: 7,
       imgSrc: ImgR7,
-      alt: "Scroll Animations",
-      href: "https://scroll-animation-react.netlify.app/",
+      alt: "Quiz - React/Typescript",
+      href: "https://react-typescript-quiz-luna-smith.netlify.app/",
     },
     {
       id: 8,
@@ -242,8 +242,8 @@ const WebPage = () => {
     {
       id: 4,
       imgSrc: ImgR7,
-      alt: "Scroll Animations",
-      href: "https://scroll-animation-react.netlify.app/",
+      alt: "Quiz",
+      href: "https://react-typescript-quiz-luna-smith.netlify.app/",
     },
     {
       id: 5,

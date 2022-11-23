@@ -23,7 +23,7 @@ import ImgR7 from "../../images/web/3R.jpg";
 import ImgR4 from "../../images/web/4R.jpg";
 import ImgR5 from "../../images/web/6R.jpg";
 import ImgR6 from "../../images/web/5R.jpg";
-import ImgR8 from "../../images/web/7R.png";
+import ImgR8 from "../../images/web/7R.jpg";
 import ImgR2 from "../../images/web/8R.jpg";
 import ImgR9 from "../../images/web/9R.jpg";
 import ImgR10 from "../../images/web/10R.jpg";
@@ -142,14 +142,14 @@ export const WebDesignsData = [
   {
     id: 19,
     image: ImgR8,
-    alt: "Sroll Animations",
+    alt: "Quiz",
     href: "https://scroll-animation-react.netlify.app/",
   },
   {
     id: 20,
     image: ImgR9,
     alt: "React TypeScript PawHub",
-    href: "https://pawhub-react-typescript.netlify.app/",
+    href: "https://react-typescript-quiz-luna-smith.netlify.app/",
   },
   {
     id: 21,

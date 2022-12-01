@@ -14,6 +14,9 @@ import Img13 from "../images/web/13.jpg";
 import Img14 from "../images/web/14.jpg";
 import Img15 from "../images/web/15.jpg";
 import Img16 from "../images/web/16.jpg";
+import Img17 from "../images/web/17.jpg";
+import Img18 from "../images/web/18.jpg";
+import Img19 from "../images/web/19.jpg";
 
 import ImgR1 from "../images/web/1R.jpg";
 import ImgR8 from "../images/web/2R.jpg";
@@ -26,6 +29,7 @@ import ImgR3 from "../images/web/8R.jpg";
 import ImgR9 from "../images/web/9R.jpg";
 import ImgR10 from "../images/web/10R.jpg";
 import ImgR11 from "../images/web/11R.jpg";
+import ImgR12 from "../images/web/12R.jpg";
 
 import Img1PHP from "../images/web/1PHP.jpg";
 import Img2PHP from "../images/web/2PHP.jpg";
@@ -148,6 +152,24 @@ const WebPage = () => {
       imgSrc: Img16,
       alt: "Memory Game",
       href: "https://memory-game-crypto-coo.netlify.app/",
+    },
+    {
+      id: 17,
+      imgSrc: Img17,
+      alt: "Frogger",
+      href: "frogger-luna-smith.netlify.app",
+    },
+    {
+      id: 18,
+      imgSrc: Img18,
+      alt: "Connect Four",
+      href: "connect-four-luna-smith.netlify.app",
+    },
+    {
+      id: 19,
+      imgSrc: Img19,
+      alt: "Space Invaders",
+      href: "https://space-invaders-luna-smith.netlify.app/",
     }
   ];
 
@@ -219,6 +241,12 @@ const WebPage = () => {
       alt: "Todo List - TypeScript/Redux",
       href: "https://todo-list-react-redux-typescript.netlify.app/",
     },
+    {
+      id: 12,
+      imgSrc: ImgR12,
+      alt: "Tic Tac Toe - TypeScript",
+      href: "https://tic-tac-toe-react-typescript-luna.netlify.app/",
+    },
   ];
   let alldata = [
     {
@@ -277,9 +305,9 @@ const WebPage = () => {
     },
     {
       id: 10,
-      imgSrc: Img3,
-      alt: "Weather App",
-      href: "https://celadon-cobbler-675e8d.netlify.app/",
+      imgSrc: ImgR12,
+      alt: "Tic Tac Toe - TypeScript",
+      href: "https://tic-tac-toe-react-typescript-luna.netlify.app/",
     },
     {
       id: 11,
@@ -319,9 +347,9 @@ const WebPage = () => {
     },
     {
       id: 17,
-      imgSrc: ImgR6,
-      alt: "Bubble - community space",
-      href: "https://community-fans.netlify.app/",
+      imgSrc: Img17,
+      alt: "Frogger",
+      href: "https://frogger-luna-smith.netlify.app",
     },
     {
       id: 18,
@@ -394,6 +422,30 @@ const WebPage = () => {
       imgSrc: Img2PHP,
       alt: "Halloween pictures",
       href: "https://halloween-php.herokuapp.com/index.php",
+    },
+    {
+      id: 29,
+      imgSrc: Img3,
+      alt: "Weather App",
+      href: "https://celadon-cobbler-675e8d.netlify.app/",
+    },
+    {
+      id: 30,
+      imgSrc: ImgR6,
+      alt: "Bubble - community space",
+      href: "https://community-fans.netlify.app/",
+    },
+    {
+      id: 31,
+      imgSrc: Img18,
+      alt: "Connect Four",
+      href: "https://connect-four-luna-smith.netlify.app",
+    },
+    {
+      id: 32,
+      imgSrc: Img19,
+      alt: "Space Invaders",
+      href: "https://space-invaders-luna-smith.netlify.app/",
     }
    
   ];

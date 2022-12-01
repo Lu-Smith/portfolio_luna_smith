@@ -14,6 +14,9 @@ import Img13 from "../../images/web/13.jpg";
 import Img14 from "../../images/web/14.jpg";
 import Img15 from "../../images/web/15.jpg";
 import Img16 from "../../images/web/16.jpg";
+import Img17 from "../../images/web/17.jpg";
+import Img18 from "../../images/web/18.jpg";
+import Img19 from "../../images/web/19.jpg";
 
 
 
@@ -28,6 +31,7 @@ import ImgR2 from "../../images/web/8R.jpg";
 import ImgR9 from "../../images/web/9R.jpg";
 import ImgR10 from "../../images/web/10R.jpg";
 import ImgR11 from "../../images/web/11R.jpg";
+import ImgR12 from "../../images/web/12R.jpg";
 
 export const WebDesignsData = [
   {
@@ -57,9 +61,9 @@ export const WebDesignsData = [
   },
   {
     id: 5,
-    image: Img5,
-    alt: "Pixel Rain Images",
-    href: "https://pixel-rain.netlify.app/",
+    image: ImgR12,
+    alt: "Tic Tac Toe - TypeScript",
+    href: "https://tic-tac-toe-react-typescript-luna.netlify.app/",
   },
   {
     id: 6,
@@ -111,9 +115,9 @@ export const WebDesignsData = [
   },
   {
     id: 14,
-    image: Img7,
-    alt: "SASS - my first website",
-    href: "https://sass-my-first-website.netlify.app/",
+    image: Img5,
+    alt: "Pixel Rain Images",
+    href: "https://pixel-rain.netlify.app/",
   },
   {
     id: 15,
@@ -193,4 +197,29 @@ export const WebDesignsData = [
     alt: "Memory Game",
     href: "https://memory-game-crypto-coo.netlify.app/",
   },
+  {
+    id: 28,
+    image: Img7,
+    alt: "SASS - my first website",
+    href: "https://sass-my-first-website.netlify.app/",
+  },
+  {
+    id: 28,
+    image: Img17,
+    alt: "Frogger",
+    href: "https://frogger-luna-smith.netlify.app",
+  },
+  {
+    id: 30,
+    image: Img18,
+    alt: "Connect Four",
+    href: "https://connect-four-luna-smith.netlify.app",
+  },
+  {
+    id: 31,
+    image: Img19,
+    alt: "Space Invaders",
+    href: "https://space-invaders-luna-smith.netlify.app/",
+  }
+
 ];

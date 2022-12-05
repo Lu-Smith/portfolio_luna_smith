@@ -1,9 +1,9 @@
 import Pic1 from "../../images/Curiosity by Luna Smith.jpg";
 import Pic3 from "../../images/turtlereading.png";
 import Pic2 from "../../images/WeatherAppReact.jpg";
-import { ArtGalleryData } from "./ArtGalleryData";
-import { IllustrationsData } from "./IllustrationsData";
-import { WebDesignsData } from "./WebDesignsData";
+import { ArtGalleryData } from "../data/ArtGalleryData";
+import { IllustrationsData } from "../data/IllustrationsData";
+import { WebDesignsData } from "../data/WebDesignsData";
 
 export const homeObjOne = {
   id: `about`,

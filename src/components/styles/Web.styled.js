@@ -244,6 +244,23 @@ color: black;
   }
 `;
 
+export const GamesProjects = styled(LinkS)`
+font-size: 26px;
+padding: 10px 15px;
+border-radius: 20px;
+cursor: pointer;
+color: black;
+
+&:hover {
+  color: #bea15b;
+}
+
+@media screen and (max-width: 480px) {
+  padding: 8px 10px;
+  font-size: 18px;
+  }
+`;
+
 export const HomeButton = styled(LinkS)`
 text-align: center;
 margin: 0 auto;

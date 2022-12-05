@@ -1,37 +1,38 @@
-import Img1 from "../../images/web/1.jpg";
-import Img3 from "../../images/web/2.jpg";
-import Img2 from "../../images/web/3.jpg";
-import Img4 from "../../images/web/4.jpg";
-import Img5 from "../../images/web/5.jpg";
-import Img6 from "../../images/web/6.jpg";
-import Img7 from "../../images/web/7.jpg";
-import Img8 from "../../images/web/8.png";
-import Img9 from "../../images/web/9.png";
-import Img10 from "../../images/web/10.jpg";
-import Img11 from "../../images/web/11.jpg";
-import Img12 from "../../images/web/12.jpg";
-import Img13 from "../../images/web/13.jpg";
-import Img14 from "../../images/web/14.jpg";
-import Img15 from "../../images/web/15.jpg";
-import Img16 from "../../images/web/16.jpg";
-import Img17 from "../../images/web/17.jpg";
-import Img18 from "../../images/web/18.jpg";
-import Img19 from "../../images/web/19.jpg";
+import Img1 from "../../images/web/JavaScript/1.jpg";
+import Img3 from "../../images/web/JavaScript/2.jpg";
+import Img2 from "../../images/web/JavaScript/3.jpg";
+import Img4 from "../../images/web/JavaScript/4.jpg";
+import Img5 from "../../images/web/JavaScript/5.jpg";
+import Img6 from "../../images/web/JavaScript/6.jpg";
+import Img7 from "../../images/web/JavaScript/7.jpg";
+import Img8 from "../../images/web/JavaScript/8.png";
+import Img9 from "../../images/web/JavaScript/9.png";
+import Img10 from "../../images/web/JavaScript/10.jpg";
+import Img11 from "../../images/web/JavaScript/11.jpg";
+import Img12 from "../../images/web/JavaScript/12.jpg";
+import Img13 from "../../images/web/JavaScript/13.jpg";
+import Img14 from "../../images/web/JavaScript/14.jpg";
+import Img15 from "../../images/web/JavaScript/15.jpg";
+import Img16 from "../../images/web/JavaScript/16.jpg";
+import Img17 from "../../images/web/JavaScript/17.jpg";
+import Img18 from "../../images/web/JavaScript/18.jpg";
+import Img19 from "../../images/web/JavaScript/19.jpg";
 
 
 
-import ImgR1 from "../../images/web/1R.jpg";
-import ImgR3 from "../../images/web/2R.jpg";
-import ImgR7 from "../../images/web/3R.jpg";
-import ImgR4 from "../../images/web/4R.jpg";
-import ImgR5 from "../../images/web/6R.jpg";
-import ImgR6 from "../../images/web/5R.jpg";
-import ImgR8 from "../../images/web/7R.jpg";
-import ImgR2 from "../../images/web/8R.jpg";
-import ImgR9 from "../../images/web/9R.jpg";
-import ImgR10 from "../../images/web/10R.jpg";
-import ImgR11 from "../../images/web/11R.jpg";
-import ImgR12 from "../../images/web/12R.jpg";
+import ImgR1 from "../../images/web/React/1R.jpg";
+import ImgR3 from "../../images/web/React/2R.jpg";
+import ImgR7 from "../../images/web/React/3R.jpg";
+import ImgR4 from "../../images/web/React/4R.jpg";
+import ImgR5 from "../../images/web/React/6R.jpg";
+import ImgR6 from "../../images/web/React/5R.jpg";
+import ImgR8 from "../../images/web/React/7R.jpg";
+import ImgR2 from "../../images/web/React/8R.jpg";
+import ImgR9 from "../../images/web/React/9R.jpg";
+import ImgR10 from "../../images/web/React/10R.jpg";
+import ImgR11 from "../../images/web/React/11R.jpg";
+import ImgR12 from "../../images/web/React/12R.jpg";
+import ImgR13 from "../../images/web/React/13R.jpg";
 
 export const WebDesignsData = [
   {
@@ -220,6 +221,12 @@ export const WebDesignsData = [
     image: Img19,
     alt: "Space Invaders",
     href: "https://space-invaders-luna-smith.netlify.app/",
+  },
+  {
+    id: 32,
+    image: ImgR13,
+    alt: "Snake Game",
+    href: "https://snake-game-react-typescript.netlify.app/",
   }
 
 ];

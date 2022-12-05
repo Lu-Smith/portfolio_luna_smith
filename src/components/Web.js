@@ -78,9 +78,9 @@ const WebPage = () => {
     },
     {
       id: 4,
-      imgSrc: Img4,
-      alt: "Mandala Shapes",
-      href: "https://mandala-shapes.netlify.app/",
+      imgSrc: Img17,
+      alt: "Frogger",
+      href: "frogger-luna-smith.netlify.app",
     },
     {
       id: 5,
@@ -156,9 +156,9 @@ const WebPage = () => {
     },
     {
       id: 17,
-      imgSrc: Img17,
-      alt: "Frogger",
-      href: "frogger-luna-smith.netlify.app",
+      imgSrc: Img4,
+      alt: "Mandala Shapes",
+      href: "https://mandala-shapes.netlify.app/",
     },
     {
       id: 18,
@@ -251,11 +251,57 @@ const WebPage = () => {
     {
       id: 13,
       imgSrc: ImgR13,
-      alt: "Snake Game",
+      alt: "Snake Game - TypeScript",
       href: "https://snake-game-react-typescript.netlify.app/",
     }
 
   ];
+
+  let gamesdata = [
+    {
+      id: 1,
+      imgSrc: ImgR12,
+      alt: "Tic Tac Toe - TypeScript",
+      href: "https://tic-tac-toe-react-typescript-luna.netlify.app/",
+    },
+    {
+      id: 2,
+      imgSrc: Img15,
+      alt: "Rock Paper Scissors",
+      href: "https://rockpaperscissors-fun-game.netlify.app/",
+    },
+    {
+      id: 3,
+      imgSrc: Img16,
+      alt: "Memory Game",
+      href: "https://memory-game-crypto-coo.netlify.app/",
+    },
+    {
+      id: 4,
+      imgSrc: Img17,
+      alt: "Frogger",
+      href: "frogger-luna-smith.netlify.app",
+    },
+    {
+      id: 5,
+      imgSrc: Img18,
+      alt: "Connect Four",
+      href: "connect-four-luna-smith.netlify.app",
+    },
+    {
+      id: 6,
+      imgSrc: Img19,
+      alt: "Space Invaders",
+      href: "https://space-invaders-luna-smith.netlify.app/",
+    },
+    {
+      id: 7,
+      imgSrc: ImgR13,
+      alt: "Snake Game - TypeScript",
+      href: "https://snake-game-react-typescript.netlify.app/",
+    }
+  ];
+
   let alldata = [
     {
       id: 1,
@@ -458,7 +504,7 @@ const WebPage = () => {
     {
       id: 33,
       imgSrc: ImgR13,
-      alt: "Snake Game",
+      alt: "Snake Game - TypeScript",
       href: "https://snake-game-react-typescript.netlify.app/",
     }
    
@@ -686,6 +732,38 @@ const WebPage = () => {
       </WebContainer>
       <GalleryContainer>
         {animationsdata.map((item, index) => {
+          return (
+            <GalleryWrap key={index}>
+              <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={item.imgSrc}
+                  alt={item.alt}
+                  style={{ width: `100%` }}
+                />
+                <h1>{item.alt}</h1>
+              </a>
+            </GalleryWrap>
+          );
+        })}
+      </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
+        <WebTitle id="gamesprojects">Games</WebTitle>
+        <WebDescription>
+          My projects coded with HTML, CSS, JavaScript, React.
+        </WebDescription>
+      </WebContainer>
+      <GalleryContainer>
+        {gamesdata.map((item, index) => {
           return (
             <GalleryWrap key={index}>
               <a href={item.href} target="_blank" rel="noopener noreferrer">

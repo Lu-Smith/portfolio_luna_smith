@@ -31,6 +31,7 @@ import ImgR10 from "../../images/web/React/10R.jpg";
 import ImgR11 from "../../images/web/React/11R.jpg";
 import ImgR12 from "../../images/web/React/12R.jpg";
 import ImgR13 from "../../images/web/React/13R.jpg";
+import ImgR14 from "../../images/web/React/14R.jpg";
 
 import Img1PHP from "../../images/web/PHP/1PHP.jpg";
 import Img2PHP from "../../images/web/PHP/2PHP.jpg";
@@ -233,8 +234,13 @@ export const jsdata = [
       imgSrc: ImgR13,
       alt: "Snake Game - TypeScript",
       href: "https://snake-game-react-typescript.netlify.app/",
+    },
+    {
+      id: 14,
+      imgSrc: ImgR14,
+      alt: "Moos and Coos - TypeScript/Redux",
+      href: "https://moosandcoosreactreduxtypescript.netlify.app/",
     }
-
   ];
 
   export const gamesdata = [
@@ -486,9 +492,15 @@ export const jsdata = [
       imgSrc: ImgR13,
       alt: "Snake Game - TypeScript",
       href: "https://snake-game-react-typescript.netlify.app/",
+    },
+    {
+      id: 34,
+      imgSrc: ImgR14,
+      alt: "Moos and Coos - TypeScript/Redux",
+      href: "https://moosandcoosreactreduxtypescript.netlify.app/",
     }
-   
   ];
+  
   export const animationsdata = [
     {
       id: 1,

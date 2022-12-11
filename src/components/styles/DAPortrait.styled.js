@@ -64,7 +64,7 @@ export const GalleryContainer = styled.div`
   width: 80%;
   margin: 0 auto;
   padding: 100px;
-  column-count: 3;
+  column-count: 4;
 
   video {
     margin: 0 auto;
@@ -73,14 +73,17 @@ export const GalleryContainer = styled.div`
   @media screen and (max-width: 1200px) {
     width: 85%;
     padding: 60px;
+    column-count: 3;
+
   }
   @media screen and (max-width: 820px) {
     width: 90%;
     padding: 40px;
-    column-count: 1;
+    column-count: 2;
   }
   @media screen and (max-width: 580px) {
     padding: 20px;
+    column-count: 1;
   }
   @media screen and (max-width: 400px) {
     padding: 10px;
@@ -90,17 +93,16 @@ export const GalleryContainer = styled.div`
 
 export const GalleryWrap = styled.div`
    margin: 0 5px 20px 5px;
-   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    img {
     border-radius: 20px;
-    width: 80%;
+    width: 60%;
 
     &:hover {
     border: 8px solid #c3195d;
     width: 100%;
-    right: 40px;
-    position: relative;
-    right: 40px;
    }
    }
    

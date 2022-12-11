@@ -38,6 +38,7 @@ import Img37 from "../../images/illustrations/characters/zebra.png";
 import Img38 from "../../images/illustrations/items/fruits.png";
 import Img39 from "../../images/illustrations/items/things.png";
 import Img40 from "../../images/illustrations/items/things1.png";
+import Img41 from "../../images/illustrations/characters/reindeer.png";
 
 
 
@@ -203,5 +204,9 @@ export const IllustrationsData = [
   {
     image: Img40,
     alt: `Random things- Illustration by Luna Smith`,
+  },
+  {
+    image: Img41,
+    alt: `Reindeer - Illustration by Luna Smith`,
   },
 ];

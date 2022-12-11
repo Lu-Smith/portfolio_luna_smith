@@ -41,7 +41,7 @@ import {
   Icon,
   CloseIcon,
   GalleryWrap
-} from "./styles/DAPortrait.styled";
+} from "./styles/DACharacters.styled";
 
 const CharactersPage = () => {
   let charactersdata = [

@@ -220,7 +220,6 @@ const CharactersPage = () => {
                 <img
                   src={item.imgSrc}
                   alt={item.alt}
-                  style={{ width: `100%` }}
                 />
             </GalleryWrap>
           );

@@ -90,11 +90,20 @@ export const GalleryContainer = styled.div`
 
 export const GalleryWrap = styled.div`
    margin: 0 5px 20px 5px;
+   position: relative;
    img {
-    border: 4px solid white;
     border-radius: 20px;
+    width: 80%;
+
+    &:hover {
+    border: 8px solid #c3195d;
     width: 100%;
+    right: 40px;
+    position: relative;
+    right: 40px;
    }
+   }
+   
    video {
     border: 4px solid #680747; ;
     border-radius: 20px;

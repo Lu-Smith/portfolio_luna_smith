@@ -1,14 +1,14 @@
 import React from "react";
-import Mermaids from "../components/DAMermaids";
+import Comics from "../components/DAComics";
 import ScrollToTop from "../components/ScrollToTop";
 
-const damermaids = () => {
+const dacomics = () => {
   return (
     <>
       <ScrollToTop />
-      <Mermaids />
+      <Comics />
     </>
   );
 };
 
-export default damermaids;
+export default dacomics;

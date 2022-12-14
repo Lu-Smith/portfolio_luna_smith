@@ -11,10 +11,10 @@ import {
   Icon,
   CloseIcon,
   GalleryWrap
-} from "./styles/DABackgrounds.styled";
+} from "./styles/DAComics.styled";
 
-const MermaidsPage = () => {
-  let mermaidsdata = [
+const ComicsPage = () => {
+  let comicsdata = [
     {
       id: 1,
       imgSrc: ImgC3,
@@ -44,7 +44,7 @@ const MermaidsPage = () => {
         </DigitalArtDescription>
       </DigitalArtContainer>
       <GalleryContainer>
-        {mermaidsdata.map((item, index) => {
+        {comicsdata.map((item, index) => {
           return (
             <GalleryWrap key={index}>
                 <img
@@ -60,4 +60,4 @@ const MermaidsPage = () => {
   );
 };
 
-export default MermaidsPage;
+export default ComicsPage;

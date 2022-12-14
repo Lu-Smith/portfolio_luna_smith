@@ -1,6 +1,6 @@
 import ImgW1 from "../images/illustrations/sunset by Luna Smith.jpg";
 import ImgP12 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 12.jpg";
-import ImgM1 from "../images/illustrations/mermaids/KittyMermaid.jpg";
+import ImgC3 from "../images/illustrations/comics/You are what you eat.jpg";
 import ImgC1 from "../images/illustrations/characters/Little Witch.png";
 import ImgI1 from "../images/illustrations/items/xylophone.png";
 import ImgB1 from "../images/illustrations/characters/zebra.png";
@@ -42,9 +42,9 @@ const DigitalArtPage = () => {
           <Image src={ImgC1} alt="cartoon characters created by Luna Smith"/>
           <TitleImage>Characters</TitleImage>
          </ButtonImage>
-         <ButtonImage to="/damermaids">
-          <Image src={ImgM1} alt="mermaids created by Luna Smith"/>
-          <TitleImage>Mermaids</TitleImage>
+         <ButtonImage to="/dacomics">
+          <Image src={ImgC3} alt="comics created by Luna Smith"/>
+          <TitleImage>Comics</TitleImage>
          </ButtonImage>
         </div>
         <div>

@@ -1,7 +1,6 @@
-import ImgM1 from "../images/illustrations/mermaids/HedgeHogMermaid.jpg";
-import ImgM2 from "../images/illustrations/mermaids/KittyMermaid.jpg";
-import ImgM3 from "../images/illustrations/mermaids/MonkeyMermaid.jpg";
-import ImgM4 from "../images/illustrations/mermaids/PuppyMermaid.jpg";
+import ImgC1 from "../images/illustrations/comics/Knowledge is Power.jpg";
+import ImgC2 from "../images/illustrations/comics/Meditation.jpg";
+import ImgC3 from "../images/illustrations/comics/You are what you eat.jpg";
 
 import {
   Container,
@@ -18,23 +17,18 @@ const MermaidsPage = () => {
   let mermaidsdata = [
     {
       id: 1,
-      imgSrc: ImgM1,
-      alt: "Hedgehog Mermaid, cartoon character by Luna Smith",
+      imgSrc: ImgC3,
+      alt: "You are what you eat, a funny cartoon strip by Luna Smith",
     },
     {
       id: 2,
-      imgSrc: ImgM2,
-      alt: "Kitty Mermaid, cartoon character by Luna Smith",
+      imgSrc: ImgC2,
+      alt: "Meditation, a funny cartoon strip by Luna Smith",
     },
     {
       id: 3,
-      imgSrc: ImgM3,
-      alt: "monkey Mermaid, cartoon character by Luna Smith",
-    },
-    {
-      id: 4,
-      imgSrc: ImgM4,
-      alt: "Puppy Mermaid, cartoon character by Luna Smith",
+      imgSrc: ImgC1,
+      alt: "Knowledge is Power, a funny cartoon by Luna Smith",
     }
   ];
 

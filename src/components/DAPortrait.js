@@ -10,12 +10,14 @@ import ImgP9 from "../images/illustrations/portraits/Halloween portrait by Luna 
 import ImgP10 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 10.jpg";
 import ImgP11 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 11.jpg";
 import ImgP12 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 12.jpg";
-import ImgP13 from "../images/illustrations/portraits/Portrait child 2.jpg";
-import ImgP14 from "../images/illustrations/portraits/Portrait 1.jpg";
-import ImgP15 from "../images/illustrations/portraits/Portrait 3.6.jpg";
+import ImgP13 from "../images/illustrations/portraits/Halloween portrait by Luna Smith - 13.jpg";
+import ImgP14 from "../images/illustrations/portraits/Portrait child 2.jpg";
+import ImgP15 from "../images/illustrations/portraits/Universe portrait by Luna Smith - 1.jpg";
+import ImgP16 from "../images/illustrations/portraits/Portrait 3.6.jpg";
 
 import ImgV1 from "../images/illustrations/portraits/short Halloween 6.mp4";
 import ImgV2 from "../images/illustrations/portraits/short Halloween 5.mp4";
+import ImgV3 from "../images/illustrations/portraits/Mutually Inspired Weirdness 1.1.mp4";
 
 import {
   Container,
@@ -38,6 +40,11 @@ const PortraitPage = () => {
     {
       id: 2,
       imgSrc: ImgV2,
+      alt: "Halloween portraits video by Luna Smith",
+    },
+    {
+      id: 3,
+      imgSrc: ImgV3,
       alt: "Halloween portraits video by Luna Smith",
     }
   ];
@@ -113,8 +120,13 @@ const PortraitPage = () => {
       alt: "Halloween Portrait by Luna Smith",
     },
     {
-      id: 14,
+      id: 15,
       imgSrc: ImgP9,
+      alt: "Halloween Portrait by Luna Smith",
+    },
+    {
+      id: 16,
+      imgSrc: ImgP16,
       alt: "Halloween Portrait by Luna Smith",
     }
   ];

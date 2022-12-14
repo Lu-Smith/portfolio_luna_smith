@@ -63,22 +63,19 @@ export const GalleryContainer = styled.div`
   background: white; 
   width: 80%;
   margin: 0 auto;
-  padding: 100px;
-  column-count: 4;
+  padding: 100px 200px;
 
   @media screen and (max-width: 1200px) {
     width: 85%;
     padding: 60px;
-    column-count: 3;
   }
   @media screen and (max-width: 820px) {
     width: 90%;
     padding: 40px;
-    column-count: 2;
+    
   }
   @media screen and (max-width: 580px) {
     padding: 20px;
-    column-count: 1;
   }
   @media screen and (max-width: 400px) {
     padding: 10px;
@@ -95,6 +92,7 @@ export const GalleryWrap = styled.div`
    img {
     border-radius: 20px;
     width: 60%;
+    margin-bottom: 50px;
    
 
     &:hover {

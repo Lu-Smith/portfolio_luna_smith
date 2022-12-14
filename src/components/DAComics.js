@@ -38,9 +38,9 @@ const ComicsPage = () => {
         <CloseIcon />
       </Icon>
       <DigitalArtContainer>
-        <DigitalArtTitle>Mermaids</DigitalArtTitle>
+        <DigitalArtTitle>Comics</DigitalArtTitle>
         <DigitalArtDescription>
-          Underwater kingdom ...
+          Knowledge is Power...
         </DigitalArtDescription>
       </DigitalArtContainer>
       <GalleryContainer>

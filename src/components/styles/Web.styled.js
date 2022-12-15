@@ -33,6 +33,8 @@ export const GalleryContainer = styled.div`
     -moz-column-count: 1;
     column-count: 1;
     padding: 0 15px;
+    width: 80%;
+    margin: 0 auto;
   }
 `;
 
@@ -55,7 +57,7 @@ export const WebContainer = styled.div`
   @media screen and (max-width: 480px) {
     padding: 0 8px 10px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 `;
 
@@ -69,10 +71,14 @@ export const WebTitle = styled.h1`
     font-size: 30px;
   }
   @media screen and (max-width: 480px) {
+    margin: 0 auto;
     margin-top: 20px;
     font-size: 22px;
     opacity: 90%;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 50%;
+    border-radius: 50%;
   }
 `;
 
@@ -94,6 +100,9 @@ export const WebDescription = styled.p`
     font-size: 14px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-top: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 80%;
+    border-radius: 50%;
   }
 `;
 

@@ -6,6 +6,10 @@ import { Link as LinkS } from "react-scroll";
 export const Container = styled.div`
   background: #f5f9ee;
   padding: 40px;
+
+  @media (max-width: 480px) {
+    padding: 20px;
+  }
 `;
 
 export const GalleryContainer = styled.div`
@@ -28,7 +32,7 @@ export const GalleryContainer = styled.div`
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
-    padding: 0 10px;
+    padding: 0 15px;
   }
 `;
 
@@ -49,8 +53,8 @@ export const WebContainer = styled.div`
     margin-bottom: 50px;
   }
   @media screen and (max-width: 480px) {
-    padding: 20px;
-    margin-top: 40px;
+    padding: 0 8px 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
 `;
@@ -65,7 +69,10 @@ export const WebTitle = styled.h1`
     font-size: 30px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 26px;
+    margin-top: 20px;
+    font-size: 22px;
+    opacity: 90%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
 `;
 
@@ -84,7 +91,9 @@ export const WebDescription = styled.p`
     font-size: 18px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 14px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 16px;
   }
 `;
 
@@ -113,9 +122,12 @@ export const GalleryWrap = styled.div`
     }
   }
   @media screen and (max-width: 480px) {
+    margin: 5%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
     h1 {
       font-size: 14px;
-      padding: 15px;
+      padding: 10px;
     }
   }
   &:hover {
@@ -135,6 +147,7 @@ export const Icon = styled(Link)`
   @media screen and (max-width: 480px) {
     margin-left: 0px;
     margin-top: 0px;
+    font-size: 22px;
   }
 `;
 
@@ -172,7 +185,7 @@ color: black;
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
-  font-size: 18px;
+  font-size: 14px;
   }
 `;
 
@@ -189,7 +202,7 @@ color: black;
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
-  font-size: 18px;
+  font-size: 14px;
   }
 `;
 
@@ -206,7 +219,7 @@ color: black;
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
-  font-size: 18px;
+  font-size: 14px;
   }
 `;
 
@@ -223,7 +236,7 @@ color: black;
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
-  font-size: 18px;
+  font-size: 14px;
   }
 `;
 
@@ -240,7 +253,7 @@ color: black;
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
-  font-size: 18px;
+  font-size: 14px;
   }
 `;
 
@@ -257,7 +270,7 @@ color: black;
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
-  font-size: 18px;
+  font-size: 14px;
   }
 `;
 
@@ -292,8 +305,8 @@ transition: all 200ms ease-in-out;
 
 @media screen and (max-width: 480px) {
   margin-top: 20px;
-  width: 40%;
-  font-size: 18px;
-  padding: 10px 15px;
+  width: 38%;
+  font-size: 16px;
+  padding: 8px 13px;
   }
 `;

@@ -66,7 +66,7 @@ export const WebTitle = styled.h1`
   opacity: 70%;
   font-size: 38px;
   text-align: center;
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     margin-top: 24px;
     font-size: 30px;
   }
@@ -93,7 +93,7 @@ export const WebDescription = styled.p`
   max-width: 600px;
   font-family: "Poiret One", cursive;
   font-style: italic;
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     font-size: 18px;
   }
   @media screen and (max-width: 480px) {
@@ -125,7 +125,7 @@ export const GalleryWrap = styled.div`
     padding: 20px;
     background-color: #bea15b;
   }
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     h1 {
       font-size: 16px;
     }
@@ -153,6 +153,12 @@ export const Icon = styled(Link)`
   color: #bea15b;
   font-weight: 700;
   font-size: 32px;
+
+    @media screen and (max-width: 820px) {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+
   @media screen and (max-width: 480px) {
     margin-left: 0px;
     margin-top: 0px;
@@ -176,6 +182,10 @@ export const Header = styled.div`
   align-items: center;
   justify-content: space-around;
 
+    @media screen and (max-width: 820px) {
+    margin: 10px 40px 10px 40px;
+  }
+
   @media screen and (max-width: 480px) {
     margin: 20px 40px 10px 40px;
   }
@@ -184,13 +194,18 @@ export const Header = styled.div`
 export const JavaScriptProjects = styled(LinkS)`
 padding: 10px 15px;
 font-size: 26px;
-border-radius: 20px;
 cursor: pointer;
 color: black;
 
 &:hover {
   color: #bea15b;
+  border-bottom: 2px solid #bea15b;
 }
+
+@media screen and (max-width: 820px) {
+  padding: 9px 10px;
+  font-size: 20px;
+  }
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
@@ -201,13 +216,19 @@ color: black;
 export const ReactProjects = styled(LinkS)`
 font-size: 26px;
 padding: 10px 15px;
-border-radius: 20px;
 cursor: pointer;
 color: black;
 
 &:hover {
   color: #bea15b;
+  border-bottom: 2px solid #bea15b;
+  
 }
+
+@media screen and (max-width: 820px) {
+  padding: 9px 10px;
+  font-size: 20px;
+  }
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
@@ -218,13 +239,18 @@ color: black;
 export const AllProjects = styled(LinkS)`
 font-size: 26px;
 padding: 10px 15px;
-border-radius: 20px;
 cursor: pointer;
 color: black;
 
 &:hover {
   color: #bea15b;
+  border-bottom: 2px solid #bea15b;
 }
+
+@media screen and (max-width: 820px) {
+  padding: 9px 10px;
+  font-size: 20px;
+  }
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
@@ -235,13 +261,18 @@ color: black;
 export const AnimationsProjects = styled(LinkS)`
 font-size: 26px;
 padding: 10px 15px;
-border-radius: 20px;
 cursor: pointer;
 color: black;
 
 &:hover {
   color: #bea15b;
+  border-bottom: 2px solid #bea15b;
 }
+
+@media screen and (max-width: 820px) {
+  padding: 9px 10px;
+  font-size: 20px;
+  }
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
@@ -252,13 +283,18 @@ color: black;
 export const PHPProjects = styled(LinkS)`
 font-size: 26px;
 padding: 10px 15px;
-border-radius: 20px;
 cursor: pointer;
 color: black;
 
 &:hover {
   color: #bea15b;
+  border-bottom: 2px solid #bea15b;
 }
+
+@media screen and (max-width: 820px) {
+  padding: 9px 10px;
+  font-size: 20px;
+  }
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
@@ -269,13 +305,18 @@ color: black;
 export const GamesProjects = styled(LinkS)`
 font-size: 26px;
 padding: 10px 15px;
-border-radius: 20px;
 cursor: pointer;
 color: black;
 
 &:hover {
   color: #bea15b;
+  border-bottom: 2px solid #bea15b;
 }
+
+@media screen and (max-width: 820px) {
+  padding: 9px 10px;
+  font-size: 20px;
+  }
 
 @media screen and (max-width: 480px) {
   padding: 8px 10px;
@@ -305,7 +346,7 @@ transition: all 200ms ease-in-out;
   transform: translateY(5px);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
   margin-top: 35px;
   width: 30%;
   font-size: 22px;

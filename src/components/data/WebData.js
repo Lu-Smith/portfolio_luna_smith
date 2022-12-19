@@ -175,7 +175,6 @@ export const jsdata = [
       alt: "Recipe App",
       href: "https://recipe-app-react-luna-smith.netlify.app/",
     },
-   
     {
       id: 4,
       imgSrc: ImgR4,
@@ -242,7 +241,6 @@ export const jsdata = [
       alt: "Moos and Coos - TypeScript/Redux",
       href: "https://moosandcoosreactreduxtypescript.netlify.app/",
     },
-    ,
     {
       id: 15,
       imgSrc: ImgR15,

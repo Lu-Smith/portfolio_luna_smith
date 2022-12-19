@@ -33,6 +33,8 @@ import ImgR10 from "../../images/web/React/10R.jpg";
 import ImgR11 from "../../images/web/React/11R.jpg";
 import ImgR12 from "../../images/web/React/12R.jpg";
 import ImgR13 from "../../images/web/React/13R.jpg";
+import ImgR14 from "../../images/web/React/14R.jpg";
+import ImgR15 from "../../images/web/React/15R.jpg";
 
 export const WebDesignsData = [
   {
@@ -45,7 +47,6 @@ export const WebDesignsData = [
     id: 2,
     image: Img2,
     alt: "Rainbow Spikes",
-
     href: "https://rainbow-spikes-javascript-animation.netlify.app/",
   },
   {
@@ -212,9 +213,9 @@ export const WebDesignsData = [
   },
   {
     id: 30,
-    image: Img18,
-    alt: "Connect Four",
-    href: "https://connect-four-luna-smith.netlify.app",
+    image: ImgR14,
+    alt: "Tic Tac Toe",
+    href: "https://tic-tac-toe-react-typescript-luna.netlify.app/",
   },
   {
     id: 31,
@@ -227,6 +228,17 @@ export const WebDesignsData = [
     image: ImgR13,
     alt: "Snake Game",
     href: "https://snake-game-react-typescript.netlify.app/",
+  },
+  {
+    id: 33,
+    image: Img18,
+    alt: "Connect Four",
+    href: "https://connect-four-luna-smith.netlify.app",
+  },
+  {
+    id: 34,
+    image: ImgR15,
+    alt: "Shop",
+    href: "https://candyheavenshop.netlify.app/",
   }
-
 ];

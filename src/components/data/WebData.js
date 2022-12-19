@@ -32,6 +32,7 @@ import ImgR11 from "../../images/web/React/11R.jpg";
 import ImgR12 from "../../images/web/React/12R.jpg";
 import ImgR13 from "../../images/web/React/13R.jpg";
 import ImgR14 from "../../images/web/React/14R.jpg";
+import ImgR15 from "../../images/web/React/15R.jpg";
 
 import Img1PHP from "../../images/web/PHP/1PHP.jpg";
 import Img2PHP from "../../images/web/PHP/2PHP.jpg";
@@ -240,6 +241,13 @@ export const jsdata = [
       imgSrc: ImgR14,
       alt: "Moos and Coos - TypeScript/Redux",
       href: "https://moosandcoosreactreduxtypescript.netlify.app/",
+    },
+    ,
+    {
+      id: 15,
+      imgSrc: ImgR15,
+      alt: "CandyHeaven Shop - Typescript",
+      href: "https://app.netlify.com/sites/candyheavenshop/overview",
     }
   ];
 
@@ -498,6 +506,12 @@ export const jsdata = [
       imgSrc: ImgR14,
       alt: "Moos and Coos - TypeScript/Redux",
       href: "https://moosandcoosreactreduxtypescript.netlify.app/",
+    },
+    {
+      id: 35,
+      imgSrc: ImgR15,
+      alt: "Shop - Typescript",
+      href: "https://app.netlify.com/sites/candyheavenshop/overview,
     }
   ];
   

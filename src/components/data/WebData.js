@@ -247,7 +247,7 @@ export const jsdata = [
       id: 15,
       imgSrc: ImgR15,
       alt: "CandyHeaven Shop - Typescript",
-      href: "https://app.netlify.com/sites/candyheavenshop/overview",
+      href: "https://candyheavenshop.netlify.app/",
     }
   ];
 
@@ -511,7 +511,7 @@ export const jsdata = [
       id: 35,
       imgSrc: ImgR15,
       alt: "Shop - Typescript",
-      href: "https://app.netlify.com/sites/candyheavenshop/overview,
+      href: "https://candyheavenshop.netlify.app/",
     }
   ];
   

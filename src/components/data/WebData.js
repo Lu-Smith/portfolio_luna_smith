@@ -33,6 +33,7 @@ import ImgR12 from "../../images/web/React/12R.jpg";
 import ImgR13 from "../../images/web/React/13R.jpg";
 import ImgR14 from "../../images/web/React/14R.jpg";
 import ImgR15 from "../../images/web/React/15R.jpg";
+import ImgR16 from "../../images/web/React/16R.jpg";
 
 import Img1PHP from "../../images/web/PHP/1PHP.jpg";
 import Img2PHP from "../../images/web/PHP/2PHP.jpg";
@@ -246,6 +247,12 @@ export const jsdata = [
       imgSrc: ImgR15,
       alt: "CandyHeaven Shop - Typescript",
       href: "https://candyheavenshop.netlify.app/",
+    },
+    {
+      id: 16,
+      imgSrc: ImgR16,
+      alt: "Hangman - Typescript",
+      href: "https://hangman-react-typescript.netlify.app/",
     }
   ];
 
@@ -291,6 +298,12 @@ export const jsdata = [
       imgSrc: ImgR13,
       alt: "Snake Game - TypeScript",
       href: "https://snake-game-react-typescript.netlify.app/",
+    },
+    {
+      id: 8,
+      imgSrc: ImgR16,
+      alt: "Hangman - TypeScript",
+      href: "https://hangman-react-typescript.netlify.app/",
     }
   ];
 
@@ -510,6 +523,12 @@ export const jsdata = [
       imgSrc: ImgR15,
       alt: "Shop - Typescript",
       href: "https://candyheavenshop.netlify.app/",
+    },
+    {
+      id: 36,
+      imgSrc: ImgR16,
+      alt: "Hangman - Typescript",
+      href: "https://hangman-react-typescript.netlify.app",
     }
   ];
   

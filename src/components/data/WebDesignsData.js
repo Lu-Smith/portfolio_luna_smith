@@ -35,6 +35,7 @@ import ImgR12 from "../../images/web/React/12R.jpg";
 import ImgR13 from "../../images/web/React/13R.jpg";
 import ImgR14 from "../../images/web/React/14R.jpg";
 import ImgR15 from "../../images/web/React/15R.jpg";
+import ImgR16 from "../../images/web/React/16R.jpg";
 
 export const WebDesignsData = [
   {
@@ -240,5 +241,11 @@ export const WebDesignsData = [
     image: ImgR15,
     alt: "Shop",
     href: "https://candyheavenshop.netlify.app/",
+  },
+  {
+    id: 35,
+    image: ImgR16,
+    alt: "Hangman",
+    href: "https://hangman-react-typescript.netlify.app/",
   }
 ];

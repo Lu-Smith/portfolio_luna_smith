@@ -13,8 +13,6 @@ to {
 }
 `
 
-
-
 export const InfoContainer = styled.div`
   padding-top: 60px;
   color: #fff;
@@ -181,14 +179,16 @@ export const ArtGalleryWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 100%;
+  width: 300px;
+  height: 400px;
   margin: 0 0 10px 0;
   padding-right: 0;
   animation: ${rotate} infinite 20s linear;
 
 
-  @media screen and (max-width: 768px) {
-    width: 50%;
+  @media screen and (max-width: 820px) {
+    width: 200px;
+    height: 300px;
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;

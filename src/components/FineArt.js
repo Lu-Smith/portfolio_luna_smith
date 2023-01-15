@@ -19,7 +19,6 @@ import {
   MenuButtonLink,
   ShopBtnLink 
 } from "./styles/FineArt.styled";
-import { Helmet } from "react-helmet-async";
 
 const Paintings = () => {
   const [hover, setHover] = useState(false);
@@ -28,13 +27,6 @@ const Paintings = () => {
     setHover(!hover);
   };
   return (
-    <>
-      <Helmet>
-        <title>Fine Art</title>
-        <meta name="description"
-              content="Stunning oil painting, created by a Scottish painter from Edinburgh, Luna Smith. Contemporary fine art."/>
-        <link rel="cononical" href="/fineart" />
-      </Helmet>
       <PaintingsContainer id="fineart">
         <PaintingsH1>Fine Art</PaintingsH1>
         <PaintingsWrapper>
@@ -115,7 +107,6 @@ const Paintings = () => {
           </ShopBtnLink >
         </HomeBtnWrapper>
       </PaintingsContainer>
-    </>
     
   );
 };

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import ContactBg from "../images/Contactbg.jpg";
 import {
   Container,
@@ -25,6 +26,12 @@ const ContactPage = () => {
   };
   return (
     <>
+      <Helmet>
+        <title>Contact</title>
+        <meta name="description"
+              content="Contact Luna Smith."/>
+        <link rel="cononical" href="/contact" />
+      </Helmet>
       <Container style={{ backgroundImage: `url(${ContactBg})` }}>
         <FormWrap>
           <Icon to="/">Take me home</Icon>

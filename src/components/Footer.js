@@ -1,6 +1,6 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
-import Logo1 from "../images/logo.png";
+import Logo1 from "../images/logo.webp";
 import {
   FaInstagram,
   FaLinkedin,

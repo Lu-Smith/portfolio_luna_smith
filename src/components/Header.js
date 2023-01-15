@@ -13,7 +13,7 @@ import {
   MenuButton,
   MenuButtonLink,
 } from "./styles/Header.styled";
-import Logo1 from "../images/logo.png";
+import Logo1 from "../images/logo.webp";
 
 export default function Header({ toggle }) {
   const [scrollNav, setScrollNav] = useState(false);

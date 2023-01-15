@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Icon1 from "../images/The Guardian Tree.jpg";
+import Icon1 from "../images/The Guardian Tree.webp";
 import Icon2 from "../images/Dreams of Sorrow.jpg";
-import Icon3 from "../images/The Warrior of Shattered Tears.jpg";
-import Icon4 from "../images/Owl.jpg";
+import Icon3 from "../images/The Warrior of Shattered Tears.webp";
+import Icon4 from "../images/Owl.webp";
 
 import {
   PaintingsContainer,

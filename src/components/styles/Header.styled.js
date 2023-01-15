@@ -41,17 +41,15 @@ export const HeaderLogo = styled(LinkR)`
 
 export const LogoImage = styled.img`
   width: 280px;
-  height: 50px;
+  height: auto;
 
   @media screen and (max-width: 820px) {
     width: 230px;
-    height: 40px;
     margin-top: 20px;
   }
 
   @media screen and (max-width: 480px) {
     margin-top: 0;
-    padding: 0;
   }
 `;
 

@@ -86,6 +86,7 @@ export const GitHub = styled.a`
 
 export const LogoImage = styled.img`
   width: 280px;
+  height: auto;
 
   @media screen and (max-width: 7860px) {
     width: 230px;

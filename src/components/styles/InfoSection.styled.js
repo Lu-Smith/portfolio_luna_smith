@@ -180,7 +180,7 @@ export const ArtGalleryWrap = styled.div`
 
 export const Img = styled.img`
   width: 300px;
-  height: 400px;
+  height: auto;
   margin: 0 0 10px 0;
   padding-right: 0;
   animation: ${rotate} infinite 20s linear;
@@ -188,7 +188,6 @@ export const Img = styled.img`
 
   @media screen and (max-width: 820px) {
     width: 200px;
-    height: 300px;
     display: block;
     margin: 0 auto;
     padding-bottom: 20px;

@@ -35,7 +35,7 @@ const HomeSection = (bg) => {
       </HomeBg>
       <HomeContent>
         <ImageContainer>
-          <Image bg={changeImg} onClick={changeImage} />
+          <Image bg={changeImg} alt='Luna Smith, a Scottish painter from Edinburgh' onClick={changeImage} />
         </ImageContainer>
         <MainContainer>
           <HomeH1>

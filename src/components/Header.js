@@ -38,7 +38,7 @@ export default function Header({ toggle }) {
       <StyledHeader scrollNav={scrollNav}>
         <HeaderContainer>
           <HeaderLogo to="/" onClick={toggleHome}>
-            <LogoImage src={Logo1} />
+            <LogoImage src={Logo1} alt='Luna Smith art logo' />
           </HeaderLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />

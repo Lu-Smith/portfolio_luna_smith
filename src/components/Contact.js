@@ -30,7 +30,7 @@ const ContactPage = () => {
         <title>Contact</title>
         <meta name="description"
               content="Contact Luna Smith."/>
-        <link rel="cononical" href="/contact" />
+        <link rel="canonical" href="/contact" />
       </Helmet>
       <Container style={{ backgroundImage: `url(${ContactBg})` }}>
         <FormWrap>

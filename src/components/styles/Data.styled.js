@@ -1,5 +1,5 @@
-import Pic1 from "../../images/Curiosity by Luna Smith.webp";
-import Pic3 from "../../images/turtlereading.webp";
+import Pic1 from "../../images/Curiosity.webp";
+import Pic3 from "../../images/Reading Turtle.webp";
 import Pic2 from "../../images/WeatherAppReact.webp";
 import { ArtGalleryData } from "../data/ArtGalleryData";
 import { IllustrationsData } from "../data/IllustrationsData";

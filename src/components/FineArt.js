@@ -40,7 +40,7 @@ const Paintings = () => {
               exact="true"
               offset={-100}
             >
-              <PaintingsIcon src={Icon1} />
+              <PaintingsIcon src={Icon1} alt="The Guardian Tree, an oil painting by Luna Smith"/>
               <PaintingsH2>Landscapes</PaintingsH2>
               <PaintingsP>Oil paintings on canvas</PaintingsP>
             </MenuButtonLink>
@@ -56,7 +56,7 @@ const Paintings = () => {
               exact="true"
               offset={-100}
             >
-              <PaintingsIcon src={Icon2} />
+              <PaintingsIcon src={Icon2} alt="Dreams of Sorrow, an oil painting by Luna Smith"/>
               <PaintingsH2>Abstracts</PaintingsH2>
               <PaintingsP>Oil paintings on canvas</PaintingsP>
             </MenuButtonLink>
@@ -72,7 +72,7 @@ const Paintings = () => {
               exact="true"
               offset={-100}
             >
-              <PaintingsIcon src={Icon3} />
+              <PaintingsIcon src={Icon3} alt="The Warrior of Shattered Tears, an oil painitng by Luna Smith"/>
               <PaintingsH2>Nott</PaintingsH2>
               <PaintingsP>Oil paintings on canvas</PaintingsP>
             </MenuButtonLink>
@@ -88,7 +88,7 @@ const Paintings = () => {
               exact="true"
               offset={-100}
             >
-              <PaintingsIcon src={Icon4} />
+              <PaintingsIcon src={Icon4} alr="Owl, an oil painting by Luna Smith" />
               <PaintingsH2>Animals</PaintingsH2>
               <PaintingsP>Oil paintings on canvas</PaintingsP>
             </MenuButtonLink>

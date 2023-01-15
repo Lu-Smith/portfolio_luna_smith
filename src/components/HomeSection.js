@@ -17,7 +17,7 @@ import {
   MainContainer,
 } from "./styles/HomeSection.styled";
 
-const HomeSection = (bg) => {
+const HomeSection = () => {
   const [hover, setHover] = useState(false);
   const [changeImg, setChangeImg] = useState(false);
 
@@ -35,7 +35,7 @@ const HomeSection = (bg) => {
       </HomeBg>
       <HomeContent>
         <ImageContainer>
-          <Image bg={changeImg} alt='Luna Smith, a Scottish painter from Edinburgh' onClick={changeImage} />
+          <Image bg={changeImg} aria-label='Luna Smith, a Scottish painter from Edinburgh' onClick={changeImage} />
         </ImageContainer>
         <MainContainer>
           <HomeH1>

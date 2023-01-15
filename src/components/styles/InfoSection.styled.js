@@ -127,7 +127,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: grey;
+  color: #05CFFA;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -207,7 +207,7 @@ export const MenuButtonLink = styled(LinkR)`
     109.5deg,
     rgb(86, 255, 248) 5.4%,
     rgb(13, 11, 136) 73.4%,
-    rgb(2, 2, 2) 95.4%
+    rgb(20, 30, 120) 95.4%
   );
   color: white;
   white-space: nowrap;

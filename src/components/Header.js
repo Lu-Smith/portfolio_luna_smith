@@ -52,6 +52,7 @@ export default function Header({ toggle }) {
                 spy="true"
                 exact="true"
                 offset={-100}
+                aria-label="go to an about page"
               >
                 About
               </MenuLinks>
@@ -64,6 +65,7 @@ export default function Header({ toggle }) {
                 spy="true"
                 exact="true"
                 offset={-100}
+                aria-label="go to a web design page"
               >
                 Web Designs
               </MenuLinks>
@@ -76,6 +78,7 @@ export default function Header({ toggle }) {
                 spy="true"
                 exact="true"
                 offset={-100}
+                aria-label="go to a fine art page"
               >
                 Fine Art
               </MenuLinks>
@@ -88,6 +91,7 @@ export default function Header({ toggle }) {
                 spy="true"
                 exact="true"
                 offset={-100}
+                aria-label="go to an illustrations page"
               >
                 Illustrations
               </MenuLinks>
@@ -101,6 +105,7 @@ export default function Header({ toggle }) {
               duration={500}
               exact="true"
               offset={-100}
+              aria-label="go to a contact page"
             >
               Contact me
             </MenuButtonLink>

@@ -40,7 +40,7 @@ const Footer = () => {
               spy="true"
               exact="true"
               offset={-100}
-              aria-lebel="go to a home page"
+              aria-label="go to a home page"
             >
               <LogoImage src={Logo1} alt="Luna Smith art logo"/>
             </SocialLogo>

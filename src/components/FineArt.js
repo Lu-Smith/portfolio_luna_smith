@@ -19,6 +19,7 @@ import {
   MenuButtonLink,
   ShopBtnLink 
 } from "./styles/FineArt.styled";
+import { Helmet } from "react-helmet-async";
 
 const Paintings = () => {
   const [hover, setHover] = useState(false);
@@ -27,86 +28,95 @@ const Paintings = () => {
     setHover(!hover);
   };
   return (
-    <PaintingsContainer id="fineart">
-      <PaintingsH1>Fine Art</PaintingsH1>
-      <PaintingsWrapper>
-        <PaintingsCard>
-          <MenuButton>
-            <MenuButtonLink
-              to="/landscapes"
-              smooth="true"
-              duration={500}
-              spy="true"
-              exact="true"
-              offset={-100}
-            >
-              <PaintingsIcon src={Icon1} alt="The Guardian Tree, an oil painting by Luna Smith"/>
-              <PaintingsH2>Landscapes</PaintingsH2>
-              <PaintingsP>Oil paintings on canvas</PaintingsP>
-            </MenuButtonLink>
-          </MenuButton>
-        </PaintingsCard>
-        <PaintingsCard>
-          <MenuButton>
-            <MenuButtonLink
-              to="/abstracts"
-              smooth="true"
-              duration={500}
-              spy="true"
-              exact="true"
-              offset={-100}
-            >
-              <PaintingsIcon src={Icon2} alt="Dreams of Sorrow, an oil painting by Luna Smith"/>
-              <PaintingsH2>Abstracts</PaintingsH2>
-              <PaintingsP>Oil paintings on canvas</PaintingsP>
-            </MenuButtonLink>
-          </MenuButton>
-        </PaintingsCard>
-        <PaintingsCard>
-          <MenuButton>
-            <MenuButtonLink
-              to="/nott"
-              smooth="true"
-              duration={500}
-              spy="true"
-              exact="true"
-              offset={-100}
-            >
-              <PaintingsIcon src={Icon3} alt="The Warrior of Shattered Tears, an oil painitng by Luna Smith"/>
-              <PaintingsH2>Nott</PaintingsH2>
-              <PaintingsP>Oil paintings on canvas</PaintingsP>
-            </MenuButtonLink>
-          </MenuButton>
-        </PaintingsCard>
-        <PaintingsCard>
-          <MenuButton>
-            <MenuButtonLink
-              to="/animals"
-              smooth="true"
-              duration={500}
-              spy="true"
-              exact="true"
-              offset={-100}
-            >
-              <PaintingsIcon src={Icon4} alt="Owl, an oil painting by Luna Smith" />
-              <PaintingsH2>Animals</PaintingsH2>
-              <PaintingsP>Oil paintings on canvas</PaintingsP>
-            </MenuButtonLink>
-          </MenuButton>
-        </PaintingsCard>
-      </PaintingsWrapper>
-      <HomeBtnWrapper>
-        <ShopBtnLink 
-          href="//www.saatchiart.com/lunasmithart"
-          target="_blank"
-          onMouseEnter={onHover}
-          onMouseLeave={onHover}
-          rel="noreferrer noopener"
-        >
-          Shop {hover ? <ArrowForward /> : <ArrowRight />}
-        </ShopBtnLink >
-      </HomeBtnWrapper>
-    </PaintingsContainer>
+    <>
+      <Helmet>
+        <title>Fine Art</title>
+        <meta name="description"
+              content="Stunning oil painting, created by a Scottish painter from Edinburgh, Luna Smith. Contemporary fine art."/>
+        <link rel="cononical" href="/fineart" />
+      </Helmet>
+      <PaintingsContainer id="fineart">
+        <PaintingsH1>Fine Art</PaintingsH1>
+        <PaintingsWrapper>
+          <PaintingsCard>
+            <MenuButton>
+              <MenuButtonLink
+                to="/landscapes"
+                smooth="true"
+                duration={500}
+                spy="true"
+                exact="true"
+                offset={-100}
+              >
+                <PaintingsIcon src={Icon1} alt="The Guardian Tree, an oil painting by Luna Smith"/>
+                <PaintingsH2>Landscapes</PaintingsH2>
+                <PaintingsP>Oil paintings on canvas</PaintingsP>
+              </MenuButtonLink>
+            </MenuButton>
+          </PaintingsCard>
+          <PaintingsCard>
+            <MenuButton>
+              <MenuButtonLink
+                to="/abstracts"
+                smooth="true"
+                duration={500}
+                spy="true"
+                exact="true"
+                offset={-100}
+              >
+                <PaintingsIcon src={Icon2} alt="Dreams of Sorrow, an oil painting by Luna Smith"/>
+                <PaintingsH2>Abstracts</PaintingsH2>
+                <PaintingsP>Oil paintings on canvas</PaintingsP>
+              </MenuButtonLink>
+            </MenuButton>
+          </PaintingsCard>
+          <PaintingsCard>
+            <MenuButton>
+              <MenuButtonLink
+                to="/nott"
+                smooth="true"
+                duration={500}
+                spy="true"
+                exact="true"
+                offset={-100}
+              >
+                <PaintingsIcon src={Icon3} alt="The Warrior of Shattered Tears, an oil painitng by Luna Smith"/>
+                <PaintingsH2>Nott</PaintingsH2>
+                <PaintingsP>Oil paintings on canvas</PaintingsP>
+              </MenuButtonLink>
+            </MenuButton>
+          </PaintingsCard>
+          <PaintingsCard>
+            <MenuButton>
+              <MenuButtonLink
+                to="/animals"
+                smooth="true"
+                duration={500}
+                spy="true"
+                exact="true"
+                offset={-100}
+              >
+                <PaintingsIcon src={Icon4} alt="Owl, an oil painting by Luna Smith" />
+                <PaintingsH2>Animals</PaintingsH2>
+                <PaintingsP>Oil paintings on canvas</PaintingsP>
+              </MenuButtonLink>
+            </MenuButton>
+          </PaintingsCard>
+        </PaintingsWrapper>
+        <HomeBtnWrapper>
+          <ShopBtnLink 
+            href="//www.saatchiart.com/lunasmithart"
+            target="_blank"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            rel="noreferrer noopener"
+          >
+            Shop {hover ? <ArrowForward /> : <ArrowRight />}
+          </ShopBtnLink >
+        </HomeBtnWrapper>
+      </PaintingsContainer>
+    </>
+    
   );
 };
 

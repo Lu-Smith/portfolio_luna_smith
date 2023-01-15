@@ -63,7 +63,7 @@ export const PaintingsIcon = styled.img`
   
 `;
 
-export const PaintingsH1 = styled.h1`
+export const PaintingsH1 = styled.h2`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;

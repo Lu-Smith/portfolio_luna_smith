@@ -2,7 +2,6 @@ import { ThemeProvider } from "styled-components";
 import Home from "./pages";
 import Contact from "./pages/contact";
 import Bio from "./pages/bio";
-import Art from "./pages/art";
 import DigitalArt from "./pages/digitalart";
 import Web from "./pages/web";
 import Landscapes from "./pages/landscapes";
@@ -42,7 +41,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/bio" element={<Bio />} />
-          <Route path="/art" element={<Art />} />
           <Route path="/digitalart" element={<DigitalArt />} />
           <Route path="/web" element={<Web />} />
           <Route path="/landscapes" element={<Landscapes />} />

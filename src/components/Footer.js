@@ -41,7 +41,7 @@ const Footer = () => {
               exact="true"
               offset={-100}
             >
-              <LogoImage src={Logo1} />
+              <LogoImage src={Logo1} alt="Luna Smith art logo"/>
             </SocialLogo>
             <WebsiteRights>
               Luna Smith Art © {new Date().getFullYear()}, coded by{" "}

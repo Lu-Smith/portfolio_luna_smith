@@ -88,7 +88,7 @@ const Paintings = () => {
               exact="true"
               offset={-100}
             >
-              <PaintingsIcon src={Icon4} alr="Owl, an oil painting by Luna Smith" />
+              <PaintingsIcon src={Icon4} alt="Owl, an oil painting by Luna Smith" />
               <PaintingsH2>Animals</PaintingsH2>
               <PaintingsP>Oil paintings on canvas</PaintingsP>
             </MenuButtonLink>

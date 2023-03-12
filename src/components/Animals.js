@@ -41,7 +41,7 @@ import {
   HomeBtnWrapper,
   ArrowForward,
   ArrowRight,
-  CloseIconCloseUp
+  CloseIconCloseUp,
 } from "./styles/Animals.styled";
 
 const AnimalsPage = () => {
@@ -194,12 +194,12 @@ const AnimalsPage = () => {
     },
   ];
 
-const [model, setModel] = useState(false);
-const [tempimgSrc, setTempimgSrc] = useState(``);
-const getImg = (imgSrc) => {
-  setTempimgSrc(imgSrc);
-  setModel(true);
-}
+  const [model, setModel] = useState(false);
+  const [tempimgSrc, setTempimgSrc] = useState(``);
+  const getImg = (imgSrc) => {
+    setTempimgSrc(imgSrc);
+    setModel(true);
+  };
 
   return (
     <Container>
@@ -213,19 +213,19 @@ const getImg = (imgSrc) => {
           friend. Stay inspired.
         </BioDescription>
         <HomeBtnWrapper>
-        <ShopBtnLink 
-          href="//www.saatchiart.com/lunasmithart"
-          target="_blank"
-          onMouseEnter={onHover}
-          onMouseLeave={onHover}
-          rel="noreferrer noopener"
-        >
-          Shop {hover ? <ArrowForward /> : <ArrowRight />}
-        </ShopBtnLink >
-      </HomeBtnWrapper>
+          <ShopBtnLink
+            href="https://luartgallery.com/"
+            target="_blank"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            rel="noreferrer noopener"
+          >
+            Shop {hover ? <ArrowForward /> : <ArrowRight />}
+          </ShopBtnLink>
+        </HomeBtnWrapper>
       </BioContainer>
-      <div className={model? "model open" : "model"}>
-        <img src={tempimgSrc} alt=""/>
+      <div className={model ? "model open" : "model"}>
+        <img src={tempimgSrc} alt="" />
         <CloseIconCloseUp onClick={() => setModel(false)} />
       </div>
       <GalleryContainer>

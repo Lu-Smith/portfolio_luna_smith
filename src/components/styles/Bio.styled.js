@@ -9,6 +9,12 @@ export const Container = styled.div`
   img {
     width: 100%;
   }
+
+  .events {
+    margin-top: 60px;
+    background-color: red;
+    padding: 5px;
+  }
 `;
 
 export const GalleryContainer = styled.div`
@@ -37,6 +43,19 @@ export const BioContainer = styled.div`
   border: 10px solid grey;
   border-radius: 50px;
   margin-bottom: 50px;
+
+  .title {
+    font-weight: 600;
+    margin: 20px 0;
+    color: red;
+    font-size: 20px;
+  }
+
+  .date {
+    color: #fff;
+    opacity: 60%;
+    margin-bottom: 10px;
+  }
 
   @media (max-width: 768px) {
     border: 6px solid grey;

@@ -115,6 +115,16 @@ export const HomeP = styled.p`
     margin-bottom: 20px;
   }
 
+  a {
+    text-decoration: none;
+    color: #fa9109;
+    transition: 200ms all ease-in-out;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
   @media screen and (max-width: 786px) {
     font-size: 18px;
   }

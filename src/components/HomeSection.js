@@ -63,6 +63,16 @@ const HomeSection = () => {
             art - Luna's beautiful works are available as originals, prints and
             merchandise.
           </HomeP>
+          <HomeP>
+            <a
+              href="https://luartgallery.com/"
+              alt="LuArt Gallery website, a Scottish contemporary art"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Visit LuArt Gallery to buy stunning fine art
+            </a>
+          </HomeP>
           <HomeBtnWrapper>
             <Button
               onMouseEnter={onHover}

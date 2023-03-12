@@ -29,7 +29,6 @@ import Img27 from "../images/soundoflife/27.jpg";
 import Img28 from "../images/soundoflife/28.jpg";
 import Img29 from "../images/soundoflife/29.jpg";
 
-
 import {
   Container,
   GalleryContainer,
@@ -43,7 +42,7 @@ import {
   HomeBtnWrapper,
   ArrowForward,
   ArrowRight,
-  CloseIconCloseUp
+  CloseIconCloseUp,
 } from "./styles/SoundofLife.styled";
 
 const SoundofLifePage = () => {
@@ -127,7 +126,8 @@ const SoundofLifePage = () => {
       id: 15,
       imgSrc: Img15,
       alt: "Curiosity",
-    },  {
+    },
+    {
       id: 16,
       imgSrc: Img16,
       alt: "Pianist",
@@ -141,7 +141,8 @@ const SoundofLifePage = () => {
       id: 18,
       imgSrc: Img18,
       alt: "Saxophone",
-    },  {
+    },
+    {
       id: 19,
       imgSrc: Img19,
       alt: "Jazz",
@@ -155,7 +156,8 @@ const SoundofLifePage = () => {
       id: 21,
       imgSrc: Img21,
       alt: "Dancer",
-    },  {
+    },
+    {
       id: 22,
       imgSrc: Img22,
       alt: "Piano",
@@ -169,7 +171,8 @@ const SoundofLifePage = () => {
       id: 24,
       imgSrc: Img24,
       alt: "Ice Dancer",
-    },  {
+    },
+    {
       id: 25,
       imgSrc: Img25,
       alt: "Morning",
@@ -183,7 +186,8 @@ const SoundofLifePage = () => {
       id: 27,
       imgSrc: Img27,
       alt: "Flute",
-    },  {
+    },
+    {
       id: 28,
       imgSrc: Img28,
       alt: "Trumpet",
@@ -192,7 +196,7 @@ const SoundofLifePage = () => {
       id: 29,
       imgSrc: Img29,
       alt: "Jump",
-    } 
+    },
   ];
 
   const [model, setModel] = useState(false);
@@ -202,7 +206,7 @@ const SoundofLifePage = () => {
     setTempimgSrc(imgSrc);
     setModel(true);
     setTitle(alt);
-  }
+  };
 
   return (
     <Container>
@@ -212,22 +216,24 @@ const SoundofLifePage = () => {
       <BioContainer>
         <BioTitle>Sound of Life</BioTitle>
         <BioDescription>
-        When I listen to music, every sound, every rhythm has a unique colour and texture. I see melody dancing, changing like the northern lights in the sky. My brushstrokes aspire to capture every note.
+          When I listen to music, every sound, every rhythm has a unique colour
+          and texture. I see melody dancing, changing like the northern lights
+          in the sky. My brushstrokes aspire to capture every note.
         </BioDescription>
         <HomeBtnWrapper>
-        <ShopBtnLink 
-          href="//www.saatchiart.com/lunasmithart"
-          target="_blank"
-          onMouseEnter={onHover}
-          onMouseLeave={onHover}
-          rel="noreferrer noopener"
-        >
-          Shop {hover ? <ArrowForward /> : <ArrowRight />}
-        </ShopBtnLink >
-      </HomeBtnWrapper>
+          <ShopBtnLink
+            href="https://luartgallery.com"
+            target="_blank"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            rel="noreferrer noopener"
+          >
+            Shop {hover ? <ArrowForward /> : <ArrowRight />}
+          </ShopBtnLink>
+        </HomeBtnWrapper>
       </BioContainer>
-      <div className={model? "model open" : "model"}>
-        <img src={tempimgSrc} alt={title.alt}/>
+      <div className={model ? "model open" : "model"}>
+        <img src={tempimgSrc} alt={title.alt} />
         <h2>{title}</h2>
         <h3>Oil painting on canvas</h3>
         <CloseIconCloseUp onClick={() => setModel(false)} />
@@ -235,7 +241,10 @@ const SoundofLifePage = () => {
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc, item.alt)}>
+            <GalleryWrap
+              key={index}
+              onClick={() => getImg(item.imgSrc, item.alt)}
+            >
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

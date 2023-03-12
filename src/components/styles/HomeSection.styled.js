@@ -88,14 +88,17 @@ export const HomeH1 = styled.h1`
   color: #fff;
   opacity: 60%;
   font-size: 38px;
+  line-height: 45px;
   text-align: center;
   @media screen and (max-width: 786px) {
     margin-top: 24px;
     font-size: 32px;
+    line-height: 40px;
   }
   @media screen and (max-width: 480px) {
     padding: 0 20px 0 20px;
-    font-size: 28px;
+    font-size: 25px;
+    line-height: 35px;
   }
 `;
 

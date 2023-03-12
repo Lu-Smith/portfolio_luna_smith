@@ -136,10 +136,13 @@ export const HomeP = styled.p`
 export const HomeBtnWrapper = styled.div`
   margin-top: 40px;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 
   @media screen and (max-width: 786px) {
     margin-top: 0;
+    flex-direction: column;
   }
 `;
 

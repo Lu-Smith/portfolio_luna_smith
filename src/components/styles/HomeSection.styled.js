@@ -7,7 +7,7 @@ export const HomeContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 100vh;
+  height: 140vh;
   position: relative;
   z-index: 1;
   :before {
@@ -108,6 +108,13 @@ export const HomeP = styled.p`
   max-width: 600px;
   font-family: "Poiret One", cursive;
   font-style: italic;
+
+  .title,
+  .date {
+    color: #fa9109;
+    margin-bottom: 20px;
+  }
+
   @media screen and (max-width: 786px) {
     font-size: 18px;
   }

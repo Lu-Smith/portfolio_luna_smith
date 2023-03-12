@@ -35,13 +35,28 @@ const HomeSection = () => {
       </HomeBg>
       <HomeContent>
         <ImageContainer>
-          <Image bg={changeImg} aria-label='Luna Smith, a Scottish painter from Edinburgh' onClick={changeImage} />
+          <Image
+            bg={changeImg}
+            aria-label="Luna Smith, a Scottish painter from Edinburgh"
+            onClick={changeImage}
+          />
         </ImageContainer>
         <MainContainer>
           <HomeH1>
             Luna Smith is an artist, a web developer and an illustrator.
           </HomeH1>
           <HomeP>
+            <div>
+              <div className="title">
+                Solo exhibition at St Margaret House in Edinburgh, Scotland
+              </div>
+              <div className="date">2023, 10 March - 22 March </div>
+              <div>
+                Join me at my solo exhibition. This art show offers a rare
+                opportunity to see my painting collections in Edinburgh. From
+                abstract to landscape, you can find yourself in art.
+              </div>
+            </div>
             Her original artworks take inspiration from sounds, Norse Mythology,
             Ancient Worlds, and nature. Regularly commissioned by private and
             commercial clients alike to create websites, illustrations and fine

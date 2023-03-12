@@ -86,7 +86,21 @@ const HomeSection = () => {
               exact="true"
               offset={-80}
             >
-              My Projects {hover ? <ArrowForward /> : <ArrowRight />}
+              My Coding Projects {hover ? <ArrowForward /> : <ArrowRight />}
+            </Button>
+            <Button
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              to="fineart"
+              primary="true"
+              dark="true"
+              smooth="true"
+              duration={500}
+              spy="true"
+              exact="true"
+              offset={-80}
+            >
+              My Art Projects {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </HomeBtnWrapper>
         </MainContainer>

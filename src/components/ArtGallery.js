@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { ArtGalleryData } from "./styles/ArtGalleryData";
-import { IllustrationsData } from "./styles/IllustrationsData";
-import { WebDesignsData } from "./styles/WebDesignsData";
+import { ArtGalleryData } from "./data/ArtGalleryData";
+import { IllustrationsData } from "./data/IllustrationsData";
+import { WebDesignsData } from "./data/WebDesignsData";
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import "./styles/ArtGallery.css";
 

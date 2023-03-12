@@ -1,23 +1,24 @@
-import Img1 from "../images/1.jpg";
-import Img2 from "../images/2.jpg";
-import Img3 from "../images/3.jpg";
-import Img4 from "../images/4.jpg";
-import Img5 from "../images/5.jpg";
-import Img6 from "../images/6.jpg";
-import Img7 from "../images/7.jpg";
-import Img8 from "../images/22.jpg";
-import Img9 from "../images/9.jpg";
-import Img10 from "../images/10.jpg";
-import Img11 from "../images/11.jpg";
-import Img12 from "../images/12.jpg";
-import Img13 from "../images/13.jpg";
-import Img14 from "../images/14.jpg";
-import Img15 from "../images/15.jpg";
-import Img16 from "../images/16.jpg";
-import Img17 from "../images/17.jpg";
-import Img18 from "../images/18.jpg";
-import Img19 from "../images/19.jpg";
-import Img20 from "../images/20.jpg";
+import React, { useState } from "react";
+import Img1 from "../images/artstudio/1.jpg";
+import Img2 from "../images/artstudio/2.jpg";
+import Img3 from "../images/artstudio/3.jpg";
+import Img4 from "../images/artstudio/4.jpg";
+import Img5 from "../images/artstudio/5.jpg";
+import Img6 from "../images/artstudio/6.jpg";
+import Img7 from "../images/artstudio/7.jpg";
+import Img8 from "../images/artstudio/22.jpg";
+import Img9 from "../images/artstudio/9.jpg";
+import Img10 from "../images/artstudio/10.jpg";
+import Img11 from "../images/artstudio/11.jpg";
+import Img12 from "../images/artstudio/12.jpg";
+import Img13 from "../images/artstudio/13.jpg";
+import Img14 from "../images/artstudio/14.jpg";
+import Img15 from "../images/artstudio/15.jpg";
+import Img16 from "../images/artstudio/16.jpg";
+import Img17 from "../images/artstudio/17.jpg";
+import Img18 from "../images/artstudio/18.jpg";
+import Img19 from "../images/artstudio/19.jpg";
+import Img20 from "../images/artstudio/20.jpg";
 import BioImg from "../images/BioLunaSmith.jpg";
 
 import {
@@ -29,6 +30,7 @@ import {
   BioDescription,
   Icon,
   CloseIcon,
+  CloseIconCloseUp
 } from "./styles/Bio.styled";
 
 const BioPage = () => {
@@ -135,6 +137,13 @@ const BioPage = () => {
     },
   ];
 
+const [model, setModel] = useState(false);
+const [tempimgSrc, setTempimgSrc] = useState(``);
+const getImg = (imgSrc) => {
+  setTempimgSrc(imgSrc);
+  setModel(true);
+}
+
   return (
     <Container>
       <img src={BioImg} alt="Bio Luna Smith" />
@@ -226,10 +235,14 @@ const BioPage = () => {
           </div>
         </BioDescription>
       </BioContainer>
+      <div className={model? "model open" : "model"}>
+        <img src={tempimgSrc} alt=""/>
+        <CloseIconCloseUp onClick={() => setModel(false)} />
+      </div>
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index}>
+            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc)}>
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

@@ -1,9 +1,9 @@
-import Pic1 from "../../images/Curiosity by Luna Smith.jpg";
-import Pic3 from "../../images/turtlereading.png";
-import Pic2 from "../../images/WeatherAppReact.jpg";
-import { ArtGalleryData } from "./ArtGalleryData";
-import { IllustrationsData } from "./IllustrationsData";
-import { WebDesignsData } from "./WebDesignsData";
+import Pic1 from "../../images/Curiosity.webp";
+import Pic3 from "../../images/Reading Turtle.webp";
+import Pic2 from "../../images/WeatherAppReact.webp";
+import { ArtGalleryData } from "../data/ArtGalleryData";
+import { IllustrationsData } from "../data/IllustrationsData";
+import { WebDesignsData } from "../data/WebDesignsData";
 
 export const homeObjOne = {
   id: `about`,
@@ -19,12 +19,13 @@ export const homeObjOne = {
   buttonLabelHome: `Home`,
   imgStart: true,
   img: Pic1,
-  alt: "art",
+  alt: "Sound of Life",
   dark: true,
   primary: true,
   darkText: false,
   maindescription: `Sound of Life`,
   slides: ArtGalleryData,
+  link: `/soundoflife`
 };
 
 export const homeObjTwo = {
@@ -35,18 +36,22 @@ export const homeObjTwo = {
   lightTextDesc: true,
   topLine: `Web Designs`,
   headline: `Web Developer`,
-  description: `I started coding with SheCodes in April 2022. I completed SheCodes Basics, SheCodes Plus ,and SheCodes React. I have knowledge of HTML, CSS, JavaScript, Canvas, React, Styled Elements, Visual Studio Code, Sandbox, API, GitHub, Bootstrap, Flexbox, Responsive websites and Hosting. I am enjoying coding and designing websites. Currently I am looking for a job a React developer.`,
+  description: `I started coding SheCodes where I completed various courses including SheCodes React. I
+  worked on interesting and challenging projects with HTML, CSS, JavaScript, TypeScript, Canvas, React, Redux, Styled
+  Components, Bootstrap, Flexbox, Responsive websites, PHP, Visual Studio Code, Sandbox, API, GitHub and Agile Methodologies, and Hosting. I am enjoying coding, problem-solving, animations, and
+  designing websites. I am looking forward to collaboration with web developers and clients.`,
   buttonLabel: `More`,
   more: `/web`,
   buttonLabelHome: `Home`,
   imgStart: true,
   img: Pic2,
-  alt: "web designs",
+  alt: "Web Designs",
   dark: false,
   primary: false,
   darkText: true,
   maindescription: `My Projects`,
   slides: WebDesignsData,
+  link: `/web`
 };
 
 export const homeObjThree = {
@@ -63,10 +68,11 @@ export const homeObjThree = {
   buttonLabelHome: `Home`,
   imgStart: true,
   img: Pic3,
-  alt: "art",
+  alt: "Digital Illustraiotns",
   dark: false,
   primary: false,
   darkText: true,
   maindescription: `Digital art`,
   slides: IllustrationsData,
+  link: `/digitalart`
 };

@@ -11,6 +11,20 @@ export const Container = styled.div`
   z-index: 0;
   overflow: hidden;
   background: linear-gradient(to top, #09203f 0%, #537895 100%);
+
+  @media screen and (max-width: 600px) {
+   min-height: 400px;
+   margin: 0 auto;
+}
+
+  @media screen and (max-width: 480px) {
+   max-width: 480px;
+   margin: 0 auto;
+}
+
+  @media screen and (max-width: 360px) {
+   max-width: 360px;
+}
 `;
 
 export const FormWrap = styled.div`
@@ -35,10 +49,22 @@ export const Icon = styled(Link)`
   &:hover {
     color: #35b6a0;
   }
+
+  @media screen and (max-width: 600px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
   @media screen and (max-width: 480px) {
     margin-left: 0;
     margin-top: 6px;
     font-size: 18px;
+  }
+
+  @media screen and (max-width: 360px) {
+    margin-top: 40px;
+    text-align: center;
   }
 `;
 export const FormContent = styled.div`
@@ -49,6 +75,11 @@ export const FormContent = styled.div`
 
   @media screen and (max-width: 480px) {
     padding: 10px;
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 360px) {
+    margin-top: 40px;
   }
 `;
 
@@ -63,9 +94,22 @@ export const Form = styled.form`
   padding: 80px 42px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+
+  @media screen and (max-width: 600px) {
+    padding: 22px 22px;
+    margin-top: 10px;
+    max-width: 560px;
+  }
+
   @media screen and (max-width: 480px) {
     padding: 32px 32px;
     margin-top: 200px;
+    max-width: 300px;
+  }
+
+  @media screen and (max-width: 360px) {
+    padding: 22px 12px;
+    margin-top: 100px;
   }
 `;
 
@@ -75,6 +119,14 @@ export const FormH1 = styled.h1`
   font-size: 20px;
   font-weight: 400;
   text-align: center;
+
+  @media screen and (max-width: 600px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 360px) {
+    margin-bottom: 20px;
+  }
 `;
 
 export const FormLabel = styled.label`
@@ -88,6 +140,20 @@ export const FormInput = styled.input`
   margin-bottom: 32px;
   border: none;
   border-radius: 4px;
+
+  @media screen and (max-width: 600px) {
+    padding: 14px 14px;
+    max-width: 280px;
+  }
+
+  @media screen and (max-width: 360px) {
+    padding: 12px 12px;
+  }
+
+  @media screen and (max-width: 360px) {
+    padding: 10px 10px;
+    margin-bottom: 22px;
+  }
 `;
 
 export const FormButton = styled.button`
@@ -104,6 +170,13 @@ export const FormButton = styled.button`
     background: #35b6a0;
     color: black;
   }
+  @media screen and (max-width: 60px) {
+    padding: 12px 0;
+  }
+
+  @media screen and (max-width: 360px) {
+    padding: 10px 0;
+  }
 `;
 
 export const Text = styled.span`
@@ -118,4 +191,17 @@ export const Textarea = styled.textarea`
   font-size: 14px;
   line-height: 20px;
   padding: 10px;
+
+  @media screen and (max-width: 600px) {
+  height: 250px;
+  font-size: 13px;
+  line-height: 18px;
+  }
+
+  @media screen and (max-width: 360px) {
+  font-size: 12px;
+  }
 `;
+
+
+

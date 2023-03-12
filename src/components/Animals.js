@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Img1 from "../images/fineart/animals/Blue Dino by Luna Smith.jpg";
 import Img2 from "../images/fineart/animals/Hatching Baby Lizard by Luna Smith.jpg";
 import Img3 from "../images/fineart/animals/Hatching Blue Dragon by Luna Smith.jpg";
@@ -36,9 +37,20 @@ import {
   BioDescription,
   Icon,
   CloseIcon,
+  ShopBtnLink,
+  HomeBtnWrapper,
+  ArrowForward,
+  ArrowRight,
+  CloseIconCloseUp
 } from "./styles/Animals.styled";
 
 const AnimalsPage = () => {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
+
   let data = [
     {
       id: 1,
@@ -182,6 +194,13 @@ const AnimalsPage = () => {
     },
   ];
 
+const [model, setModel] = useState(false);
+const [tempimgSrc, setTempimgSrc] = useState(``);
+const getImg = (imgSrc) => {
+  setTempimgSrc(imgSrc);
+  setModel(true);
+}
+
   return (
     <Container>
       <Icon to="/">
@@ -193,11 +212,26 @@ const AnimalsPage = () => {
           Wilderness and beauty. Fluffiness and claws. A dangerous forever
           friend. Stay inspired.
         </BioDescription>
+        <HomeBtnWrapper>
+        <ShopBtnLink 
+          href="//www.saatchiart.com/lunasmithart"
+          target="_blank"
+          onMouseEnter={onHover}
+          onMouseLeave={onHover}
+          rel="noreferrer noopener"
+        >
+          Shop {hover ? <ArrowForward /> : <ArrowRight />}
+        </ShopBtnLink >
+      </HomeBtnWrapper>
       </BioContainer>
+      <div className={model? "model open" : "model"}>
+        <img src={tempimgSrc} alt=""/>
+        <CloseIconCloseUp onClick={() => setModel(false)} />
+      </div>
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index}>
+            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc)}>
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

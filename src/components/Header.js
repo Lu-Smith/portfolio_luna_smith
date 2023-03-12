@@ -13,7 +13,7 @@ import {
   MenuButton,
   MenuButtonLink,
 } from "./styles/Header.styled";
-import Logo1 from "../images/logo.png";
+import Logo1 from "../images/logo.webp";
 
 export default function Header({ toggle }) {
   const [scrollNav, setScrollNav] = useState(false);
@@ -38,60 +38,64 @@ export default function Header({ toggle }) {
       <StyledHeader scrollNav={scrollNav}>
         <HeaderContainer>
           <HeaderLogo to="/" onClick={toggleHome}>
-            <LogoImage src={Logo1} />
+            <LogoImage src={Logo1} alt='Luna Smith art logo' />
           </HeaderLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <HeaderMenu>
-            <MenuItems>
-              <MenuLinks
-                to="about"
-                smooth="true"
-                duration={500}
-                spy="true"
-                exact="true"
-                offset={-100}
-              >
-                About
-              </MenuLinks>
-            </MenuItems>
-            <MenuItems>
-              <MenuLinks
-                to="webdesigns"
-                smooth="true"
-                duration={500}
-                spy="true"
-                exact="true"
-                offset={-100}
-              >
-                Web Designs
-              </MenuLinks>
-            </MenuItems>
-            <MenuItems>
-              <MenuLinks
-                to="fineart"
-                smooth="true"
-                duration={500}
-                spy="true"
-                exact="true"
-                offset={-100}
-              >
-                Fine Art
-              </MenuLinks>
-            </MenuItems>
-            <MenuItems>
-              <MenuLinks
-                to="illustrations"
-                smooth="true"
-                duration={500}
-                spy="true"
-                exact="true"
-                offset={-100}
-              >
-                Illustrations
-              </MenuLinks>
-            </MenuItems>
+              <MenuItems>
+                  <MenuLinks
+                    to="about"
+                    smooth="true"
+                    duration={500}
+                    spy="true"
+                    exact="true"
+                    offset={-100}
+                    aria-label="go to an about page"
+                  >
+                    About
+                  </MenuLinks>
+              </MenuItems>
+              <MenuItems>
+                  <MenuLinks
+                    to="webdesigns"
+                    smooth="true"
+                    duration={500}
+                    spy="true"
+                    exact="true"
+                    offset={-100}
+                    aria-label="go to a web design page"
+                  >
+                    Web Designs
+                  </MenuLinks>
+              </MenuItems>
+              <MenuItems>
+                  <MenuLinks
+                    to="fineart"
+                    smooth="true"
+                    duration={500}
+                    spy="true"
+                    exact="true"
+                    offset={-100}
+                    aria-label="go to a fine art page"
+                  >
+                    Fine Art
+                  </MenuLinks>
+              </MenuItems>
+              <MenuItems>
+                  <MenuLinks
+                    to="illustrations"
+                    smooth="true"
+                    duration={500}
+                    spy="true"
+                    exact="true"
+                    offset={-100}
+                    aria-label="go to an illustrations page"
+                  >
+                    Illustrations
+                  </MenuLinks>
+              </MenuItems>
           </HeaderMenu>
           <MenuButton>
             <MenuButtonLink
@@ -101,6 +105,7 @@ export default function Header({ toggle }) {
               duration={500}
               exact="true"
               offset={-100}
+              aria-label="go to a contact page"
             >
               Contact me
             </MenuButtonLink>

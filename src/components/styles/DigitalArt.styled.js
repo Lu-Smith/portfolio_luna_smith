@@ -2,99 +2,47 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
+
 export const Container = styled.div`
-  background: #1b2430;
-  padding: 40px;
-`;
-
-export const GalleryContainer = styled.div`
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-width: 33%;
-  -moz-column-width: 33%;
-  column-width: 33%;
-  padding: 0 12px;
-
-  @media (max-width: 991px) {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
-
-  @media (max-width: 480px) {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
-`;
-
-export const GalleryContainerEmojis = styled.div`
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  column-count: 4;
-  -webkit-column-width: 25%;
-  -moz-column-width: 25%;
-  column-width: 25%;
-  padding: 0 12px;
-
-  @media (max-width: 991px) {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
+  background: #c3195d; 
 `;
 
 export const DigitalArtContainer = styled.div`
-  background-color: #ececec;
-  max-width: 800px;
-  text-align: center;
-  justify-content: center;
+  background: #680747; 
+  width: 40%;
+  height: 200px;
+  padding: 50px;
   margin: 0 auto;
-  padding: 40px;
-  border: 2px solid #51557e;
-  border-radius: 50px;
-  margin-bottom: 40px;
-  margin-top: 40px;
-`;
-
-export const DigitalArtContainerEmojis = styled.div`
-  background-color: #ececec;
-  max-width: 800px;
-  text-align: center;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 40px;
-  border: 2px solid #51557e;
-  border-radius: 50px;
-  margin-bottom: 100px;
-  margin-top: 200px;
-
-  @media (max-width: 768px) {
-    margin-bottom: 40px;
-    margin-top: 60px;
-    padding: 20px;
+  @media screen and (max-width:1200px) {
+    width: 60%;
   }
-`;
-
+  @media screen and (max-width:820px) {
+    padding: 20px;
+    height: 150px;
+    width: 70%;
+  }
+  @media screen and (max-width:600px) {
+    padding: 10px;
+    height: 120px;
+    width: 95%;
+  }
+`
 export const DigitalArtTitle = styled.h1`
-  color: #1b2430;
-  opacity: 60%;
+  color: white;
+  opacity: 90%;
   font-size: 38px;
   text-align: center;
   @media screen and (max-width: 786px) {
-    margin-top: 24px;
-    font-size: 30px;
-  }
-  @media screen and (max-width: 480px) {
-    font-size: 22px;
+    margin-top: 15px;
+    font-size: 24px;
   }
 `;
 
 export const DigitalArtDescription = styled.p`
   margin: 0 auto;
   margin-top: 24px;
-  color: #142d4c;
+  color: white;
+  opacity: 70%;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -102,89 +50,120 @@ export const DigitalArtDescription = styled.p`
   font-family: "Poiret One", cursive;
   font-style: italic;
   @media screen and (max-width: 786px) {
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 20px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 16px;
   }
 `;
 
-export const GalleryWrap = styled.div`
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-  cursor: pointer;
-  margin-bottom: 50px;
+export const GalleryContainer = styled.div`
+  background: #141010; 
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 
-  a {
-    text-decoration: none;
-    color: #9fd3c7;
-    text-align: center;
-    font-size: 12px;
-    font-family: "Poiret One", cursive;
+  @media screen and (max-width: 1100px) {
+    width: 90%;
+    padding: 30px;
   }
 
-  h1 {
-    font-size: 20px;
-  }
-  @media screen and (max-width: 480px) {
-    margin-bottom: 20px;
-    h1 {
-      font-size: 16px;
-    }
-  }
-
-  &:hover {
-    filter: opacity(0.8);
+  @media screen and (max-width: 820px) {
+    width: 95%;
+    padding: 0 5px;
+    flex-direction: column;
   }
 `;
 
-export const GalleryWrapEmojis = styled.div`
-  -webkit-transition: all 350ms ease;
-  transition: all 350ms ease;
-  cursor: pointer;
-  margin-bottom: 50px;
-
-  a {
-    text-decoration: none;
-    color: #9fd3c7;
-    text-align: center;
-    font-size: 10px;
-    font-family: "Poiret One", cursive;
-    margin: 0 auto;
-    display: block;
+export const ButtonImage = styled(Link)`
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  border: 4px solid white;
+  background: #c3195d; 
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  @media screen and (max-width:786px) {
+    border-radius: 15px;
+    border: 2px solid white;
   }
+  @media screen and (max-width:786px) {
+    margin: 15px auto;
+  }
+`;
 
-  h1 {
+export const Image = styled.img`
+  padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  @media screen and (max-width:1120px) {
+    width: 300px;
+    height: 250px;
+  }
+  @media screen and (max-width:820px) {
+    width: 360px;
+    height: 200px;
+    padding: 10px;
+  }
+  @media screen and (max-width:620px) {
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+  }
+  @media screen and (max-width: 400px) {
+    width: 220px;
+    height: 120px;
+    padding: 10px;
+  }
+`;
+
+export const TitleImage = styled.div`
+  color: white;
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 35px;
+  @media screen and (max-width:820px) {
     font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 18px;
   }
-  @media screen and (max-width: 480px) {
-    h1 {
-      font-size: 16px;
-    }
-  }
-  &:hover {
-    filter: opacity(0.8);
+  @media screen and (max-width:620px) {
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 8px;
   }
 `;
 
 export const Icon = styled(Link)`
-  margin-left: 32px;
-  margin-top: 32px;
   text-decoration: none;
   color: #51557e;
   font-weight: 700;
   font-size: 32px;
-  @media screen and (max-width: 480px) {
-    margin-left: 16px;
-    margin-top: 8px;
-  }
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: #9fd3c7;
+  margin-left: 32px;
+  margin-top: 52px;
+  color: white;
 
   &:hover {
     color: #04e2d7;
     transition: 0.2 s ease-in-out;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-left: 16px;
+    margin-top: 8px;
   }
 `;

@@ -1,17 +1,5 @@
-import Img1 from "../images/web/1.jpg";
-import Img3 from "../images/web/2.jpg";
-import Img2 from "../images/web/3.jpg";
-import Img4 from "../images/web/4.jpg";
-import Img5 from "../images/web/5.jpg";
-import Img6 from "../images/web/7.jpg";
-import Img7 from "../images/web/6.jpg";
+import { jsdata, reactdata, alldata, animationsdata, gamesdata, phpdata } from './data/WebData';
 
-import ImgR1 from "../images/web/1R.jpg";
-import ImgR3 from "../images/web/2R.jpg";
-import ImgR2 from "../images/web/3R.jpg";
-import ImgR4 from "../images/web/4R.jpg";
-import ImgR5 from "../images/web/5R.jpg";
-import ImgR6 from "../images/web/6R.jpg";
 import WebBg from "../images/Webbg.jpg";
 
 import {
@@ -23,109 +11,88 @@ import {
   WebDescription,
   Icon,
   CloseIcon,
+  Header,
+  AnimationsProjects,
+  GamesProjects,
+  JavaScriptProjects,
+  ReactProjects,
+  PHPProjects,
+  AllProjects, 
+  HomeButton,
 } from "./styles/Web.styled";
 
 const WebPage = () => {
-  let jsdata = [
-    {
-      id: 1,
-      imgSrc: Img1,
-      alt: "My first website",
-      href: "https://www.shecodes.io/workshops/shecodes-basics-57e94c3e-366c-4503-ab78-e964ad540d88/projects/812937",
-    },
-    {
-      id: 2,
-      imgSrc: Img2,
-      alt: "Rainbow Spikes",
 
-      href: "https://rainbow-spikes-javascript-animation.netlify.app/",
-    },
-    {
-      id: 3,
-      imgSrc: Img3,
-      alt: "Weather App",
-      href: "https://celadon-cobbler-675e8d.netlify.app/",
-    },
-    {
-      id: 4,
-      imgSrc: Img4,
-      alt: "Text Animation",
-      href: "https://code-letter-javascript-animation.netlify.app/",
-    },
-    {
-      id: 5,
-      imgSrc: Img5,
-      alt: "Rainining Image",
-      href: "https://magical-biscuit-4ef62b.netlify.app/",
-    },
-    {
-      id: 6,
-      imgSrc: Img6,
-      alt: "SASS",
-      href: "https://sass-my-first-website.netlify.app/",
-    },
-    {
-      id: 7,
-      imgSrc: Img7,
-      alt: "Follow me",
-      href: "https://follow-me-javascript-dots-animation.netlify.app/",
-    },
-  ];
-
-  let reactdata = [
-    {
-      id: 1,
-      imgSrc: ImgR1,
-      alt: "Dictionary App",
-      href: "https://luminous-dictionary-app.netlify.app/",
-    },
-    {
-      id: 2,
-      imgSrc: ImgR3,
-      alt: "Quotes App",
-      href: "https://quotes-app-luna-smith.netlify.app/",
-    },
-    {
-      id: 3,
-      imgSrc: ImgR2,
-      alt: "Music App",
-      href: "https://music-app-luna-smith.netlify.app/",
-    },
-    {
-      id: 4,
-      imgSrc: ImgR4,
-      alt: "Weather App",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
-    },
-    {
-      id: 5,
-      imgSrc: ImgR5,
-      alt: "Styled Component - Community",
-      href: "https://community-fans.netlify.app/",
-    },
-    {
-      id: 6,
-      imgSrc: ImgR6,
-      alt: "Styled Component - Art Gallery",
-      href: "https://example-art-gallery.netlify.app/",
-    },
-  ];
 
   return (
     <Container>
       <Icon to="/">
         <CloseIcon />
       </Icon>
-      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
-        <WebTitle>JavaScript</WebTitle>
-        <WebDescription>
-          My projects coded with JavaScript, SASS, Canvas, HTML, CSS, Visual
-          Studio Code, GitHub , Bootstrap, Flexbox, Photoshop and hosted on
-          Netlify.
-        </WebDescription>
-      </WebContainer>
-      <GalleryContainer>
-        {jsdata.map((item, index) => {
+      <Header id="header">
+        <AllProjects
+         to="allprojects"
+         smooth="true"
+         duration={500}
+         spy="true"
+         exact="true"
+         offset={-50}
+         >
+         All
+        </AllProjects>
+        <JavaScriptProjects
+          to="jsprojects"
+          smooth="true"
+          duration={500}
+          spy="true"
+          exact="true"
+          offset={-100}
+        >
+          JavaScript
+        </JavaScriptProjects>
+        <ReactProjects
+          to="reactprojects"
+          smooth="true"
+          duration={500}
+          spy="true"
+          exact="true"
+          offset={-100}
+        >
+          React
+        </ReactProjects>
+        <AnimationsProjects
+          to="animationsprojects"
+          smooth="true"
+          duration={500}
+          spy="true"
+          exact="true"
+          offset={-100}
+        >
+          Animations
+        </AnimationsProjects>
+        <GamesProjects
+          to="gamesprojects"
+          smooth="true"
+          duration={500}
+          spy="true"
+          exact="true"
+          offset={-100}
+        >
+          Games
+        </GamesProjects>
+        <PHPProjects
+          to="phpprojects"
+          smooth="true"
+          duration={500}
+          spy="true"
+          exact="true"
+          offset={-100}
+        >
+          PHP
+        </PHPProjects>
+      </Header>
+      <GalleryContainer id="allprojects">
+        {alldata.map((item, index) => {
           return (
             <GalleryWrap key={index}>
               <a href={item.href} target="_blank" rel="noopener noreferrer">
@@ -140,12 +107,21 @@ const WebPage = () => {
           );
         })}
       </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
       <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
-        <WebTitle>React</WebTitle>
+        <WebTitle id="reactprojects">React</WebTitle>
         <WebDescription>
-          My projects coded with React, Styled Components, JavaScript, Canvas,
-          HTML, CSS, Visual Studio Code, GitHub , Bootstrap, Flexbox, Photoshop
-          and hosted on Netlify.
+          My projects coded with React, Styled Components, Redux, TypeScript, JavaScript, 
+          HTML, CSS, Bootstrap, Photoshop, Visual Studio Code and GitHub.
         </WebDescription>
       </WebContainer>
       <GalleryContainer>
@@ -164,6 +140,145 @@ const WebPage = () => {
           );
         })}
       </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
+        <WebTitle id="jsprojects">JavaScript</WebTitle>
+        <WebDescription>
+          My projects coded with JavaScript, SASS, Angular, TypeScript, Canvas, HTML, CSS, Bootstrap, Flexbox, Photoshop, Visual
+          Studio Code and GitHub.
+        </WebDescription>
+      </WebContainer>
+      <GalleryContainer>
+        {jsdata.map((item, index) => {
+          return (
+            <GalleryWrap key={index}>
+              <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={item.imgSrc}
+                  alt={item.alt}
+                  style={{ width: `100%` }}
+                />
+                <h1>{item.alt}</h1>
+              </a>
+            </GalleryWrap>
+          );
+        })}
+      </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
+        <WebTitle id="animationsprojects">Animations</WebTitle>
+        <WebDescription>
+          My cool animations created with JavaScript and canvas.
+        </WebDescription>
+      </WebContainer>
+      <GalleryContainer>
+        {animationsdata.map((item, index) => {
+          return (
+            <GalleryWrap key={index}>
+              <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={item.imgSrc}
+                  alt={item.alt}
+                  style={{ width: `100%` }}
+                />
+                <h1>{item.alt}</h1>
+              </a>
+            </GalleryWrap>
+          );
+        })}
+      </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
+        <WebTitle id="gamesprojects">Games</WebTitle>
+        <WebDescription>
+          My projects coded with HTML, CSS, JavaScript, React.
+        </WebDescription>
+      </WebContainer>
+      <GalleryContainer>
+        {gamesdata.map((item, index) => {
+          return (
+            <GalleryWrap key={index}>
+              <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={item.imgSrc}
+                  alt={item.alt}
+                  style={{ width: `100%` }}
+                />
+                <h1>{item.alt}</h1>
+              </a>
+            </GalleryWrap>
+          );
+        })}
+      </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
+      <WebContainer style={{ backgroundImage: `url(${WebBg})` }}>
+        <WebTitle id="phpprojects">PHP</WebTitle>
+        <WebDescription>
+          My projects coded with HTML, SASS and PHP.
+        </WebDescription>
+      </WebContainer>
+      <GalleryContainer>
+        {phpdata.map((item, index) => {
+          return (
+            <GalleryWrap key={index}>
+              <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={item.imgSrc}
+                  alt={item.alt}
+                  style={{ width: `100%` }}
+                />
+                <h1>{item.alt}</h1>
+              </a>
+            </GalleryWrap>
+          );
+        })}
+      </GalleryContainer>
+      <HomeButton
+       to="header"
+       smooth="true"
+       duration={500}
+       spy="true"
+       exact="true"
+       offset={-100}
+      >
+        Scroll Up
+      </HomeButton>
     </Container>
   );
 };

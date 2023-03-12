@@ -17,7 +17,7 @@ import {
   MainContainer,
 } from "./styles/HomeSection.styled";
 
-const HomeSection = (bg) => {
+const HomeSection = () => {
   const [hover, setHover] = useState(false);
   const [changeImg, setChangeImg] = useState(false);
 
@@ -35,11 +35,11 @@ const HomeSection = (bg) => {
       </HomeBg>
       <HomeContent>
         <ImageContainer>
-          <Image bg={changeImg} onClick={changeImage} />
+          <Image bg={changeImg} aria-label='Luna Smith, a Scottish painter from Edinburgh' onClick={changeImage} />
         </ImageContainer>
         <MainContainer>
           <HomeH1>
-            Luna Smith is an artist, a web developer and illustrator.
+            Luna Smith is an artist, a web developer and an illustrator.
           </HomeH1>
           <HomeP>
             Her original artworks take inspiration from sounds, Norse Mythology,
@@ -52,7 +52,7 @@ const HomeSection = (bg) => {
             <Button
               onMouseEnter={onHover}
               onMouseLeave={onHover}
-              to="projects"
+              to="webdesigns"
               primary="true"
               dark="true"
               smooth="true"

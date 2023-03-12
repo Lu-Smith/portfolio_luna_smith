@@ -1,6 +1,6 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
-import Logo1 from "../images/logo.png";
+import Logo1 from "../images/logo.webp";
 import {
   FaInstagram,
   FaLinkedin,
@@ -40,15 +40,16 @@ const Footer = () => {
               spy="true"
               exact="true"
               offset={-100}
+              aria-label="go to a home page"
             >
-              <LogoImage src={Logo1} />
+              <LogoImage src={Logo1} alt="Luna Smith art logo"/>
             </SocialLogo>
             <WebsiteRights>
               Luna Smith Art © {new Date().getFullYear()}, coded by{" "}
               <Portfolio
                 href="//www.lunasmithart.com"
                 target="_blank"
-                aria-label="GitHub"
+                aria-label="Portfolio page"
               >
                 Luna Smith
               </Portfolio>{" "}
@@ -56,7 +57,7 @@ const Footer = () => {
               <GitHub
                 href="//github.com/Lu-Smith/portfolio_luna_smith"
                 target="_blank"
-                aria-label="GitHub"
+                aria-label="GitHub page"
               >
                 GitHub
               </GitHub>
@@ -65,35 +66,35 @@ const Footer = () => {
               <SocialIconLink
                 href="//www.facebook.com/lunasmithart"
                 target="_blank"
-                aria-label="Facebook"
+                aria-label="Facebook page"
               >
                 <FaFacebook />
               </SocialIconLink>
               <SocialIconLink
                 href="//www.instagram.com/lunasmithart/"
                 target="_blank"
-                aria-label="Instagram"
+                aria-label="Instagram page"
               >
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
                 href="//twitter.com/LunaSmithArt"
                 target="_blank"
-                aria-label="Twitter"
+                aria-label="Twitter page"
               >
                 <FaTwitter />
               </SocialIconLink>
               <SocialIconLink
                 href="//www.youtube.com/watch?v=5aBwg6IMwGo"
                 target="_blank"
-                aria-label="YouTube"
+                aria-label="YouTube page"
               >
                 <FaYoutube />
               </SocialIconLink>
               <SocialIconLink
                 href="//www.linkedin.com/in/luna-smith/"
                 target="_blank"
-                aria-label="LinkendIn"
+                aria-label="LinkendIn page"
               >
                 <FaLinkedin />
               </SocialIconLink>

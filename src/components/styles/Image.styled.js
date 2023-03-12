@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import Portfolio from "../../images/portfolio.jpg";
-import Portfolio1 from "../../images/8.jpg";
+import Portfolio1 from "../../images/artstudio/8.jpg";
 import PortfolioSmall from "../../images/portfoliosmall.jpg";
-import Portfolio1Small from "../../images/8small.jpg";
+import Portfolio1Small from "../../images/artstudio/8small.jpg";
 
-export const Image = styled.img`
-  background-image: url(${({ bg }) => (bg ? Portfolio : Portfolio1)});
-  margin: 0 auto;
+export const Image = styled.div`
+  background-image: url(${({ bg }) => (bg ? Portfolio1 : Portfolio)});
   border-radius: 20px;
   border: 2px solid white;
+  margin: 0 auto;
   cursor: pointer;
   align-items: center;
   transition: all 0.2s ease-in-out;
@@ -20,13 +20,12 @@ export const Image = styled.img`
     height: 361px;
   }
   @media screen and (max-width: 786px) {
-    background-image: url(${({ src }) =>(src ? PortfolioSmall : Portfolio1Small)});
+    background-image: url(${({ bg }) =>(bg  ? Portfolio1Small : PortfolioSmall)});
     width: 200px;
     height: 250px;
   }
 
   &:hover {
-    transition: all 0.2s ease-in-out;
-    border: ${({ primary }) => (primary ? `black` : `white`)};
+    border: 2px solid black;
   }
 `;

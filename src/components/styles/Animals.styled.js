@@ -1,10 +1,49 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
+import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const Container = styled.div`
   background: #1d1d1b;
   padding: 40px;
+
+   /*model*/
+
+.model {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+
+.model.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.model img {
+ width: auto;
+ max-width: 100%;
+ height: auto;
+ max-height: 100%;
+ display: block;
+ line-height: 0;
+ box-sizing: border-box;
+ padding: 20px 0 20px;
+ margin: 0 auto;
+}
 `;
 
 export const GalleryContainer = styled.div`
@@ -119,4 +158,56 @@ export const CloseIcon = styled(FaTimes)`
     color: #04e2d7;
     transition: 0.2 s ease-in-out;
   }
+`;
+
+export const CloseIconCloseUp = styled(FaTimes)`
+  color: #fff;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 5px;
+  cursor: pointer;
+
+  &:hover {
+    color: #04e2d7;
+    transition: 0.2 s ease-in-out;
+  }
+`
+
+export const HomeBtnWrapper = styled.div`
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+`;
+
+export const ShopBtnLink = styled.a`
+text-decoration: none;
+background-color: #FA9109;
+color: #fff;
+padding: 10px 20px;
+border-radius: 20px;
+border: none;
+white-space: nowrap;
+display: flex;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+&:hover {
+  background-color: red;
+  border: 2px solid red;
+}
+`;
+
+export const ArrowForward = styled(MdArrowForward)`
+  margin-left: 8px;
+  font-size: 20px;
+`;
+
+export const ArrowRight = styled(MdKeyboardArrowRight)`
+  margin-left: 8px;
+  font-size: 20px;
 `;

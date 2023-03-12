@@ -3,14 +3,14 @@ import { Link as LinkR } from "react-router-dom";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const PaintingsContainer = styled.div`
-  height: 1000px;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #010606;
   @media screen and (max-width: 768px) {
-    height: 1700px;
+    height: 1800px;
     padding-top: 150px;
     padding-bottom: 150px;
   }
@@ -56,13 +56,14 @@ export const PaintingsCard = styled.div`
 
 export const PaintingsIcon = styled.img`
   height: 200px;
-  width: 150px;
+  width: auto;
   margin-bottom: 10px;
   border: 5px solid black;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  
 `;
 
-export const PaintingsH1 = styled.h1`
+export const PaintingsH1 = styled.h2`
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
@@ -75,6 +76,28 @@ export const HomeBtnWrapper = styled.div`
   margin-top: 40px;
   display: flex;
   align-items: center;
+`;
+
+export const ShopBtnLink = styled.a`
+text-decoration: none;
+background-color: #FA9109;
+color: #fff;
+padding: 10px 20px;
+border-radius: 20px;
+border: none;
+white-space: nowrap;
+display: flex;
+margin: 30px auto;
+justify-content: center;
+align-items: center;
+transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+box-shadow: 0 4px 5px #fff;
+
+&:hover {
+  background-color: red;
+  transform: translateY(5px);
+  box-shadow: none;
+}
 `;
 
 export const ArrowForward = styled(MdArrowForward)`

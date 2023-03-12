@@ -21,6 +21,7 @@ import {
   ArtGalleryWrap,
   MenuButton,
   MenuButtonLink,
+  LinkToSection
 } from "./styles/InfoSection.styled";
 
 const InfoSection = ({
@@ -43,6 +44,7 @@ const InfoSection = ({
   more,
   sideId,
   slides,
+  link
 }) => {
   return (
     <>
@@ -51,7 +53,7 @@ const InfoSection = ({
           <InfoRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <TopLine>{topLine}</TopLine>
+                <TopLine darkText={darkText}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <MenuButton>
@@ -69,8 +71,9 @@ const InfoSection = ({
               </TextWrapper>
             </Column1>
             <Column2>
-              <ImgWrap>
+              <ImgWrap><LinkToSection to={link} >
                 <Img src={img} alt={alt} />
+                </LinkToSection>
               </ImgWrap>
             </Column2>
           </InfoRow>
@@ -80,7 +83,10 @@ const InfoSection = ({
           id={sideId}
           style={{ backgroundImage: `url(${ArtGalleryBg})` }}
         >
-          <Description>{maindescription}</Description>
+          <Description>
+            <LinkToSection to={link}>
+            {maindescription}
+            </LinkToSection></Description>
           <ArtGalleryWrap>
             <ArtGallery slides={slides} />
           </ArtGalleryWrap>

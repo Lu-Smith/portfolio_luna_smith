@@ -18,6 +18,9 @@ export const MobileMenuContainer = styled.aside`
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? `100%` : `0`)};
   top: ${({ isOpen }) => (isOpen ? `0` : `-100%`)};
+
+
+
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -25,7 +28,7 @@ export const CloseIcon = styled(FaTimes)`
 
   &:hover {
     color: #04e2d7;
-    transition: 0.2 s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
 `;
 
@@ -60,12 +63,14 @@ export const MobileMenuLink = styled(LinkS)`
   font-size: 1.4rem;
   text-decoration: none;
   list-style: none;
-  transition: 0.2s ease-in-out;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   cursor: pointer;
 
   &:hover {
     color: #04e2d7;
-    transition: 0.2 s ease-in-out;
+    transform: translateY(-5px);
+    border-bottom: 1px solid #04e2d7;
   }
 `;
 
@@ -84,11 +89,14 @@ export const MobileMenuRoute = styled(LinkR)`
   border: none;
   color: white;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  box-shadow: 0 4px 5px #d404fa;
+
   &:hover {
-    transition: all 0.2s ease-in-out;
     background: #04f1be;
     color: #010606;
+    transform: translateY(5px);
+    box-shadow: none;
   }
 `;

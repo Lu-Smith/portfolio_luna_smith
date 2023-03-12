@@ -9,11 +9,49 @@ export const Container = styled.div`
   img {
     width: 100%;
   }
-
   .events {
     margin-top: 60px;
     background-color: red;
     padding: 5px;
+  }
+
+  /*model*/
+
+  .model {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    transition: opacity 0.4s ease, visibility 0.4s ease,
+      transform 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    overflow: hidden;
+    z-index: 999;
+  }
+
+  .model.open {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .model img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0 20px;
+    margin: 0 auto;
   }
 `;
 
@@ -97,7 +135,7 @@ export const BioDescription = styled.p`
   font-family: "Poiret One", cursive;
   font-style: italic;
   @media screen and (max-width: 786px) {
-    font-size: 16px;
+    font-size: 14px;
   }
   @media screen and (max-width: 480px) {
     font-size: 12px;
@@ -131,6 +169,22 @@ export const Icon = styled(Link)`
 
 export const CloseIcon = styled(FaTimes)`
   color: #fff;
+
+  &:hover {
+    color: #04e2d7;
+    transition: 0.2 s ease-in-out;
+  }
+`;
+
+export const CloseIconCloseUp = styled(FaTimes)`
+  color: #fff;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 5px;
+  cursor: pointer;
 
   &:hover {
     color: #04e2d7;

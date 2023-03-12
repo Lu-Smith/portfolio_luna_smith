@@ -11,6 +11,7 @@ import {
 } from "./styles/MobileMenu.styled";
 
 function MobileMenu({ isOpen, toggle }) {
+
   return (
     <MobileMenuContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>

@@ -45,9 +45,8 @@ import {
   HomeBtnWrapper,
   ArrowForward,
   ArrowRight,
-  CloseIconCloseUp
+  CloseIconCloseUp,
 } from "./styles/Abstracts.styled";
-
 
 const AbstractsPage = () => {
   const [hover, setHover] = useState(false);
@@ -226,7 +225,7 @@ const AbstractsPage = () => {
     setTempimgSrc(imgSrc);
     setModel(true);
     setTitle(alt);
-  }
+  };
 
   return (
     <Container>
@@ -236,21 +235,21 @@ const AbstractsPage = () => {
       <BioContainer>
         <BioTitle>Abstracts</BioTitle>
         <BioDescription>Find yourself in oil painting</BioDescription>
-      
-      <HomeBtnWrapper>
-        <ShopBtnLink 
-          href="//www.saatchiart.com/lunasmithart"
-          target="_blank"
-          onMouseEnter={onHover}
-          onMouseLeave={onHover}
-          rel="noreferrer noopener"
-        >
-          Shop {hover ? <ArrowForward /> : <ArrowRight />}
-        </ShopBtnLink >
-      </HomeBtnWrapper>
+
+        <HomeBtnWrapper>
+          <ShopBtnLink
+            href="https://luartgallery.com/"
+            target="_blank"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            rel="noreferrer noopener"
+          >
+            Shop {hover ? <ArrowForward /> : <ArrowRight />}
+          </ShopBtnLink>
+        </HomeBtnWrapper>
       </BioContainer>
-      <div className={model? "model open" : "model"}>
-      <img src={tempimgSrc} alt={title.alt}/>
+      <div className={model ? "model open" : "model"}>
+        <img src={tempimgSrc} alt={title.alt} />
         <h2>{title}</h2>
         <h3>Oil painting on canvas</h3>
         <CloseIconCloseUp onClick={() => setModel(false)} />
@@ -258,7 +257,10 @@ const AbstractsPage = () => {
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc, item.alt)}>
+            <GalleryWrap
+              key={index}
+              onClick={() => getImg(item.imgSrc, item.alt)}
+            >
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

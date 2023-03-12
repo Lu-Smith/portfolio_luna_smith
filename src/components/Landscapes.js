@@ -44,7 +44,6 @@ import Img42 from "../images/fineart/landscapes/Winter Cottage.jpg";
 import Img43 from "../images/fineart/landscapes/Work at Sunset.jpg";
 import Img44 from "../images/fineart/landscapes/Winter in Woods.jpg";
 
-
 import {
   Container,
   GalleryContainer,
@@ -58,7 +57,7 @@ import {
   HomeBtnWrapper,
   ArrowForward,
   ArrowRight,
-  CloseIconCloseUp
+  CloseIconCloseUp,
 } from "./styles/Landscapes.styled";
 
 const LandscapePage = () => {
@@ -287,7 +286,7 @@ const LandscapePage = () => {
       id: 44,
       imgSrc: Img44,
       alt: "Winter Woods",
-    }
+    },
   ];
 
   const [model, setModel] = useState(false);
@@ -297,7 +296,7 @@ const LandscapePage = () => {
     setTempimgSrc(imgSrc);
     setModel(true);
     setTitle(alt);
-  }
+  };
 
   return (
     <Container>
@@ -307,24 +306,34 @@ const LandscapePage = () => {
       <BioContainer>
         <BioTitle>Landscapes</BioTitle>
         <BioDescription>
-          Precious moments enchanted in canvas to cultivate our own spiritual
-          nature. We are the crucial part of the World. Paint your own path in
-          the endless forest. Paint you own sunshine in the dark space.
+          Landscapes are a window into the soul of nature, a breathtaking
+          display of the earth's raw beauty and power. The rolling hills,
+          majestic mountains, and sparkling waters all come together to create a
+          symphony of color and form. The canvas is a medium that allows us to
+          capture and preserve this beauty, to hold memories forever in our
+          hearts and minds. Each brush stroke, each splash of the paint, tells a
+          story of the wonder and majesty of nature, and the infinite
+          possibilities it holds. They remind us to take a moment, to stop and
+          appreciate the magic that surrounds us, and to be grateful for being
+          part of it.
+          <br />
+          "See your own path in the endless forest. See you own sunshine in the
+          dark space." Luna Smith
         </BioDescription>
         <HomeBtnWrapper>
-        <ShopBtnLink 
-          href="//www.saatchiart.com/lunasmithart"
-          target="_blank"
-          onMouseEnter={onHover}
-          onMouseLeave={onHover}
-          rel="noreferrer noopener"
-        >
-          Shop {hover ? <ArrowForward /> : <ArrowRight />}
-        </ShopBtnLink >
-      </HomeBtnWrapper>
+          <ShopBtnLink
+            href="https://luartgallery.com/"
+            target="_blank"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            rel="noreferrer noopener"
+          >
+            Shop {hover ? <ArrowForward /> : <ArrowRight />}
+          </ShopBtnLink>
+        </HomeBtnWrapper>
       </BioContainer>
-      <div className={model? "model open" : "model"}>
-        <img src={tempimgSrc} alt={title.alt}/>
+      <div className={model ? "model open" : "model"}>
+        <img src={tempimgSrc} alt={title.alt} />
         <h2>{title}</h2>
         <h3>Oil painting on canvas</h3>
         <CloseIconCloseUp onClick={() => setModel(false)} />
@@ -332,7 +341,10 @@ const LandscapePage = () => {
       <GalleryContainer>
         {data.map((item, index) => {
           return (
-            <GalleryWrap key={index} onClick={() => getImg(item.imgSrc, item.alt)}>
+            <GalleryWrap
+              key={index}
+              onClick={() => getImg(item.imgSrc, item.alt)}
+            >
               <img src={item.imgSrc} alt={item.alt} style={{ width: `100%` }} />
             </GalleryWrap>
           );

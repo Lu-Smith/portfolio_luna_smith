@@ -19,9 +19,16 @@ export const Button = styled(Link)`
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   box-shadow: 0 4px 2px #fff;
   max-height: 40px;
+
   &:hover {
     transform: translateY(5px);
     box-shadow: none;
     background: ${({ primary }) => (primary ? `#fff` : `#FA9109`)};
+  }
+
+  @media screen and (max-width: 480px) {
+    border-radius: 30px;
+    font-size: ${({ fontBig }) => (fontBig ? `10px` : `8px`)};
+    padding: ${({ big }) => (big ? `7px 19px` : `6px 10px`)};
   }
 `;

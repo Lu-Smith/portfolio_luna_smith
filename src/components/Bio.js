@@ -153,27 +153,19 @@ const getImg = (imgSrc) => {
       <BioContainer>
         <BioTitle>Bio</BioTitle>
         <BioDescription>
-          My name is Luna Smith, and I am an established Scottish painter. My
-          works are sold to collectors worldwide, including Australia, Belgium,
-          Canada, Czech Republic, France, Germany, India, Ireland, Italy,
-          Mexico, Norway, Portugal, Spain, Switzerland, the United Kingdom, and
-          the United States.   I was born in Manchester, UK. My passion for art
-          has been around since I was little. I often found myself in awe of the
-          nature around me and would draw landscapes and birds for hours. Since
-          winning my first art competition in primary school, I knew what I
-          wanted to be. And even though many hardships and painful life
-          experiences delayed me, I never lost sight of the path to my dreams. ​
-          I have travelled a lot and lived in various countries. From these
-          experiences, I have learned much from the languages, cultures,
-          customs, architecture, and natural environments. And they inspire me
-          in my work.   I am specialising in oils. With my first brushstroke, I
-          had fallen in love with this medium. Its thick and visible texture is
-          captivating and indeed reveals the artist’s thoughts. The struggle,
-          the fun, and the energy that went into the painting are on full
-          display. My unique style takes advantage of this and interprets the
-          things I see and hear around me with vigorous loose brushstrokes
-          blended with expressive finger work. It not only shows the surface
-          level of the subject, but it also allows me to paint its soul.
+        I am Luna Smith, a professional artist from Edinburgh, Scotland. Ever since I was young, I had a deep love for nature and art. I spent countless hours drawing landscapes and birds, which eventually led me to win my first art competition in primary school. This early achievement inspired me to pursue my passion for art, despite many challenges and obstacles along the way.
+
+<br />My travels and experiences living in various countries have greatly influenced my art. I gained valuable knowledge and inspiration from the diverse languages, cultures, customs, architecture, and natural environments I encountered. My travels have shaped my artistic vision and allowed me to develop a unique style that captures the essence of the world around me.
+
+<br />I specialize in oil painting, which I fell in love with from the first brushstroke. I am captivated by the medium's thick and visible texture, which I believe reveals the artist's thoughts and emotions. My style is characterized by vigorous, loose brushstrokes blended with expressive finger-work. This technique allows me to not only capture the surface level of my subjects but also to paint their soul.
+
+<br />My works are highly sought after by collectors worldwide. I have two permanent exhibitions, one in Italy and one in China, and I had a solo exhibition in Edinburgh. My paintings are known for their vibrant colors and expressive energy, which reflect my passion for life and art.
+
+<br />Not only am I passionate about art, but I also have a deep interest in coding, Norse Mythology, and Celtic culture. I find inspiration in the stories and symbols of these ancient cultures and often incorporate them into my art. My love for these traditions is reflected in the themes and motifs of my paintings, which are often rich in symbolism and meaning.
+
+<br />One unique aspect of my artistic process is that I have synesthesia, which means that I can see music. This condition allows me to interpret sounds and translate them into visual images, which I then incorporate into my art. My current collection is a reflection of this unique ability, and I am currently working on a series of paintings that are inspired by various pieces of music.
+
+<br />Through my art, I am able to express my passion for life, nature, and the rich cultural traditions of the world. My ability to capture the essence of the world around me in vibrant colors and expressive brushstrokes has made me a respected and sought-after artist. I am proud of my legacy as a talented Scottish painter, with a unique perspective on the world, which I am sure will endure for many years to come.
         </BioDescription>
         <BioTitle className="events">Events</BioTitle>
         <BioDescription>

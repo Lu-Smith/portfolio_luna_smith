@@ -128,12 +128,13 @@ export const BioDescription = styled.p`
   margin: 0 auto;
   margin-top: 24px;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   text-align: center;
   max-width: 600px;
   font-family: "Poiret One", cursive;
   font-style: italic;
+
   @media screen and (max-width: 786px) {
     font-size: 14px;
   }

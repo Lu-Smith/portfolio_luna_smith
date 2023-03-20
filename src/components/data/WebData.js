@@ -210,7 +210,7 @@ export const jsdata = [
     {
       id: 9,
       imgSrc: ImgR9,
-      alt: "React TypeScript PawHub",
+      alt: "PawHub - TypeScript ",
       href: "https://pawhub-react-typescript.netlify.app/",
     },
     {
@@ -438,7 +438,7 @@ export const jsdata = [
     {
       id: 21,
       imgSrc: ImgR9,
-      alt: "React TypeScript PawHub",
+      alt: "PawHub - TypeScript",
       href: "https://pawhub-react-typescript.netlify.app/",
     },
     {

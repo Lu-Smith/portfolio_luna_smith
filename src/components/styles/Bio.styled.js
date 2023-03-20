@@ -11,7 +11,7 @@ export const Container = styled.div`
   }
   .events {
     margin-top: 60px;
-    background-color: red;
+    background-color: #FA9109;
     padding: 5px;
   }
 
@@ -84,8 +84,8 @@ export const BioContainer = styled.div`
 
   .title {
     font-weight: 600;
-    margin: 20px 0;
-    color: red;
+    margin: 40px 0 20px 0;
+    color: #FA9109;
     font-size: 20px;
   }
 

@@ -63,6 +63,9 @@ export const ImageContainer = styled.div`
 export const MainContainer = styled.div`
   width: 60%;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 20px;
 
   @media screen and (max-width: 786px) {
     width: 100%;
@@ -106,7 +109,7 @@ export const HomeP = styled.div`
   }
 
   a:hover {
-    color: #fff;
+    color: red;
   }
 
   @media screen and (max-width: 786px) {

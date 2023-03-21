@@ -10,6 +10,11 @@ export const HomeContainer = styled.div`
   height: 140vh;
   position: relative;
   z-index: 1;
+
+  @media screen and (max-width: 786px) {
+    height: 220vh;
+  }
+
   @media screen and (max-width: 480px) {
     height: 1100px;
   }
@@ -78,7 +83,7 @@ export const HomeH1 = styled.h1`
   text-align: center;
   @media screen and (max-width: 786px) {
     margin-top: 24px;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 40px;
   }
   @media screen and (max-width: 480px) {
@@ -113,7 +118,7 @@ export const HomeP = styled.div`
   }
 
   @media screen and (max-width: 786px) {
-    font-size: 18px;
+    font-size: 17px;
   }
   @media screen and (max-width: 480px) {
     font-size: 16px;

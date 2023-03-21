@@ -36,13 +36,14 @@ import ImgR13 from "../../images/web/React/13R.jpg";
 import ImgR14 from "../../images/web/React/14R.jpg";
 import ImgR15 from "../../images/web/React/15R.jpg";
 import ImgR16 from "../../images/web/React/16R.jpg";
+import ImgR17 from "../../images/web/React/17R.jpg";
 
 export const WebDesignsData = [
   {
     id: 1,
-    image: ImgR6,
-    alt: "Art Gallery",
-    href: "https://example-art-gallery.netlify.app/",
+    image: ImgR17,
+    alt: "LuArt Gallery",
+    href: "https://luartgallery.com/",
   },
   {
     id: 2,
@@ -247,5 +248,11 @@ export const WebDesignsData = [
     image: ImgR16,
     alt: "Hangman",
     href: "https://hangman-react-typescript.netlify.app/",
-  }
+  },
+  {
+    id: 36,
+    image: ImgR6,
+    alt: "Art Gallery",
+    href: "https://example-art-gallery.netlify.app/",
+  },
 ];

@@ -34,6 +34,7 @@ import ImgR13 from "../../images/web/React/13R.jpg";
 import ImgR14 from "../../images/web/React/14R.jpg";
 import ImgR15 from "../../images/web/React/15R.jpg";
 import ImgR16 from "../../images/web/React/16R.jpg";
+import ImgR17 from "../../images/web/React/17R.jpg";
 
 import Img1PHP from "../../images/web/PHP/1PHP.jpg";
 import Img2PHP from "../../images/web/PHP/2PHP.jpg";
@@ -190,14 +191,14 @@ export const jsdata = [
     },
     {
       id: 6,
-      imgSrc: ImgR6,
-      alt: "Bubble - community space",
-      href: "https://community-fans.netlify.app/",
+      imgSrc: ImgR17,
+      alt: "LuArt Gallery - Typescript/SASS",
+      href: "https://luartgallery.com",
     },
     {
       id: 7,
       imgSrc: ImgR7,
-      alt: "Quiz - React/Typescript",
+      alt: "Quiz - Typescript",
       href: "https://react-typescript-quiz-luna-smith.netlify.app/",
     },
     {
@@ -209,7 +210,7 @@ export const jsdata = [
     {
       id: 9,
       imgSrc: ImgR9,
-      alt: "React TypeScript PawHub",
+      alt: "PawHub - TypeScript ",
       href: "https://pawhub-react-typescript.netlify.app/",
     },
     {
@@ -253,7 +254,13 @@ export const jsdata = [
       imgSrc: ImgR16,
       alt: "Hangman - Typescript",
       href: "https://hangman-react-typescript.netlify.app/",
-    }
+    },
+    {
+      id: 17,
+      imgSrc: ImgR6,
+      alt: "Bubble - community space",
+      href: "https://community-fans.netlify.app/",
+    },
   ];
 
   export const gamesdata = [
@@ -310,15 +317,15 @@ export const jsdata = [
   export const alldata = [
     {
       id: 1,
-      imgSrc: ImgR4,
-      alt: "Weather App",
-      href: "https://weather-app-react-luna-smith.netlify.app/",
+      imgSrc: ImgR17,
+      alt: "LuArt Gallery - Typescript/SASS",
+      href: "https://luartgallery.com",
     },
     {
       id: 2,
-      imgSrc: ImgR2,
-      alt: "Music App",
-      href: "https://music-app-luna-smith.netlify.app/",
+      imgSrc: ImgR4,
+      alt: "Weather App",
+      href: "https://weather-app-react-luna-smith.netlify.app/",
     },
     {
       id: 3,
@@ -431,7 +438,7 @@ export const jsdata = [
     {
       id: 21,
       imgSrc: ImgR9,
-      alt: "React TypeScript PawHub",
+      alt: "PawHub - TypeScript",
       href: "https://pawhub-react-typescript.netlify.app/",
     },
     {
@@ -529,7 +536,13 @@ export const jsdata = [
       imgSrc: ImgR16,
       alt: "Hangman - Typescript",
       href: "https://hangman-react-typescript.netlify.app",
-    }
+    },
+    {
+      id: 37,
+      imgSrc: ImgR2,
+      alt: "Music App",
+      href: "https://music-app-luna-smith.netlify.app/",
+    },
   ];
   
   export const animationsdata = [

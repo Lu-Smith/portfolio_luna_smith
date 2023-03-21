@@ -1,6 +1,6 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
-import Logo1 from "../images/logo.webp";
+import Logo1 from "../images/LogoLunaSmithArt.png";
 import {
   FaInstagram,
   FaLinkedin,
@@ -42,7 +42,7 @@ const Footer = () => {
               offset={-100}
               aria-label="go to a home page"
             >
-              <LogoImage src={Logo1} alt="Luna Smith art logo"/>
+              <LogoImage src={Logo1} alt="Luna Smith art logo" />
             </SocialLogo>
             <WebsiteRights>
               Luna Smith Art © {new Date().getFullYear()}, coded by{" "}

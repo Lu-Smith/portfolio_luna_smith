@@ -11,6 +11,10 @@ export const HomeContainer = styled.div`
   position: relative;
   z-index: 1;
 
+  @media screen and (max-width: 1200px) {
+    height: 180vh;
+  }
+
   @media screen and (max-width: 786px) {
     height: 220vh;
   }
@@ -87,14 +91,19 @@ export const HomeH1 = styled.h1`
   font-size: 38px;
   line-height: 45px;
   text-align: center;
+
+  @media screen and (max-width: 1200px) {
+    font-size: 34px;
+    line-height: 40px;
+  }
   @media screen and (max-width: 786px) {
     margin-top: 24px;
     font-size: 30px;
-    line-height: 40px;
   }
+
   @media screen and (max-width: 480px) {
     padding: 0 20px 0 20px;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 35px;
   }
 `;
@@ -121,6 +130,10 @@ export const HomeP = styled.div`
 
   a:hover {
     color: red;
+  }
+
+  @media screen and (max-width: 1200px) {
+    font-size: 18px;
   }
 
   @media screen and (max-width: 786px) {

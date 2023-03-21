@@ -11,7 +11,7 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -73,11 +73,11 @@ export const HeaderMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin: 30px 50px 0 120px;
-  font-size: 18px;
+  font-size: 20px;
 
   @media screen and (max-width: 1130px) {
     margin: 30px 40px 0 120px;
-    font-size: 17px;
+    font-size: 18px;
   }
 
   @media screen and (max-width: 1000px) {
@@ -138,7 +138,7 @@ export const MenuButtonLink = styled(LinkR)`
   color: white;
   white-space: nowrap;
   padding: 10px 22px;
-  font-size: 16px;
+  font-size: 18px;
   outline: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;

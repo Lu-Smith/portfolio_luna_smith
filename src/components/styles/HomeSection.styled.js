@@ -102,7 +102,7 @@ export const HomeH1 = styled.h1`
   }
 `;
 
-export const HomeP = styled.p`
+export const HomeP = styled.div`
   margin: 0 auto;
   margin-top: 24px;
   color: #fff;

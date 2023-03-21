@@ -110,7 +110,6 @@ export const HomeP = styled.p`
   text-align: center;
   max-width: 600px;
   font-family: "Poiret One", cursive;
-  font-style: italic;
 
   .title,
   .date {

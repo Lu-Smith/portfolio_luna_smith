@@ -10,22 +10,6 @@ export const HomeContainer = styled.div`
   height: 140vh;
   position: relative;
   z-index: 1;
-  :before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.4) 0%,
-        rgba(0, 0, 0, 0.8) 100%
-      ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, transparent 100%);
-    z-index: 2;
-  }
-
   @media screen and (max-width: 480px) {
     height: 1100px;
   }
@@ -85,8 +69,7 @@ export const MainContainer = styled.div`
   }
 `;
 export const HomeH1 = styled.h1`
-  color: #fff;
-  opacity: 80%;
+  color: black;
   font-size: 38px;
   line-height: 45px;
   text-align: center;
@@ -105,7 +88,7 @@ export const HomeH1 = styled.h1`
 export const HomeP = styled.div`
   margin: 0 auto;
   margin-top: 24px;
-  color: #fff;
+  color: black;
   font-size: 20px;
   text-align: center;
   max-width: 600px;
@@ -113,14 +96,13 @@ export const HomeP = styled.div`
 
   .title,
   .date {
-    color: #fa9109;
     margin-bottom: 20px;
   }
 
   a {
     text-decoration: none;
-    color: #fa9109;
     transition: 200ms all ease-in-out;
+    color: black;
   }
 
   a:hover {

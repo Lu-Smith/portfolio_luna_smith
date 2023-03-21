@@ -3,7 +3,10 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const StyledHeader = styled.header`
-  background: ${({ scrollNav }) => (scrollNav ? `#000` : `transparent`)};
+  background: ${({ scrollNav }) =>
+    scrollNav
+      ? `#000`
+      : ` linear-gradient(112.1deg, rgb(0, 0, 0) 5.4%, transparent 50.2%);`};
   color: ${({ theme }) => theme.font.header};
   padding: 40px 0;
   height: 100px;

@@ -16,7 +16,7 @@ export const HomeContainer = styled.div`
   }
 
   @media screen and (max-width: 480px) {
-    height: 1100px;
+    height: 1400px;
   }
 `;
 
@@ -119,6 +119,12 @@ export const HomeP = styled.div`
 
   @media screen and (max-width: 786px) {
     font-size: 17px;
+    text-align: justify;
+
+    .title,
+    .date {
+      text-align: center;
+    }
   }
   @media screen and (max-width: 480px) {
     font-size: 16px;

@@ -62,6 +62,8 @@ const HomeSection = () => {
                 Join me at my solo exhibition. This art show offers a rare
                 opportunity to see my painting collections in Edinburgh. From
                 abstract to landscape, you can find yourself in art.
+                <br />
+                <br />
               </div>
             </div>
             As an artist, I take inspiration from a variety of sources such as

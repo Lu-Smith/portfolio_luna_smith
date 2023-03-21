@@ -86,7 +86,7 @@ export const MainContainer = styled.div`
 `;
 export const HomeH1 = styled.h1`
   color: #fff;
-  opacity: 60%;
+  opacity: 80%;
   font-size: 38px;
   line-height: 45px;
   text-align: center;

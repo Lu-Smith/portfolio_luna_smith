@@ -50,7 +50,7 @@ const HomeSection = () => {
               <div className="title">
                 Solo exhibition at St Margaret House in Edinburgh, Scotland
               </div>
-              <div className="date">2023, 10 March - 22 March </div>
+              <div className="date">10 March - 22 March, 2023</div>
               <div>
                 Join me at my solo exhibition. This art show offers a rare
                 opportunity to see my painting collections in Edinburgh. From

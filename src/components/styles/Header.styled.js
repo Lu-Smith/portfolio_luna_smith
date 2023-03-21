@@ -137,7 +137,7 @@ export const MenuButton = styled.nav`
 
 export const MenuButtonLink = styled(LinkR)`
   border-radius: 40px;
-  background: radial-gradient(circle at 3% 4.8%, #d404fa 0%, #dc2f2f 86.6%);
+  background: radial-gradient(circle at 3% 4.8%, #2d4059 0%, #dc2f2f 86.6%);
   color: white;
   white-space: nowrap;
   padding: 10px 22px;
@@ -147,7 +147,7 @@ export const MenuButtonLink = styled(LinkR)`
   transition: all 0.2s ease-in-out;
   text-decoration: none;
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  box-shadow: 0 4px 5px #d404fa;
+  box-shadow: 0 4px 5px #2d4059;
   &:hover {
     background: #04ecc4;
     color: #010606;

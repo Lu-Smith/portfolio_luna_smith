@@ -9,6 +9,10 @@ export const PaintingsContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #010606;
+
+  @media screen and (max-width: 1200px) {
+    height: 1200px;
+  }
   @media screen and (max-width: 768px) {
     height: 1800px;
     padding-top: 150px;
@@ -60,7 +64,6 @@ export const PaintingsIcon = styled.img`
   margin-bottom: 10px;
   border: 5px solid black;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  
 `;
 
 export const PaintingsH1 = styled.h2`
@@ -79,25 +82,25 @@ export const HomeBtnWrapper = styled.div`
 `;
 
 export const ShopBtnLink = styled.a`
-text-decoration: none;
-background-color: #FA9109;
-color: #fff;
-padding: 10px 20px;
-border-radius: 20px;
-border: none;
-white-space: nowrap;
-display: flex;
-margin: 30px auto;
-justify-content: center;
-align-items: center;
-transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-box-shadow: 0 4px 5px #fff;
+  text-decoration: none;
+  background-color: #fa9109;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  white-space: nowrap;
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  box-shadow: 0 4px 5px #fff;
 
-&:hover {
-  background-color: red;
-  transform: translateY(5px);
-  box-shadow: none;
-}
+  &:hover {
+    background-color: red;
+    transform: translateY(5px);
+    box-shadow: none;
+  }
 `;
 
 export const ArrowForward = styled(MdArrowForward)`

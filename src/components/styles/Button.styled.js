@@ -17,7 +17,7 @@ export const Button = styled(Link)`
   justify-content: center;
   align-items: center;
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  box-shadow: 0 4px 2px #d404fa;
+  box-shadow: 0 4px 2px #2d4059;
   max-height: 40px;
 
   &:hover {

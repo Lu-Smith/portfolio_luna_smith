@@ -62,6 +62,7 @@ export const ImageContainer = styled.div`
   @media screen and (max-width: 786px) {
     width: 100%;
     margin-top: 40px;
+    margin-bottom: 20px;
   }
 `;
 
@@ -74,6 +75,11 @@ export const MainContainer = styled.div`
 
   @media screen and (max-width: 786px) {
     width: 100%;
+    padding: 25px;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 20px;
   }
 `;
 export const HomeH1 = styled.h1`

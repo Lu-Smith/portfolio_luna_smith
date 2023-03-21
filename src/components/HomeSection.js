@@ -48,7 +48,14 @@ const HomeSection = () => {
           <HomeP>
             <div>
               <div className="title">
-                Solo exhibition at St Margaret House in Edinburgh, Scotland
+                <a
+                  href="https://www.edinburghpalette.co.uk/events/luna-smith-solo-exhibition/"
+                  alt="Luna Smith - soloe exhibitin at Edinburgh Palette"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Solo exhibition at St Margaret House in Edinburgh, Scotland
+                </a>
               </div>
               <div className="date">10 March - 22 March, 2023</div>
               <div>
@@ -57,11 +64,13 @@ const HomeSection = () => {
                 abstract to landscape, you can find yourself in art.
               </div>
             </div>
-            Her original artworks take inspiration from sounds, Norse Mythology,
-            Ancient Worlds, and nature. Regularly commissioned by private and
-            commercial clients alike to create websites, illustrations and fine
-            art - Luna's beautiful works are available as originals, prints and
-            merchandise.
+            As an artist, I take inspiration from a variety of sources such as
+            sounds, Norse Mythology, Ancient Worlds, and nature to create
+            original artworks. My works are sought after by private and
+            commercial clients alike who commission me to create websites,
+            illustrations, and fine art pieces. I offer my beautiful works as
+            originals, prints, and merchandise for anyone who appreciates the
+            beauty and uniqueness of my creations.
           </HomeP>
           <HomeP>
             <a

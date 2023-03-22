@@ -16,7 +16,7 @@ export const HomeContainer = styled.div`
   }
 
   @media screen and (max-width: 786px) {
-    height: 220vh;
+    height: 160vh;
   }
 
   @media screen and (max-width: 480px) {
@@ -50,10 +50,12 @@ export const HomeContent = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-top: 100px;
 
   @media screen and (max-width: 786px) {
-    top: 120px;
+    top: 100px;
     flex-direction: column;
+    margin-top: 0;
   }
 `;
 
@@ -87,17 +89,17 @@ export const MainContainer = styled.div`
 `;
 export const HomeH1 = styled.h1`
   color: black;
-  font-size: 38px;
+  font-size: 34px;
   line-height: 45px;
   text-align: center;
 
   @media screen and (max-width: 1200px) {
-    font-size: 34px;
+    font-size: 32px;
     line-height: 40px;
   }
   @media screen and (max-width: 786px) {
     margin-top: 24px;
-    font-size: 30px;
+    font-size: 28px;
   }
 
   @media screen and (max-width: 480px) {
@@ -111,7 +113,7 @@ export const HomeP = styled.div`
   margin: 0 auto;
   margin-top: 24px;
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
   max-width: 600px;
   font-family: "Poiret One", cursive;
@@ -133,12 +135,11 @@ export const HomeP = styled.div`
   }
 
   @media screen and (max-width: 1200px) {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   @media screen and (max-width: 786px) {
-    font-size: 17px;
-    text-align: justify;
+    font-size: 15px;
 
     .title,
     .date {
@@ -146,7 +147,7 @@ export const HomeP = styled.div`
     }
   }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 `;
 
@@ -158,7 +159,7 @@ export const HomeBtnWrapper = styled.div`
   align-items: center;
 
   @media screen and (max-width: 786px) {
-    margin-top: 0;
+    margin-top: 20px;
     flex-direction: column;
   }
 `;

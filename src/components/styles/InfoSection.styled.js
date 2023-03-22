@@ -9,10 +9,8 @@ from {
 to {
   transform: scale3d(1, 1, 1) rotate(360deg);
   opacity: 0.2;
-  
 }
-`
-
+`;
 export const InfoContainer = styled.div`
   padding-top: 60px;
   color: #fff;
@@ -60,23 +58,21 @@ export const MainDescription = styled.div`
   background: ${({ lightBg }) => (lightBg ? `#F7BDCB` : `#212529`)};
   border-radius: 10px;
 
-
-
   @media screen and (max-width: 768px) {
     height: 600px;
   }
 `;
 
 export const LinkToSection = styled(LinkR)`
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    transition: 200ms all ease-in-out;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: 200ms all ease-in-out;
 
-&:hover {
-    color: #03B4DA;
+  &:hover {
+    color: #03b4da;
   }
-`
+`;
 
 export const Description = styled.h2`
   color: #9f9e9a;
@@ -127,7 +123,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: ${({ darkText }) => (darkText ? `#072B50` : `#15E8C2`)};
+  color: ${({ darkText }) => (darkText ? `#dc2f2f ` : `#dc2f2f `)};
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -138,10 +134,18 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h2`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 34px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? `#f7f8fa` : `#010606`)};
+
+  @media screen and (max-width: 1200px) {
+    font-size: 32px;
+  }
+
+  @media screen and (max-width: 786px) {
+    font-size: 28px;
+  }
 
   @media screen and (max-width: 480px) {
     padding-top: 10px;
@@ -185,7 +189,6 @@ export const Img = styled.img`
   padding-right: 0;
   animation: ${rotate} infinite 20s linear;
 
-
   @media screen and (max-width: 820px) {
     width: 200px;
     display: block;
@@ -221,5 +224,3 @@ export const MenuButtonLink = styled(LinkR)`
     color: #010606;
   }
 `;
-
-

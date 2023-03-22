@@ -16,11 +16,11 @@ export const HomeContainer = styled.div`
   }
 
   @media screen and (max-width: 786px) {
-    height: 160vh;
+    height: 168vh;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1400px;
+    height: 1440px;
   }
 `;
 

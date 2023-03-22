@@ -125,10 +125,11 @@ export const HomeP = styled.div`
     text-decoration: none;
     transition: 200ms all ease-in-out;
     color: black;
+    font-weight: 900;
   }
 
   a:hover {
-    color: red;
+    color: #dc2f2f;
   }
 
   @media screen and (max-width: 1200px) {

@@ -99,7 +99,7 @@ export const MenuItems = styled.li`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #04ecc4;
+    color: #dc2f2f;
   }
   @media screen and (max-width: 1130px) {
     padding-left: 5px;
@@ -115,9 +115,9 @@ export const MenuLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #04cffa;
+    border-bottom: 3px solid #dc2f2f;
     height: 80%;
-    color: #04cffa;
+    color: #dc2f2f;
   }
 
   @media screen and (max-width: 1130px) {
@@ -146,11 +146,12 @@ export const MenuButtonLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: 200ms all ease-in-out;
   box-shadow: 0 4px 5px #2d4059;
+
   &:hover {
-    background: #04ecc4;
-    color: #010606;
+    background: #dc2f2f;
+    color: #fff;
     transform: translateY(5px);
     box-shadow: none;
   }

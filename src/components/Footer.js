@@ -11,7 +11,6 @@ import {
 import {
   FooterContainer,
   FooterWrap,
-  SocialMedia,
   SocialIconLink,
   SocialIcons,
   SocialLogo,
@@ -30,9 +29,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrap>
-        <SocialMedia>
-          <SocialMediaWrap>
-            <SocialLogo
+          <SocialLogo
               to="/"
               onClick={toggleHome}
               smooth="true"
@@ -42,17 +39,17 @@ const Footer = () => {
               offset={-100}
               aria-label="go to a home page"
             >
-              <LogoImage src={Logo1} alt="Luna Smith art logo" />
-            </SocialLogo>
-            <WebsiteRights>
+            <LogoImage src={Logo1} alt="Luna Smith art logo" />
+          </SocialLogo>
+          <WebsiteRights>
               Luna Smith Art © {new Date().getFullYear()}, coded by{" "}
-              <Portfolio
+            <Portfolio
                 href="//www.lunasmithart.com"
                 target="_blank"
                 aria-label="Portfolio page"
               >
                 Luna Smith
-              </Portfolio>{" "}
+            </Portfolio>{" "}
               open source on{" "}
               <GitHub
                 href="//github.com/Lu-Smith/portfolio_luna_smith"
@@ -60,8 +57,9 @@ const Footer = () => {
                 aria-label="GitHub page"
               >
                 GitHub
-              </GitHub>
-            </WebsiteRights>
+            </GitHub>
+          </WebsiteRights>
+          <SocialMediaWrap>
             <SocialIcons>
               <SocialIconLink
                 href="//www.facebook.com/lunasmithart"
@@ -100,7 +98,6 @@ const Footer = () => {
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
-        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   );

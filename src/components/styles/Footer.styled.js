@@ -9,10 +9,9 @@ export const FooterContainer = styled.footer`
 export const FooterWrap = styled.div`
   padding: 48px 24px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  max-width: 1100px;
   margin: 0 auto;
 
   @media screen and (max-width: 768px) {
@@ -20,47 +19,51 @@ export const FooterWrap = styled.div`
   }
 `;
 
-export const SocialMedia = styled.section`
-  max-width: 1000px;
-  width: 100%;
+export const SocialLogo = styled(Link)`
+  cursor: pointer;
+  align-items: center;
+  margin: 0 auto;
+  margin: 20px 0 50px 0;
+
+  @media screen and (max-width: 786px) {
+    margin: 20px 0 0 0;
+  }
+`;
+
+export const WebsiteRights = styled.small`
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 786px) {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 0 30px;
+  }
 `;
 
 export const SocialMediaWrap = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+
   @media screen and (max-width: 920px) {
     flex-direction: column;
   }
 `;
 
-export const SocialLogo = styled(Link)`
-  cursor: pointer;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 20px;
-`;
-
-export const WebsiteRights = styled.small`
-  color: #fff;
-  margin-top: 30px;
-
-  @media screen and (max-width: 920px) {
-    margin: 0 auto;
-  }
-
-  @media screen and (max-width: 480px) {
-    padding: 0 20px 40px 20px;
-    text-align: center;
-  }
-`;
 export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 240px;
 
-  @media screen and (max-width: 7860px) {
+  @media screen and (max-width: 786px) {
     margin: 0 auto;
     padding-bottom: 30px;
   }
@@ -85,10 +88,10 @@ export const GitHub = styled.a`
 `;
 
 export const LogoImage = styled.img`
-  width: 280px;
+  width: 400px;
   height: auto;
 
-  @media screen and (max-width: 7860px) {
+  @media screen and (max-width: 786px) {
     width: 230px;
     margin: 0 auto;
     padding-bottom: 30px;

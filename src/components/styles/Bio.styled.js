@@ -7,8 +7,15 @@ export const Container = styled.div`
   padding: 40px;
 
   img {
-    width: 100%;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+
+    @media screen and (max-width: 786px) {
+      width: 100%;
   }
+  }
+  
   .events {
     margin-top: 60px;
     background-color: #FA9109;
@@ -118,6 +125,7 @@ export const BioTitle = styled.h1`
     margin-top: 14px;
     font-size: 30px;
   }
+
   @media screen and (max-width: 480px) {
     font-size: 28px;
     margin-top: 10px;
@@ -128,7 +136,7 @@ export const BioDescription = styled.p`
   margin: 0 auto;
   margin-top: 24px;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   text-align: center;
   max-width: 600px;

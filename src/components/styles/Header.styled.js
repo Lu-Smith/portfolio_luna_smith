@@ -31,7 +31,6 @@ export const HeaderContainer = styled.div`
   z-index: 1;
   width: 100%;
   padding: 0 24px;
-  max-width: 1200px;
 `;
 
 export const HeaderLogo = styled(LinkR)`
@@ -43,7 +42,7 @@ export const HeaderLogo = styled(LinkR)`
 `;
 
 export const LogoImage = styled.img`
-  width: 280px;
+  width: 400px;
   height: auto;
 
   @media screen and (max-width: 820px) {

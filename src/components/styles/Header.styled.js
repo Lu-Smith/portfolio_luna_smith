@@ -38,16 +38,21 @@ export const HeaderLogo = styled(LinkR)`
   cursor: pointer;
   align-items: center;
   margin-left: 24px;
+  width: 45%;
   text-decoration: none;
+
+  @media screen and (max-width: 1400px) {
+    width: 30%;
+  }
+
 `;
 
 export const LogoImage = styled.img`
   width: 400px;
   height: auto;
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 1000px) {
     width: 230px;
-    margin-top: 20px;
   }
 
   @media screen and (max-width: 480px) {

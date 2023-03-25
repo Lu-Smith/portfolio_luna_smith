@@ -30,9 +30,6 @@ export const InfoWrapper = styled.div`
   z-index: 1;
   height: 700px;
   width: 100%;
-  max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
   padding: 0 24px;
   justify-content: center;
 
@@ -50,10 +47,6 @@ export const MainDescription = styled.div`
   z-index: 1;
   height: 760px;
   width: 100%;
-  max-width: 1100px;
-  margin-right: auto;
-  margin-left: auto;
-
   justify-content: center;
   background: ${({ lightBg }) => (lightBg ? `#F7BDCB` : `#212529`)};
   border-radius: 10px;

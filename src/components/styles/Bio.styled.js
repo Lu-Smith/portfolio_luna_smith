@@ -93,7 +93,7 @@ export const BioContainer = styled.div`
     font-weight: 600;
     margin: 40px 0 20px 0;
     color: #FA9109;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .date {

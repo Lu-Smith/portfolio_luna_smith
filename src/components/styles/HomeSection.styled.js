@@ -7,20 +7,20 @@ export const HomeContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 140vh;
+  height: 100vh;
   position: relative;
   z-index: 1;
 
   @media screen and (max-width: 1200px) {
-    height: 180vh;
+    height: 130vh;
   }
 
   @media screen and (max-width: 786px) {
-    height: 168vh;
+    height: 160vh;
   }
 
   @media screen and (max-width: 480px) {
-    height: 1440px;
+    height: 170vh;
   }
 `;
 
@@ -44,7 +44,7 @@ export const VideoBg = styled.video`
 
 export const HomeContent = styled.div`
   z-index: 3;
-  max-width: 1200px;
+  max-width: 1600px;
   position: absolute;
   padding: 8px 24px;
   display: flex;
@@ -74,13 +74,10 @@ export const ImageContainer = styled.div`
 export const MainContainer = styled.div`
   width: 60%;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.5);
   padding: 30px;
-  border-radius: 20px;
 
   @media screen and (max-width: 786px) {
     width: 100%;
-    padding: 25px;
   }
 
   @media screen and (max-width: 480px) {

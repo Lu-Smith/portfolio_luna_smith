@@ -143,7 +143,7 @@ export const MenuButton = styled.nav`
 
 export const MenuButtonLink = styled(LinkR)`
   border-radius: 40px;
-  background: radial-gradient(circle at 3% 4.8%, #2d4059 0%, #dc2f2f 86.6%);
+  background: radial-gradient(circle at 50%, #547C86 10%, #000 86.6%);
   color: white;
   white-space: nowrap;
   padding: 10px 22px;

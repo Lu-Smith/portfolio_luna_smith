@@ -12,11 +12,14 @@ export const ButtonWrap = styled.div`
 
 export const ContactButtonLink = styled(LinkR)`
   border-radius: 40px;
-  background: radial-gradient(circle at 3% 4.8%, #2d4059 0%, #dc2f2f 86.6%);
   color: white;
   white-space: nowrap;
   padding: 10px 22px;
   font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(circle at 50%, #547C86 10%, #000 86.6%);
   outline: none;
   cursor: pointer;
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);

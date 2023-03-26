@@ -12,9 +12,12 @@ to {
 }
 `;
 export const InfoContainer = styled.div`
-  padding-top: 60px;
-  color: #fff;
-  background: ${({ lightBg }) => (lightBg ? `#f9f9f9` : `#010606`)};
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(circle at 50%, #547C86 10%, #000 86.6%);
+  background: ${({ lightBg }) => (lightBg ? `#f9f9f9` : `radial-gradient(circle at 50%, #547C86 10%, #000 36.6%)`)};
   @media screen and (max-width: 768px) {
     padding-bottom: 10px;
   }
@@ -68,14 +71,13 @@ export const LinkToSection = styled(LinkR)`
 `;
 
 export const Description = styled.h2`
-  color: #9f9e9a;
   margin: 0 auto;
   padding: 50px;
   font-size: 23px;
   line-height: 30px;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
-  font-family: "Poiret One", cursive;
+  font-family: 'Alkatra', cursive;
 `;
 
 export const InfoRow = styled.div`
@@ -84,6 +86,7 @@ export const InfoRow = styled.div`
   align-items: center;
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
+
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ ImgStart }) =>
       ImgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
@@ -116,7 +119,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: ${({ darkText }) => (darkText ? `#dc2f2f ` : `#dc2f2f `)};
+  color: ${({ darkText }) => (darkText ? `#547C86` : `#dc2f2f`)};
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -153,7 +156,6 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? `#010606` : `#fff`)};
-
   @media screen and (max-width: 480px) {
     font-size: 14px;
     text-align: center;
@@ -193,17 +195,15 @@ export const Img = styled.img`
 export const MenuButton = styled.div`
   display: flex;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
 `;
 
 export const MenuButtonLink = styled(LinkR)`
   margin: 0 auto;
   border-radius: 40px;
-  background: linear-gradient(
-    109.5deg,
-    rgb(86, 255, 248) 5.4%,
-    rgb(13, 11, 136) 73.4%,
-    rgb(20, 30, 120) 95.4%
-  );
+  background: radial-gradient(circle at 50%, #000 30%, #547C86 96.6%);
   color: white;
   white-space: nowrap;
   padding: 12px 30px;
@@ -212,8 +212,11 @@ export const MenuButtonLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  box-shadow: 0 4px 5px #2d4059;
+
   &:hover {
-    background: #04ecc4;
-    color: #010606;
+    background: #dc2f2f;
+    transform: translateY(5px);
+    box-shadow: none;
   }
 `;

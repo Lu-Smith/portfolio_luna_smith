@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
   background: ${({ scrollNav }) =>
     scrollNav
       ? `#000`
-      : ` linear-gradient(112.1deg, rgb(0, 0, 0) 38.2%, transparent 40%, transparent 90.2%);`};
+      : `linear-gradient(112.1deg, rgb(0, 0, 0) 38.2%, transparent 40%, transparent 90.2%)`};
   color: ${({ theme }) => theme.font.header};
   padding: 40px 0;
   height: 100px;
@@ -156,7 +156,6 @@ export const MenuButtonLink = styled(LinkR)`
   font-size: 16px;
   outline: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
   transition: 200ms all ease-in-out;
   box-shadow: 0 4px 5px #2d4059;

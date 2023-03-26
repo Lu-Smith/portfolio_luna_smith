@@ -16,8 +16,8 @@ export const InfoContainer = styled.div`
   line-height: 26px;
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
-  background: radial-gradient(circle at 50%, #547C86 10%, #000 86.6%);
   background: ${({ lightBg }) => (lightBg ? `#f9f9f9` : `radial-gradient(circle at 50%, #547C86 10%, #000 36.6%)`)};
+
   @media screen and (max-width: 768px) {
     padding-bottom: 10px;
   }
@@ -31,17 +31,16 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 700px;
+  height: 640px;
   width: 100%;
-  padding: 0 24px;
   justify-content: center;
 
   @media screen and (max-width: 768px) {
-    height: 800px;
+    height: 740px;
   }
 
   @media screen and (max-width: 480px) {
-    height: 660px;
+    height: 760px;
   }
 `;
 
@@ -53,10 +52,6 @@ export const MainDescription = styled.div`
   justify-content: center;
   background: ${({ lightBg }) => (lightBg ? `#F7BDCB` : `#212529`)};
   border-radius: 10px;
-
-  @media screen and (max-width: 768px) {
-    height: 600px;
-  }
 `;
 
 export const LinkToSection = styled(LinkR)`
@@ -77,7 +72,13 @@ export const Description = styled.h2`
   line-height: 30px;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
-  font-family: 'Alkatra', cursive;
+
+  @media screen and (max-width: 768px) {
+    padding: 40px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1.2px;
+  }
 `;
 
 export const InfoRow = styled.div`
@@ -111,21 +112,30 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 
   @media screen and (max-width: 768px) {
     padding-bottom: 0;
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
   }
 `;
 
 export const TopLine = styled.p`
   color: ${({ darkText }) => (darkText ? `#547C86` : `#dc2f2f`)};
   font-size: 16px;
-  line-height: 16px;
+  line-height: 22px;
   font-weight: 700;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin: 30px 0 16px 0;
+
+  @media screen and (max-width: 768px) {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.2px;
+  }
 `;
 
 export const Heading = styled.h2`
@@ -140,7 +150,7 @@ export const Heading = styled.h2`
   }
 
   @media screen and (max-width: 786px) {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   @media screen and (max-width: 480px) {
@@ -156,8 +166,13 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? `#010606` : `#fff`)};
-  @media screen and (max-width: 480px) {
+
+  @media screen and (max-width: 786px) {
     font-size: 14px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 13px;
     text-align: center;
   }
 `;

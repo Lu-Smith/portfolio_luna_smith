@@ -3,6 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 export const PaintingsContainer = styled.div`
+  font-family: 'Roboto', sans-serif;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -67,6 +68,7 @@ export const PaintingsIcon = styled.img`
 `;
 
 export const PaintingsH1 = styled.h2`
+  font-family: 'Alkatra', cursive;
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 64px;
@@ -82,24 +84,32 @@ export const HomeBtnWrapper = styled.div`
 `;
 
 export const ShopBtnLink = styled.a`
-  text-decoration: none;
-  background-color: #fa9109;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 20px;
-  border: none;
-  white-space: nowrap;
   display: flex;
   margin: 30px auto;
   justify-content: center;
   align-items: center;
-  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  box-shadow: 0 4px 5px #fff;
+  border-radius: 40px;
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(circle at 50%, #547C86 10%, #000 86.6%);
+  color: white;
+  white-space: nowrap;
+  padding: 10px 22px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 200ms all ease-in-out;
+  box-shadow: 0 4px 5px #2d4059;
 
   &:hover {
-    background-color: red;
+    background: #dc2f2f;
+    color: #fff;
     transform: translateY(5px);
     box-shadow: none;
+  }
+
+  @media screen and (max-width: 1100px) {
+    font-size: 14px;
   }
 `;
 

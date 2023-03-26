@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
   background: ${({ scrollNav }) =>
     scrollNav
       ? `#000`
-      : ` linear-gradient(112.1deg, rgb(0, 0, 0) 32.2%, transparent 33%, transparent 90.2%);`};
+      : ` linear-gradient(112.1deg, rgb(0, 0, 0) 38.2%, transparent 40%, transparent 90.2%);`};
   color: ${({ theme }) => theme.font.header};
   padding: 40px 0;
   height: 100px;
@@ -80,16 +80,18 @@ export const HeaderMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin: 30px 50px 0 120px;
-  font-size: 20px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  font-weight: 600;
 
   @media screen and (max-width: 1130px) {
     margin: 30px 40px 0 120px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   @media screen and (max-width: 1000px) {
     margin: 30px 40px 0 60px;
-    font-size: 16px;
+    font-size: 15px;
   }
 
   @media screen and (max-width: 786px) {

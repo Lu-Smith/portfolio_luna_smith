@@ -8,19 +8,24 @@ export const HomeContainer = styled.div`
   align-items: center;
   padding: 0 30px;
   height: 100vh;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   z-index: 1;
+  color: black;
 
   @media screen and (max-width: 1200px) {
-    height: 130vh;
+    height: 110vh;
   }
 
   @media screen and (max-width: 786px) {
-    height: 160vh;
+    height: 130vh;
   }
 
   @media screen and (max-width: 480px) {
-    height: 170vh;
+    height: 142vh;
   }
 `;
 
@@ -85,7 +90,7 @@ export const MainContainer = styled.div`
   }
 `;
 export const HomeH1 = styled.h1`
-  color: black;
+  font-family: 'Alkatra', cursive;
   font-size: 34px;
   line-height: 45px;
   text-align: center;
@@ -109,40 +114,36 @@ export const HomeH1 = styled.h1`
 export const HomeP = styled.div`
   margin: 0 auto;
   margin-top: 24px;
-  color: black;
-  font-size: 17px;
   text-align: center;
-  max-width: 600px;
-  font-family: "Poiret One", cursive;
+  max-width: 80%;
 
-  .title,
-  .date {
-    margin-bottom: 20px;
-  }
 
   a {
     text-decoration: none;
     transition: 200ms all ease-in-out;
-    color: black;
+    color: #dc2f2f;
     font-weight: 900;
+    display: block;
+    padding-top: 20px;
+
+    span {
+      font-weight: 700;
+    }
   }
 
   a:hover {
-    color: #dc2f2f;
+    color: black;
   }
 
   @media screen and (max-width: 1200px) {
-    font-size: 16px;
+    max-width: 85%;
   }
 
   @media screen and (max-width: 786px) {
     font-size: 15px;
-
-    .title,
-    .date {
-      text-align: center;
-    }
+    max-width: 90%;
   }
+
   @media screen and (max-width: 480px) {
     font-size: 14px;
   }

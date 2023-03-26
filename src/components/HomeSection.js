@@ -43,29 +43,9 @@ const HomeSection = () => {
         </ImageContainer>
         <MainContainer>
           <HomeH1>
-            Luna Smith is an artist, a web developer and an illustrator.
+            An artist and a web developer
           </HomeH1>
           <HomeP>
-            <div>
-              <div className="title">
-                <a
-                  href="https://www.edinburghpalette.co.uk/events/luna-smith-solo-exhibition/"
-                  alt="Luna Smith - soloe exhibitin at Edinburgh Palette"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Solo exhibition at St Margaret House in Edinburgh, Scotland
-                </a>
-              </div>
-              <div className="date">10 March - 22 March, 2023</div>
-              <div>
-                Join me at my solo exhibition. This art show offers a rare
-                opportunity to see my painting collections in Edinburgh. From
-                abstract to landscape, you can find yourself in art.
-                <br />
-                <br />
-              </div>
-            </div>
             As an artist, I take inspiration from a variety of sources such as
             sounds, Norse Mythology, Ancient Worlds, and nature to create
             original artworks. My works are sought after by private and
@@ -81,7 +61,7 @@ const HomeSection = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Visit LuArt Gallery to buy stunning fine art
+              Visit<span>LuArt Gallery</span> to buy stunning fine art!
             </a>
           </HomeP>
           <HomeBtnWrapper>

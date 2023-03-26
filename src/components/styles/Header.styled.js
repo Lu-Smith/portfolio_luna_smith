@@ -14,13 +14,21 @@ export const StyledHeader = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
   position: sticky;
   top: 0;
   z-index: 10;
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    padding: 30px 0;
+    background: ${({ scrollNav }) =>
+    scrollNav
+      ? `#000`
+      : ` linear-gradient(112.1deg, rgb(0, 0, 0) 58.2%, transparent 60%, transparent 90.2%);`};
   }
 `;
 
@@ -41,22 +49,23 @@ export const HeaderLogo = styled(LinkR)`
   width: 45%;
   text-decoration: none;
 
-  @media screen and (max-width: 1400px) {
-    width: 30%;
+  @media screen and (max-width: 786px) {
+    width: 50%;
+    margin-left: 14px;
   }
-
 `;
 
 export const LogoImage = styled.img`
   width: 400px;
   height: auto;
 
-  @media screen and (max-width: 1000px) {
-    width: 230px;
+  @media screen and (max-width: 786px) {
+    width: 320px;
   }
 
   @media screen and (max-width: 480px) {
     margin-top: 0;
+    width: 260px;
   }
 `;
 
@@ -80,9 +89,6 @@ export const HeaderMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin: 30px 50px 0 120px;
-  font-size: 17px;
-  letter-spacing: 1px;
-  font-weight: 600;
 
   @media screen and (max-width: 1130px) {
     margin: 30px 40px 0 120px;
@@ -147,7 +153,7 @@ export const MenuButtonLink = styled(LinkR)`
   color: white;
   white-space: nowrap;
   padding: 10px 22px;
-  font-size: 18px;
+  font-size: 16px;
   outline: none;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
@@ -162,7 +168,8 @@ export const MenuButtonLink = styled(LinkR)`
     box-shadow: none;
   }
 
-  @media screen and (max-width: 1130px) {
+  @media screen and (max-width: 1100px) {
     font-size: 14px;
   }
+
 `;

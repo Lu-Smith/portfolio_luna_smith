@@ -6,7 +6,7 @@ export const StyledHeader = styled.header`
   background: ${({ scrollNav }) =>
     scrollNav
       ? `#000`
-      : ` linear-gradient(112.1deg, rgb(0, 0, 0) 5.4%, transparent 50.2%);`};
+      : ` linear-gradient(112.1deg, rgb(0, 0, 0) 32.2%, transparent 33%, transparent 90.2%);`};
   color: ${({ theme }) => theme.font.header};
   padding: 40px 0;
   height: 100px;

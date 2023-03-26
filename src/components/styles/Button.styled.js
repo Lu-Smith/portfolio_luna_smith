@@ -28,8 +28,8 @@ export const Button = styled(Link)`
 
   @media screen and (max-width: 480px) {
     border-radius: 30px;
-    font-size: ${({ fontBig }) => (fontBig ? `10px` : `8px`)};
-    padding: ${({ big }) => (big ? `7px 19px` : `6px 10px`)};
+    font-size: ${({ fontBig }) => (fontBig ? `12px` : `10px`)};
+    padding: ${({ big }) => (big ? `7px 19px` : `8px 10px`)};
     margin: 20px auto;
   }
 `;

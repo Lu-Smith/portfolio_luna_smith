@@ -234,4 +234,11 @@ export const MenuButtonLink = styled(LinkR)`
     transform: translateY(5px);
     box-shadow: none;
   }
+
+  @media screen and (max-width: 480px) {
+    border-radius: 30px;
+    font-size: ${({ fontBig }) => (fontBig ? `12px` : `10px`)};
+    padding: ${({ big }) => (big ? `7px 19px` : `8px 10px`)};
+    margin: 20px auto;
+  }
 `;

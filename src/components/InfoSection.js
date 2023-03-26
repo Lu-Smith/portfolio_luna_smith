@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "./styles/Button.styled";
 import ArtGallery from "./ArtGallery";
-import ArtGalleryBg from "../images/ArtGallerybg.jpg";
+import ArtGalleryBg from "../images/ArtGalleryBg.jpg";
 
 import {
   InfoContainer,

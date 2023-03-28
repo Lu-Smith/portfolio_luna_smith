@@ -62,7 +62,7 @@ const Footer = () => {
           <SocialMediaWrap>
             <SocialIcons>
               <SocialIconLink
-                href="//www.facebook.com/lunasmithart"
+                href="//www.facebook.com/artlunasmith"
                 target="_blank"
                 aria-label="Facebook page"
               >

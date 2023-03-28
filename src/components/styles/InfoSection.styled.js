@@ -4,15 +4,15 @@ import { Link as LinkR } from "react-router-dom";
 const rotate = keyframes`
 0% {
   transform: scale3d(.7, .2, .7)  rotate(0deg);
-  opacity: 1;
+  opacity: 0.5;
 }
 50% {
   transform: scale3d(1, 1, 1) rotate(360deg);
-  opacity: 0.2;
+  opacity: 1;
 }
 100% {
   transform: scale3d(.7, .2, .7)  rotate(0deg);
-  opacity: 1;
+  opacity: 0.5;
 }
 `;
 export const InfoContainer = styled.div`

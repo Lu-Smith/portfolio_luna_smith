@@ -2,13 +2,17 @@ import styled, { keyframes } from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 
 const rotate = keyframes`
-from {
+0% {
   transform: scale3d(.7, .2, .7)  rotate(0deg);
   opacity: 1;
 }
-to {
+50% {
   transform: scale3d(1, 1, 1) rotate(360deg);
   opacity: 0.2;
+}
+100% {
+  transform: scale3d(.7, .2, .7)  rotate(0deg);
+  opacity: 1;
 }
 `;
 export const InfoContainer = styled.div`
@@ -16,7 +20,7 @@ export const InfoContainer = styled.div`
   line-height: 26px;
   letter-spacing: 1px;
   font-family: 'Roboto', sans-serif;
-  background: ${({ lightBg }) => (lightBg ? `#f9f9f9` : `radial-gradient(circle at 50%, #547C86 10%, #000 36.6%)`)};
+  background: ${({ lightBg }) => (lightBg ? `#f9f9f9` : `radial-gradient(circle at 50% -40%, #547C86 20%, #000 46.6%)`)};
 
   @media screen and (max-width: 768px) {
     padding-bottom: 10px;
@@ -34,6 +38,8 @@ export const InfoWrapper = styled.div`
   height: 640px;
   width: 100%;
   justify-content: center;
+  border-top: 8px solid #547C86;
+  border-bottom: 8px solid #547C86;
 
   @media screen and (max-width: 768px) {
     height: 740px;
@@ -51,7 +57,6 @@ export const MainDescription = styled.div`
   width: 100%;
   justify-content: center;
   background: ${({ lightBg }) => (lightBg ? `#F7BDCB` : `#212529`)};
-  border-radius: 10px;
 `;
 
 export const LinkToSection = styled(LinkR)`

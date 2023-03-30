@@ -41,42 +41,7 @@ import Img40 from "../../images/illustrations/items/things1.png";
 import Img41 from "../../images/illustrations/characters/reindeer.png";
 
 
-
-
-
 export const IllustrationsData = [
-  {
-    image: Img1,
-    alt: `day background - Illustration by Luna Smith`,
-  },
-  {
-    image: Img2,
-    alt: `sunset background - Illustration by Luna Smith`,
-  },
-  {
-    image: Img3,
-    alt: `galaxy background - Illustration by Luna Smith`,
-  },
-  {
-    image: Img4,
-    alt: `thunder background - Illustration by Luna Smith`,
-  },
-  {
-    image: Img5,
-    alt: `day cloudsbackground  - Illustration by Luna Smith`,
-  },
-  {
-    image: Img6,
-    alt: `sunrise background  - Illustration by Luna Smith`,
-  },
-  {
-    image: Img7,
-    alt: `snow background - Illustration by Luna Smith`,
-  },
-  {
-    image: Img8,
-    alt: `night background - Illustration by Luna Smith`,
-  },
   {
     image: Img9,
     alt: `Turtle with Books   - Illustration by Luna Smith`,
@@ -208,5 +173,37 @@ export const IllustrationsData = [
   {
     image: Img41,
     alt: `Reindeer - Illustration by Luna Smith`,
+  },
+  {
+    image: Img1,
+    alt: `day background - Illustration by Luna Smith`,
+  },
+  {
+    image: Img2,
+    alt: `sunset background - Illustration by Luna Smith`,
+  },
+  {
+    image: Img3,
+    alt: `galaxy background - Illustration by Luna Smith`,
+  },
+  {
+    image: Img4,
+    alt: `thunder background - Illustration by Luna Smith`,
+  },
+  {
+    image: Img5,
+    alt: `day cloudsbackground  - Illustration by Luna Smith`,
+  },
+  {
+    image: Img6,
+    alt: `sunrise background  - Illustration by Luna Smith`,
+  },
+  {
+    image: Img7,
+    alt: `snow background - Illustration by Luna Smith`,
+  },
+  {
+    image: Img8,
+    alt: `night background - Illustration by Luna Smith`,
   },
 ];

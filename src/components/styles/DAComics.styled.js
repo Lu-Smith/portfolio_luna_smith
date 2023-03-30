@@ -19,12 +19,11 @@ export const DigitalArtContainer = styled.div`
   @media screen and (max-width:820px) {
     padding: 20px;
     height: 150px;
-    width: 70%;
+    width: 100%;
   }
   @media screen and (max-width:600px) {
     padding: 10px;
     height: 120px;
-    width: 95%;
   }
 `
 export const DigitalArtTitle = styled.h1`
@@ -70,10 +69,10 @@ export const GalleryContainer = styled.div`
     padding: 60px;
   }
   @media screen and (max-width: 820px) {
-    width: 90%;
+    width: 100%;
     padding: 40px;
-    
   }
+
   @media screen and (max-width: 580px) {
     padding: 20px;
   }
@@ -84,23 +83,29 @@ export const GalleryContainer = styled.div`
 `;
 
 export const GalleryWrap = styled.div`
-   margin: 0 5px 20px 5px;
+   margin: 20px auto;
+   margin-bottom: 100px;
    display: flex;
    align-items: center;
    justify-content: center;
+   width: 60%;
 
-   img {
-    border-radius: 20px;
-    width: 60%;
-    margin-bottom: 50px;
-   
-
-    &:hover {
+  &:hover {
     border: 8px solid #c3195d;
     width: 100%;
-    background-color: grey;
+
+    @media screen and (max-width: 820px) {
+      border: 6px solid #c3195d;
+    }
+
+    @media screen and (max-width: 480px) {
+      border: 4px solid #c3195d;
+    }
    }
-   }
+
+   @media screen and (max-width: 1200px) {
+    width: 70%;
+  }
 `
 
 export const Icon = styled(Link)`
@@ -108,6 +113,14 @@ export const Icon = styled(Link)`
   color: #51557e;
   font-weight: 700;
   font-size: 32px;
+
+  @media screen and (max-width: 820px) {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 26px;
+  }
 `;
 
 export const CloseIcon = styled(FaTimes)`

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ArtGalleryData } from "./data/ArtGalleryData";
 import { IllustrationsData } from "./data/IllustrationsData";
 import { WebDesignsData } from "./data/WebDesignsData";
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import "./styles/ArtGallery.css";
 
 const ArtGallery = ({ slides }) => {
@@ -22,8 +22,8 @@ const ArtGallery = ({ slides }) => {
   } else if (slides === ArtGalleryData) {
     return (
       <section className="slider">
-        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+        <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
+        <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
         {ArtGalleryData.map((slide, index) => {
           return (
             <div
@@ -41,8 +41,8 @@ const ArtGallery = ({ slides }) => {
   } else if (slides === IllustrationsData) {
     return (
       <section className="slider">
-        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+        <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
+        <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
         {IllustrationsData.map((slide, index) => {
           return (
             <div
@@ -60,8 +60,8 @@ const ArtGallery = ({ slides }) => {
   } else {
     return (
       <section className="slider">
-        <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-        <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+        <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
+        <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
         {WebDesignsData.map((slide, index) => {
           return (
             <div

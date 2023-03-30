@@ -28,8 +28,8 @@ export const HomeContainer = styled.div`
     height: 142vh;
   }
 
-  @media screen and (max-height: 700px) {
-    height: 150vh;
+  @media screen and (max-height: 750px) {
+    height: 160vh;
   }
 `;
 

@@ -18,9 +18,6 @@ export const MobileMenuContainer = styled.aside`
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? `100%` : `0`)};
   top: ${({ isOpen }) => (isOpen ? `0` : `-100%`)};
-
-
-
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -35,7 +32,7 @@ export const CloseIcon = styled(FaTimes)`
 export const Icon = styled.div`
   position: absolute;
   top: 1.2rem;
-  right: 1.5rem;
+  right: 2rem;
   background: transparent;
   font-size: 2rem;
   cursor: pointer;
@@ -44,7 +41,6 @@ export const Icon = styled.div`
 
 export const MobileMenuWrapper = styled.div`
   color: #fff;
-  margin-top: 40px;
 `;
 
 export const MobileMenuMenu = styled.ul`
@@ -52,8 +48,9 @@ export const MobileMenuMenu = styled.ul`
   grid-template-columns: lfr;
   grid-template-rows: repeat(5, 80px);
   text-align: center;
+
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(5, 60px);
+    grid-template-rows: repeat(5, 50px);
   }
 `;
 export const MobileMenuLink = styled(LinkS)`
@@ -70,7 +67,11 @@ export const MobileMenuLink = styled(LinkS)`
   &:hover {
     color: #04e2d7;
     transform: translateY(-5px);
-    border-bottom: 1px solid #04e2d7;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
   }
 `;
 
@@ -81,22 +82,28 @@ export const SideBtnWrap = styled.div`
 
 export const MobileMenuRoute = styled(LinkR)`
   border-radius: 40px;
-  background: radial-gradient(circle at 3% 4.8%, #d404fa 0%, #fa0421 86.6%);
+  background: radial-gradient(circle at 50%, #547C86 10%, #000 86.6%);
   white-space: nowrap;
-  padding: 14px 50px;
+  padding: 14px 38px;
+  color: #fff;
   font-size: 20px;
+  text-decoration: none;
   outline: none;
   border: none;
-  color: white;
   cursor: pointer;
-  text-decoration: none;
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  box-shadow: 0 4px 5px #d404fa;
+  box-shadow: 0 4px 2px #2d4059;
 
   &:hover {
-    background: #04f1be;
-    color: #010606;
     transform: translateY(5px);
     box-shadow: none;
+    background: #010606;
+  }
+
+  @media screen and (max-width: 480px) {
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 10px 19px;
+    margin: 20px auto;
   }
 `;

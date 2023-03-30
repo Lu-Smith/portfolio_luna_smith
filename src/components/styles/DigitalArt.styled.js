@@ -13,18 +13,18 @@ export const DigitalArtContainer = styled.div`
   height: 200px;
   padding: 50px;
   margin: 0 auto;
+
   @media screen and (max-width:1200px) {
     width: 60%;
   }
   @media screen and (max-width:820px) {
     padding: 20px;
     height: 150px;
-    width: 70%;
+    width: 100%;
   }
   @media screen and (max-width:600px) {
     padding: 10px;
     height: 120px;
-    width: 95%;
   }
 `
 export const DigitalArtTitle = styled.h1`
@@ -49,10 +49,12 @@ export const DigitalArtDescription = styled.p`
   max-width: 600px;
   font-family: "Poiret One", cursive;
   font-style: italic;
+
   @media screen and (max-width: 786px) {
     font-size: 14px;
     line-height: 20px;
   }
+
   @media screen and (max-width: 480px) {
     font-size: 14px;
     line-height: 16px;
@@ -75,7 +77,7 @@ export const GalleryContainer = styled.div`
   }
 
   @media screen and (max-width: 820px) {
-    width: 95%;
+    width: 100%;
     padding: 0 5px;
     flex-direction: column;
   }
@@ -150,6 +152,14 @@ export const Icon = styled(Link)`
   color: #51557e;
   font-weight: 700;
   font-size: 32px;
+
+  @media screen and (max-width: 820px) {
+    font-size: 30px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 26px;
+  }
 `;
 
 export const CloseIcon = styled(FaTimes)`

@@ -41,7 +41,7 @@ export const InfoWrapper = styled.div`
   border-top: 8px solid #547C86;
   border-bottom: 8px solid #547C86;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 820px) {
     height: 740px;
   }
 
@@ -93,7 +93,7 @@ export const InfoRow = styled.div`
   grid-template-areas: ${({ imgStart }) =>
     imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 820px) {
     grid-template-areas: ${({ ImgStart }) =>
       ImgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
   }

@@ -20,12 +20,16 @@ export const HomeContainer = styled.div`
     height: 110vh;
   }
 
-  @media screen and (max-width: 786px) {
-    height: 130vh;
+  @media screen and (max-width: 820px) {
+    height: 110vh;
   }
 
   @media screen and (max-width: 480px) {
     height: 142vh;
+  }
+
+  @media screen and (max-height: 700px) {
+    height: 150vh;
   }
 `;
 
@@ -57,8 +61,8 @@ export const HomeContent = styled.div`
   align-items: center;
   margin-top: 100px;
 
-  @media screen and (max-width: 786px) {
-    top: 100px;
+  @media screen and (max-width: 820px) {
+    top: 130px;
     flex-direction: column;
     margin-top: 0;
   }
@@ -156,7 +160,7 @@ export const HomeBtnWrapper = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     margin-top: 20px;
     flex-direction: column;
   }

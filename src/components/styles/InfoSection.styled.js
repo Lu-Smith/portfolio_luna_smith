@@ -48,6 +48,10 @@ export const InfoWrapper = styled.div`
   @media screen and (max-width: 480px) {
     height: 760px;
   }
+
+  @media screen and (max-height: 750px) {
+    height: 780px;
+  }
 `;
 
 export const MainDescription = styled.div`

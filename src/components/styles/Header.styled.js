@@ -59,7 +59,7 @@ export const LogoImage = styled.img`
   width: 400px;
   height: auto;
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     width: 320px;
   }
 
@@ -72,7 +72,7 @@ export const LogoImage = styled.img`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     display: block;
     position: absolute;
     top: 10px;
@@ -100,7 +100,7 @@ export const HeaderMenu = styled.ul`
     font-size: 15px;
   }
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     display: none;
   }
 `;
@@ -142,7 +142,7 @@ export const MenuButton = styled.nav`
   align-items: center;
   padding-top: 20px;
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
     display: none;
   }
 `;

@@ -91,7 +91,13 @@ export const LogoImage = styled.img`
   width: 400px;
   height: auto;
 
-  @media screen and (max-width: 786px) {
+  @media screen and (max-width: 820px) {
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  @media screen and (max-width: 480px) {
     width: 230px;
     margin: 0 auto;
     padding-bottom: 30px;

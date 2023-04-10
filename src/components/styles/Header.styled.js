@@ -41,6 +41,43 @@ export const HeaderContainer = styled.div`
   padding: 0 24px;
 `;
 
+export const HiddenMessage = styled.div`
+background-color: rgba(0, 0, 0, 0.8);
+padding: 10px 20px;
+border: 2px solid #dc2f2f;
+position: absolute;
+display: none;
+top: 120px;
+left: 80px;
+
+@media screen and (max-width: 786px) {
+  padding: 8px 15px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+`
+
+export const Text = styled.h2`
+font-size: 18px;
+line-height: 30px;
+color: #fff;
+text-align: center;
+font-style: italic;
+font-weight: 300;
+
+@media screen and (max-width: 786px) {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 480px) {
+  font-size: 12px;
+  line-height: 20px;
+}
+`
+
 export const HeaderLogo = styled(LinkR)`
   display: flex;
   cursor: pointer;
@@ -48,6 +85,15 @@ export const HeaderLogo = styled(LinkR)`
   margin-left: 24px;
   width: 45%;
   text-decoration: none;
+
+  
+
+  &:hover {
+    div {
+      display: flex;
+    }
+  }
+
 
   @media screen and (max-width: 786px) {
     width: 50%;
@@ -68,6 +114,8 @@ export const LogoImage = styled.img`
     width: 260px;
   }
 `;
+
+
 
 export const MobileIcon = styled.div`
   display: none;

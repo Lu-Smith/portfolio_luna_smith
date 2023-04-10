@@ -13,14 +13,17 @@ export const DigitalArtContainer = styled.div`
   height: 200px;
   padding: 50px;
   margin: 0 auto;
+
   @media screen and (max-width:1200px) {
     width: 60%;
   }
+
   @media screen and (max-width:820px) {
     padding: 20px;
     height: 150px;
     width: 100%;
   }
+  
   @media screen and (max-width:600px) {
     padding: 10px;
     height: 120px;

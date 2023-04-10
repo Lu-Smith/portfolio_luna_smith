@@ -6,6 +6,8 @@ import {
   HeaderContainer,
   HeaderLogo,
   LogoImage,
+  HiddenMessage,
+  Text,
   MobileIcon,
   HeaderMenu,
   MenuItems,
@@ -39,6 +41,9 @@ export default function Header({ toggle }) {
         <HeaderContainer>
           <HeaderLogo to="/" onClick={toggleHome}>
             <LogoImage src={Logo1} alt="Luna Smith art logo" />
+            <HiddenMessage>
+              <Text> I hope you're having a great day!</Text>
+            </HiddenMessage>
           </HeaderLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />

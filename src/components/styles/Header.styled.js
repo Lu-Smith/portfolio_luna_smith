@@ -1,6 +1,21 @@
-import styled from "styled-components";
+import styled, { keyframes }  from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
+
+const wave = keyframes`
+  0% {
+    transform: translateY(0);
+    color: red;
+  }
+  30% {
+    transform: translateY(-20px);
+    color: red;
+  }
+  100% {
+    transform: translateY(0px);
+    color: black;
+  }
+`;
 
 export const StyledHeader = styled.header`
   background: ${({ scrollNav }) =>
@@ -154,12 +169,13 @@ export const HeaderMenu = styled.ul`
 export const MenuItems = styled.li`
   height: 100px;
   padding-left: 20px;
+  transition: all 0.5s ease-in-out;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
-    color: #dc2f2f;
-    transform: translateY(-5px);
-  }
+    animation: ${wave} 0.5s ease-in-out;
+    color: black;
+  } 
+
   @media screen and (max-width: 1130px) {
     padding-left: 5px;
   }

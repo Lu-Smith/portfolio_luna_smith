@@ -94,6 +94,7 @@ export const Form = styled.form`
   padding: 80px 42px;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 
   @media screen and (max-width: 600px) {
     padding: 22px 22px;
@@ -157,27 +158,39 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background: #cd7407;
-  padding: 16px 0;
-  border: none;
-  border-radius: 4px;
+  border-radius: 40px;
+  background: radial-gradient(circle at 50%, #547C86 10%, #000 86.6%);
+  white-space: nowrap;
+  padding: 14px 38px;
   color: #fff;
   font-size: 20px;
+  text-decoration: none;
+  outline: none;
+  border: none;
   cursor: pointer;
-  margin-top: 20px;
+  display: flex;
+  margin: 30px auto;
+  justify-content: center;
+  align-items: center;
+  transition: 200ms all ease-in-out;
+  box-shadow: 0 4px 2px #2d4059;
+  max-height: 40px;
+  width: 100%;
 
   &:hover {
-    background: #35b6a0;
-    color: black;
-  }
-  @media screen and (max-width: 60px) {
-    padding: 12px 0;
+    transform: translateY(5px);
+    box-shadow: none;
+    background: #010606;
   }
 
-  @media screen and (max-width: 360px) {
-    padding: 10px 0;
+  @media screen and (max-width: 480px) {
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 7px 19px;
+    margin: 20px auto;
   }
 `;
+
 
 export const Text = styled.span`
   text-align: center;

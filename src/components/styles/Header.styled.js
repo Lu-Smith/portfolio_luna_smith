@@ -115,8 +115,6 @@ export const LogoImage = styled.img`
   }
 `;
 
-
-
 export const MobileIcon = styled.div`
   display: none;
 
@@ -160,6 +158,7 @@ export const MenuItems = styled.li`
   &:hover {
     transition: all 0.2s ease-in-out;
     color: #dc2f2f;
+    transform: translateY(-5px);
   }
   @media screen and (max-width: 1130px) {
     padding-left: 5px;

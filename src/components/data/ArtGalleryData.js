@@ -26,7 +26,6 @@ import Img25 from "../../images/soundoflife/25.jpg";
 import Img26 from "../../images/soundoflife/26.jpg";
 import Img27 from "../../images/soundoflife/27.jpg";
 import Img28 from "../../images/soundoflife/28.jpg";
-import Img29 from "../../images/soundoflife/29.jpg";
 
 export const ArtGalleryData = [
   {
@@ -140,9 +139,5 @@ export const ArtGalleryData = [
   {
     image: Img28,
     alt: `Trumpet, Sound of Life by Luna Smith`,
-  },
-  {
-    image: Img29,
-    alt: `Jump, Sound of Life by Luna Smith`,
-  },
+  }
 ];

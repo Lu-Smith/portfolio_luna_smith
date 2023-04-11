@@ -11,9 +11,13 @@ import {
   FormLabel,
   Form,
   FormH1,
-  Text,
+  Confirmation,
   Textarea,
 } from "./styles/Contact.styled";
+import {
+  HiddenMessage,
+  Text,
+} from "./styles/Header.styled";
 
 const ContactPage = () => {
   const formId = `BgeyOVAq`;
@@ -34,7 +38,11 @@ const ContactPage = () => {
       </Helmet>
       <Container style={{ backgroundImage: `url(${ContactBg})` }}>
         <FormWrap>
-          <Icon to="/">Take me home</Icon>
+          <Icon to="/">Take me home
+          <HiddenMessage>
+              <Text> Thank you</Text>
+            </HiddenMessage>
+          </Icon>
           <FormContent>
             <Form action={fromSparkUrl} onSubmit={submitForm}>
               <input type="hidden" name="_feedback.dark" value="true" />
@@ -51,7 +59,7 @@ const ContactPage = () => {
               <FormLabel htmlFor="for">Message</FormLabel>
               <Textarea name="message" id="message" required=""></Textarea>
               <FormButton type="submit">Send</FormButton>
-              <Text>{message}</Text>;
+              <Confirmation>{message}</Confirmation>;
             </Form>
           </FormContent>
         </FormWrap>

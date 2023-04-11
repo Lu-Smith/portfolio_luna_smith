@@ -45,7 +45,7 @@ export const Icon = styled(Link)`
     color: #35b6a0;
     div {
       display: flex;
-      top: 80px;
+      top: 100px;
       left: 90px;
     }
   }
@@ -60,8 +60,9 @@ export const Icon = styled(Link)`
     &:hover {
     div {
       display: flex;
-      top: 50px;
-      left: 40px;
+      top: 55px;
+      left: 50px;
+      padding: 5px 10px;
     }
   }
   }

@@ -79,18 +79,12 @@ export const Icon = styled(Link)`
   }
 `;
 export const FormContent = styled.div`
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  @media screen and (max-width: 480px) {
-    padding: 10px;
-    max-width: 100%;
-  }
-
   @media screen and (max-width: 360px) {
-    margin-top: 40px;
+    margin-top: 20px;
   }
 `;
 
@@ -116,7 +110,7 @@ export const Form = styled.form`
   @media screen and (max-width: 480px) {
     padding: 32px 32px;
     margin-top: 20px;
-    max-width: 300px;
+    max-width: 350px;
   }
 
   @media screen and (max-width: 360px) {

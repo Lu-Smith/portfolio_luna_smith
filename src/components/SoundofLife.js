@@ -26,7 +26,6 @@ import Img24 from "../images/soundoflife/24.jpg";
 import Img25 from "../images/soundoflife/25.jpg";
 import Img26 from "../images/soundoflife/26.jpg";
 import Img27 from "../images/soundoflife/27.jpg";
-import Img28 from "../images/soundoflife/28.jpg";
 
 import {
   Container,
@@ -184,12 +183,7 @@ const SoundofLifePage = () => {
     {
       id: 27,
       imgSrc: Img27,
-      alt: "Flute",
-    },
-    {
-      id: 28,
-      imgSrc: Img28,
-      alt: "Trumpet",
+      alt: "Flute and Trumpet",
     }
   ];
 

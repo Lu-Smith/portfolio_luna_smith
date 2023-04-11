@@ -19,7 +19,6 @@ export const Container = styled.div`
 
   @media screen and (max-width: 480px) {
    max-width: 480px;
-   margin: 0 auto;
 }
 
   @media screen and (max-width: 360px) {
@@ -29,15 +28,9 @@ export const Container = styled.div`
 
 export const FormWrap = styled.div`
   padding: 30px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
-  @media screen and (max-width: 400px) {
-    height: 80%;
-  }
 `;
 
 export const Icon = styled(Link)`
@@ -57,7 +50,13 @@ export const Icon = styled(Link)`
     }
   }
 
+  @media screen and (max-width: 1100px) {
+    margin-bottom: 20px;
+  }
+
   @media screen and (max-width: 820px) {
+    margin-top: 0;
+    margin-left: 0;
     &:hover {
     div {
       display: flex;
@@ -66,20 +65,16 @@ export const Icon = styled(Link)`
     }
   }
   }
+
   @media screen and (max-width: 600px) {
-    margin-top: 20px;
-    margin-bottom: 20px;
     font-size: 22px;
   }
 
   @media screen and (max-width: 480px) {
-    margin-left: 0;
-    margin-top: 6px;
     font-size: 18px;
   }
 
   @media screen and (max-width: 360px) {
-    margin-top: 40px;
     text-align: center;
   }
 `;
@@ -120,13 +115,13 @@ export const Form = styled.form`
 
   @media screen and (max-width: 480px) {
     padding: 32px 32px;
-    margin-top: 200px;
+    margin-top: 20px;
     max-width: 300px;
   }
 
   @media screen and (max-width: 360px) {
     padding: 22px 12px;
-    margin-top: 100px;
+    margin-top: 30px;
   }
 `;
 

@@ -122,7 +122,7 @@ export const ArtGalleryData = [
   },
   {
     image: Img24,
-    alt: `Icy Dancer, Sound of Life by Luna Smith`,
+    alt: `Jump, Sound of Life by Luna Smith`,
   },
   {
     image: Img25,

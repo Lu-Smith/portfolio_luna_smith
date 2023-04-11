@@ -27,7 +27,6 @@ import Img25 from "../images/soundoflife/25.jpg";
 import Img26 from "../images/soundoflife/26.jpg";
 import Img27 from "../images/soundoflife/27.jpg";
 import Img28 from "../images/soundoflife/28.jpg";
-import Img29 from "../images/soundoflife/29.jpg";
 
 import {
   Container,
@@ -170,7 +169,7 @@ const SoundofLifePage = () => {
     {
       id: 24,
       imgSrc: Img24,
-      alt: "Ice Dancer",
+      alt: "Jump",
     },
     {
       id: 25,
@@ -191,12 +190,7 @@ const SoundofLifePage = () => {
       id: 28,
       imgSrc: Img28,
       alt: "Trumpet",
-    },
-    {
-      id: 29,
-      imgSrc: Img29,
-      alt: "Jump",
-    },
+    }
   ];
 
   const [model, setModel] = useState(false);

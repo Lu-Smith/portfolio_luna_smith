@@ -71,7 +71,6 @@ left: 80px;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 `
 
 export const Text = styled.h2`
@@ -100,8 +99,6 @@ export const HeaderLogo = styled(LinkR)`
   margin-left: 24px;
   width: 45%;
   text-decoration: none;
-
-  
 
   &:hover {
     div {
